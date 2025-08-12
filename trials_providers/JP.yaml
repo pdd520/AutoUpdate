@@ -1,12 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: a78e3e19-23be-4a53-94b1-3bcf0032fe3a, udp: true}
-- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: a78e3e19-23be-4a53-94b1-3bcf0032fe3a, udp: true}
-- *id001
-- *id002
-- *id001
-- *id002
+- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 4f5985a4-d52b-4ac1-a7b6-21934f389435, udp: true}
+- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 4f5985a4-d52b-4ac1-a7b6-21934f389435, udp: true}
 - *id001
 - *id002
 - {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: 017fa6f1-ac6f-4584-aa4f-fcacb056e458, udp: true}
@@ -19,5 +15,3 @@ proxies:
 - *id003
 - *id004
 - *id005
-- *id001
-- *id002
