@@ -12,6 +12,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DDAL_EMAIL: ${{ secrets.DDAL_EMAIL }}
       DDAL_PASSWORD: ${{ secrets.DDAL_PASSWORD }}
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v3
         with:
