@@ -1,4 +1,4 @@
-name: get_trial.py
+name: Auto Update
 on:
   workflow_dispatch:
   schedule:
@@ -29,8 +29,9 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
+          Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
           git add .
-          git commit -m "${{ github.workflow }} https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          git commit -m "${Emoji[$[$RANDOM % ${#Emoji[@]}]]} update $(date +%Y-%m-%d" "%H:%M:%S) ${Emoji[$[$RANDOM % ${#Emoji[@]}]]}"
           git pull --rebase
       - uses: ad-m/github-push-action@master
         if: ${{ steps.commit.outcome == 'success' }}
