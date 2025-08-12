@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.BOT }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -33,6 +34,7 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
+          git pull --rebase origin main
           git add clash.yaml
           git add v2ray.txt
           git commit -m "update" || echo "No changes to commit"
