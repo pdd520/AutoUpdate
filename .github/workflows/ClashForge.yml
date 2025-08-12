@@ -1,0 +1,45 @@
+name: ClashForge
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+  push:
+    paths-ignore:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  run_demo_actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10.10'
+
+      - name: Install requirements.txt
+        run: |
+          pip install -r ./requirements.txt
+
+      - name: Run ClashForge.py
+        run: python ClashForge.py
+
+      - name: Commit and push file
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add clash.yaml
+          git add v2ray.txt
+          git commit -m "update" || echo "No changes to commit"
+          git push https://${{ secrets.BOT }}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 0
+          keep_minimum_runs: 3
