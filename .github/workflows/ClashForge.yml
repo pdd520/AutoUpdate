@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run_demo_actions:
+  ClashForge:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
