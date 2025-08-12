@@ -1,0 +1,23 @@
+%YAML 1.1
+---
+proxies:
+- &id004 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: bfbbf0dc-ec01-4e7b-b84e-f2501a31ef35, udp: true}
+- &id005 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: bfbbf0dc-ec01-4e7b-b84e-f2501a31ef35, udp: true}
+- &id001 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: fb6c4af9-7693-425d-885f-778f7b745c99, udp: true}
+- &id002 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: fb6c4af9-7693-425d-885f-778f7b745c99, udp: true}
+- &id003 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: fb6c4af9-7693-425d-885f-778f7b745c99, udp: true}
+- *id001
+- *id002
+- *id003
+- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: eaca8f2f-ddab-42b8-a512-6f0006b1cd4e, udp: true}
+- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: gy1.ldldfwq.top, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: eaca8f2f-ddab-42b8-a512-6f0006b1cd4e, udp: true}
+- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: gy1.ldldfwq.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: eaca8f2f-ddab-42b8-a512-6f0006b1cd4e, udp: true}
+- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: gy1.ldldfwq.top, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: eaca8f2f-ddab-42b8-a512-6f0006b1cd4e, udp: true}
+- *id004
+- *id005
+- *id004
+- *id005
+- *id004
+- *id005
+- *id004
+- *id005
