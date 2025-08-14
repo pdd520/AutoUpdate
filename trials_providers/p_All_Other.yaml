@@ -1,17 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇫🇷 FR-Paris - 脉冲云, server: gyjd.yy9866.com, port: 16947, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id002 {name: 🇲🇾 MY-Malaysia-PQ - 脉冲云, server: gyjd.yy9866.com, port: 37681, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id003 {name: 🇦🇺 AU-Sydney - 脉冲云, server: gyjd.yy9866.com, port: 39263, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id004 {name: 🇳🇱 NL-Amsterdam - 脉冲云, server: gyjd.yy9866.com, port: 23262, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id005 {name: 🇨🇦 CA-Toronto - 脉冲云, server: gyjd.yy9866.com, port: 28322, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id006 {name: 🇬🇧 GB-London - 脉冲云, server: gyjd.yy9866.com, port: 45092, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id007 {name: 🇪🇸 ES-Madrid - 脉冲云, server: gyjd.yy9866.com, port: 34502, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id008 {name: 🇮🇹 IT-Milan - 脉冲云, server: gyjd.yy9866.com, port: 39062, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id009 {name: 🇦🇹 AT-Vienna - 脉冲云, server: gyjd.yy9866.com, port: 23896, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id010 {name: 🇩🇪 DE-Nuremberg - 脉冲云, server: gyjd.yy9866.com, port: 22425, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id011 {name: 🇰🇷 KR-Seoul - 脉冲云, server: gyjd.yy9866.com, port: 27828, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
 - {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
@@ -38,14 +27,3 @@ proxies:
 - {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- *id009
-- *id010
-- *id011

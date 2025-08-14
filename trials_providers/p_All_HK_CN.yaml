@@ -1,17 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇭🇰 HK-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id002 {name: 🇭🇰 HK2-wap(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 7f982f2b-95d1-4332-824e-885eabb880d5, udp: true}
-- &id003 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 7f982f2b-95d1-4332-824e-885eabb880d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id004 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 7f982f2b-95d1-4332-824e-885eabb880d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
 - {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 3969b48b-a231-4295-9bc6-5e9069317700, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
