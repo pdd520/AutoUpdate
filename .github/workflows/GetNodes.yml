@@ -6,8 +6,6 @@ on:
     - cron: '0 0 * * *'
 permissions:
   contents: write
-env:
-  TZ: UTC
 
 jobs:
   GetNodes:
