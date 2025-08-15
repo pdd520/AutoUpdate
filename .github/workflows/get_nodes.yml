@@ -1,0 +1,52 @@
+name: get nodes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+permissions:
+  contents: write
+env:
+  TZ: UTC
+
+jobs:
+  get_nodes:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r auto_register/requirements.txt
+
+    - name: Run scraper
+      run: python auto_register/get_all_nodes.py
+
+    - name: Set up git for push
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+    - name: Commit and push changes
+      run: |
+        git add nodes/nodes.txt
+        git add auto_register/registered_accounts.txt
+        git commit -m 'Auto update nodes list and registered accounts' || echo "No changes to commit"
+        git push
+
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        retain_days: 0
+        keep_minimum_runs: 3
