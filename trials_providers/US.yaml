@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 0543fdfc-5f92-421a-a938-fd414c657801, udp: true}
-- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 0543fdfc-5f92-421a-a938-fd414c657801, udp: true}
+- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 1876f367-f87c-4c20-9589-3b4bf4853959, udp: true}
+- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 1876f367-f87c-4c20-9589-3b4bf4853959, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 ss(广移)美国1 - 雷达, server: gy1.ldldfwq.top, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: e7fbd48b-0c81-4e5e-8412-54b90fb180ce, udp: true}
@@ -15,5 +15,3 @@ proxies:
 - *id003
 - *id004
 - *id005
-- *id001
-- *id002
