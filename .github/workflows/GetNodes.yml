@@ -44,9 +44,3 @@ jobs:
         git add auto_register/registered_accounts.txt
         git commit -m 'Auto update nodes list and registered accounts' || echo "No changes to commit"
         git push
-
-    - name: Delete workflow runs
-      uses: Mattraks/delete-workflow-runs@v2
-      with:
-        retain_days: 0
-        keep_minimum_runs: 3
