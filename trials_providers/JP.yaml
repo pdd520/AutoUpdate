@@ -1,19 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: 6a166c33-6991-4058-90e5-973472d9f045, udp: true}
-- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 6a166c33-6991-4058-90e5-973472d9f045, udp: true}
-- *id001
-- *id002
-- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: du.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: bb0d4913-f7f7-4fbe-b7ee-b8ac32ebdc55, udp: true}
-- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: du.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: bb0d4913-f7f7-4fbe-b7ee-b8ac32ebdc55, udp: true}
-- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: du.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: bb0d4913-f7f7-4fbe-b7ee-b8ac32ebdc55, udp: true}
-- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: du.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: bb0d4913-f7f7-4fbe-b7ee-b8ac32ebdc55, udp: true}
-- &id003 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6f736189-c6f8-4fc3-a941-abe2a874492f, udp: true}
-- &id004 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6f736189-c6f8-4fc3-a941-abe2a874492f, udp: true}
-- &id005 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slsl.slianvpn.top, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 6f736189-c6f8-4fc3-a941-abe2a874492f, udp: true}
-- *id003
-- *id004
-- *id005
+- &id001 {name: 🇯🇵 JP-Tokyo-01 - 脉冲云, server: gyjd.yy9866.com, port: 48917, type: ss, cipher: chacha20-ietf-poly1305, password: cb386b93-d59e-44ef-8bca-d832672915a3, udp: true}
+- &id002 {name: 🇯🇵 JP-Tokyo-wap-02 - 脉冲云, server: gyjd.yy9866.com, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: cb386b93-d59e-44ef-8bca-d832672915a3, udp: true}
+- {name: 🇯🇵 ss(广移)日本1 - 雷达, server: du.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: bd125bd6-3bce-4f97-918b-49c7457fbccb, udp: true}
+- {name: 🇯🇵 ss(广移)日本2 - 雷达, server: du.izenny.com, port: 10589, type: ss, cipher: chacha20-ietf-poly1305, password: bd125bd6-3bce-4f97-918b-49c7457fbccb, udp: true}
+- {name: 🇯🇵 ss(广移)日本4 - 雷达, server: du.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: bd125bd6-3bce-4f97-918b-49c7457fbccb, udp: true}
+- {name: 🇯🇵 ss(广移)日本3 - 雷达, server: du.izenny.com, port: 57927, type: ss, cipher: chacha20-ietf-poly1305, password: bd125bd6-3bce-4f97-918b-49c7457fbccb, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 24f4ef64-7ae1-4d27-bbf6-01dc13fa997b, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 24f4ef64-7ae1-4d27-bbf6-01dc13fa997b, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 24f4ef64-7ae1-4d27-bbf6-01dc13fa997b, udp: true}
 - *id001
 - *id002
