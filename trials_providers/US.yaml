@@ -9,9 +9,13 @@ proxies:
 - {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: d9c59fe0-44b9-416a-b18b-6e22dbf1c5bc, udp: true}
 - {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: d9c59fe0-44b9-416a-b18b-6e22dbf1c5bc, udp: true}
 - {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: d9c59fe0-44b9-416a-b18b-6e22dbf1c5bc, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d2cb1f89-51e2-4646-9747-6c7ffd33000e, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d2cb1f89-51e2-4646-9747-6c7ffd33000e, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d2cb1f89-51e2-4646-9747-6c7ffd33000e, udp: true}
-- {name: 🇺🇸 polo 美国 2 - ⚡闪连机场, server: mgmg2.casvre.top, port: 5601, type: ss, cipher: chacha20-ietf-poly1305, password: d2cb1f89-51e2-4646-9747-6c7ffd33000e, udp: true}
+- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d1d6fd24-eeea-4e2a-bb0c-4a6990a2478b, udp: true}
+- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d1d6fd24-eeea-4e2a-bb0c-4a6990a2478b, udp: true}
+- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d1d6fd24-eeea-4e2a-bb0c-4a6990a2478b, udp: true}
+- &id006 {name: 🇺🇸 polo 美国 2 - ⚡闪连机场, server: mgmg2.casvre.top, port: 5601, type: ss, cipher: chacha20-ietf-poly1305, password: d1d6fd24-eeea-4e2a-bb0c-4a6990a2478b, udp: true}
+- *id003
+- *id004
+- *id005
+- *id006
 - *id001
 - *id002
