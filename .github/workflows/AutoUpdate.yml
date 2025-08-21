@@ -2,12 +2,12 @@ name: Auto Update
 on:
   workflow_dispatch:
   schedule:
-     - cron: '0 * * * *'
+     - cron: '0 */2 * * *'
 permissions: write-all
 jobs:
   AutoUpdate:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 120
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       DDAL_EMAIL: ${{ secrets.DDAL_EMAIL }}
