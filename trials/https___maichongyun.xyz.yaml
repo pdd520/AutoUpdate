@@ -31,10 +31,10 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 HK-PQ(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-PQ(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 HK2-PQ(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK3-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK4-SJY(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
   - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
   - 🇸🇬 Singapore-01-st - 脉冲云
@@ -108,10 +108,10 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰 HK-PQ(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-PQ(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 HK2-PQ(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK3-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK4-SJY(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
   - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
 - name: 🇨🇳 ‍中国
@@ -120,10 +120,10 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇭🇰 HK-PQ(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云
+  - 🇭🇰 HK1-PQ(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 HK2-PQ(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK3-SJY(官网:maichongvpn.com) - 脉冲云
-  - 🇭🇰 HK4-SJY(官网:maichongvpn.com) - 脉冲云
   - 🇭🇰 AK香港-新疆国外节点 - 脉冲云
   - 🇭🇰 WAP香港-新疆国外节点 - 脉冲云
   - 🇨🇳 CN-TaiBei-01 - 脉冲云
@@ -189,10 +189,10 @@ proxy-groups:
   type: select
   proxies: *id007
 proxies:
-- {name: 🇭🇰 HK-PQ(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
+- {name: 🇭🇰 HK1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
+- {name: 🇭🇰 HK2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
+- {name: 🇭🇰 HK1-PQ(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
 - {name: 🇭🇰 HK2-PQ(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
-- {name: 🇭🇰 HK3-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
-- {name: 🇭🇰 HK4-SJY(官网:maichongvpn.com) - 脉冲云, server: gyjd.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
 - {name: 🇨🇳 CN-TaiBei-01 - 脉冲云, server: gyjd.yy9866.com, port: 21525, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
 - {name: 🇨🇳 CN-TaiBei-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21589, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
 - {name: 🇸🇬 Singapore-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
