@@ -1,18 +1,18 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 0471f0ae-418e-4ffa-8711-3802f75e46dc, udp: true}
-- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 0471f0ae-418e-4ffa-8711-3802f75e46dc, udp: true}
+- &id001 {name: 🇺🇸 US-Los Angeles-01 - 脉冲云, server: gyjd.yy9866.com, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
+- &id002 {name: 🇺🇸 US-Los Angeles-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 663f9f64-db8f-46a0-aeb5-332f557ac46c, udp: true}
 - *id001
 - *id002
-- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: bb37773b-de3f-4561-bc79-9de8b5d8f936, udp: true}
-- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: bb37773b-de3f-4561-bc79-9de8b5d8f936, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: bb37773b-de3f-4561-bc79-9de8b5d8f936, udp: true}
-- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: bb37773b-de3f-4561-bc79-9de8b5d8f936, udp: true}
-- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef05242-811c-4321-988c-03ef18603408, udp: true}
-- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef05242-811c-4321-988c-03ef18603408, udp: true}
-- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef05242-811c-4321-988c-03ef18603408, udp: true}
-- &id006 {name: 🇺🇸 polo 美国 2 - ⚡闪连机场, server: mgmg2.casvre.top, port: 5601, type: ss, cipher: chacha20-ietf-poly1305, password: 2ef05242-811c-4321-988c-03ef18603408, udp: true}
+- {name: 🇺🇸 ss(广移)美国1 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 9a543f14-b2c2-4443-aa61-e5787613a866, udp: true}
+- {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 9a543f14-b2c2-4443-aa61-e5787613a866, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 9a543f14-b2c2-4443-aa61-e5787613a866, udp: true}
+- {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 9a543f14-b2c2-4443-aa61-e5787613a866, udp: true}
+- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f60db8e2-ab1d-4607-94c7-3f24d2244945, udp: true}
+- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f60db8e2-ab1d-4607-94c7-3f24d2244945, udp: true}
+- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f60db8e2-ab1d-4607-94c7-3f24d2244945, udp: true}
+- &id006 {name: 🇺🇸 polo 美国 2 - ⚡闪连机场, server: mgmg2.casvre.top, port: 5601, type: ss, cipher: chacha20-ietf-poly1305, password: f60db8e2-ab1d-4607-94c7-3f24d2244945, udp: true}
 - *id003
 - *id004
 - *id005
