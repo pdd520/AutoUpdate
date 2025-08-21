@@ -5,7 +5,7 @@ on:
      - cron: '0 */2 * * *'
 permissions: write-all
 jobs:
-  AutoUpdate:
+  main:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:
