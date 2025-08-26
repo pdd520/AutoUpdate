@@ -12,26 +12,22 @@ proxy-groups:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
   - 🇭🇰 ‍香港
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id001
-  - HK
-  - JP
-  - US
-  - Other
+  proxies: &id001
+  - 🇭🇰 香港-线路1 - 神盾
+  - 🇮🇪 爱尔兰-都柏林 - 神盾
 - name: 👆🏻 ‍指定
   type: select
-  use: *id001
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -55,12 +51,8 @@ proxy-groups:
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -72,73 +64,27 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
   tolerance: 100
-  use: &id002
-  - HK
-- name: 🇯🇵 ‍日本
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - JP
-- name: 🇺🇸 ‍美国
-  type: url-test
-  tolerance: 300
-  use: &id004
-  - US
+  proxies: &id002
+  - 🇭🇰 香港-线路1 - 神盾
 - name: 🎏 ‍其他
   type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
   tolerance: 100
-  use: &id005
-  - Other
+  proxies: &id003
+  - 🇮🇪 爱尔兰-都柏林 - 神盾
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  use: *id002
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  use: *id003
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  use: *id004
+  proxies: *id002
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id005
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/HK.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/JP.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  US:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/US.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/Other.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+  proxies: *id003
+proxies:
+- {name: 🇮🇪 爱尔兰-都柏林 - 神盾, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1d8efa5c-bd95-49c2-80f3-a1b2b272a775, udp: true}
+- {name: 🇭🇰 香港-线路1 - 神盾, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 1d8efa5c-bd95-49c2-80f3-a1b2b272a775, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
