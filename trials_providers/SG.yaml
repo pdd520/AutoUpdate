@@ -1,18 +1,30 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 0a957b87-471c-4581-b884-8a90c70c6d29, udp: true}
-- {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 0a957b87-471c-4581-b884-8a90c70c6d29, udp: true}
-- {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 0a957b87-471c-4581-b884-8a90c70c6d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 90c3622e-66ae-496b-8ec1-86fc3d997b5b, udp: true}
-- &id001 {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: eb294b2e-4f4a-46a3-897a-241a578221f5, udp: true}
-- &id002 {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: eb294b2e-4f4a-46a3-897a-241a578221f5, udp: true}
+- &id001 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 977e6bec-b411-42a4-be76-cc3019ce2b87, udp: true}
+- &id002 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 977e6bec-b411-42a4-be76-cc3019ce2b87, udp: true}
+- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 977e6bec-b411-42a4-be76-cc3019ce2b87, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id006 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id007 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id008 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id009 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id010 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id011 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 182defdd-64df-421b-a685-01a8ccc9fe29, udp: true}
+- &id004 {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 175f5fec-332c-4c16-bebf-fcbe7ca58a98, udp: true}
+- &id005 {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 175f5fec-332c-4c16-bebf-fcbe7ca58a98, udp: true}
 - *id001
 - *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id004
+- *id005
 - *id001
 - *id002
+- *id003
