@@ -1,20 +1,20 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: ea65ae5a-ea45-425d-82ae-3cffa08eaeef, udp: true}
-- &id002 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: ea65ae5a-ea45-425d-82ae-3cffa08eaeef, udp: true}
-- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: ea65ae5a-ea45-425d-82ae-3cffa08eaeef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id004 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
-- &id005 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
-- &id006 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
-- &id007 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
-- &id008 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
-- &id009 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 2688b0a7-a894-4200-93a2-a9970a2c4144, udp: true}
+- &id001 {name: 🇸🇬 Singapore新加坡-01-st - 脉冲云, server: gyjd.yy9866.com, port: 8965, type: ss, cipher: chacha20-ietf-poly1305, password: 78841aff-b553-4afb-a380-513aafc31029, udp: true}
+- &id002 {name: 🇸🇬 Singapore新加坡-02-wap - 脉冲云, server: gyjd.yy9866.com, port: 29653, type: ss, cipher: chacha20-ietf-poly1305, password: 78841aff-b553-4afb-a380-513aafc31029, udp: true}
+- &id003 {name: 🇸🇬 ST新加坡-新疆国外节点 - 脉冲云, server: 38.180.107.217, port: 13334, type: vmess, uuid: 78841aff-b553-4afb-a380-513aafc31029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id006 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id007 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id008 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id009 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id010 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id011 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 41efe4d9-7fa2-40dd-9475-95739f3d8eec, udp: true}
+- &id004 {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 152fcd08-a62d-43c4-bc8a-1657fed261b2, udp: true}
+- &id005 {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 152fcd08-a62d-43c4-bc8a-1657fed261b2, udp: true}
 - *id001
 - *id002
 - *id003
-- &id010 {name: 🇸🇬 ss(广移)新加坡 1 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5e9e09-b303-461b-88cd-4b128748a2ae, udp: true}
-- &id011 {name: 🇸🇬 ss(广移)新加坡 2 - 雷达, server: ldu.izenny.com, port: 28063, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5e9e09-b303-461b-88cd-4b128748a2ae, udp: true}
 - *id004
 - *id005
 - *id006
@@ -23,3 +23,8 @@ proxies:
 - *id009
 - *id010
 - *id011
+- *id004
+- *id005
+- *id001
+- *id002
+- *id003
