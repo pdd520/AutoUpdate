@@ -3,9 +3,6 @@
 proxies:
 - &id001 {name: 🇯🇵 JP日本-Tokyo-01 - 脉冲云, server: gyaa.ptwqx.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 649674ab-30e8-4443-a52a-b8142b754bfd, udp: true}
 - &id002 {name: 🇯🇵 JP日本-Tokyo-wap-02 - 脉冲云, server: gyaa.ptwqx.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 649674ab-30e8-4443-a52a-b8142b754bfd, udp: true}
-- &id007 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0967a32b-0df9-477d-b5f6-66ab78d2c6d6, udp: true}
-- &id008 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0967a32b-0df9-477d-b5f6-66ab78d2c6d6, udp: true}
-- &id009 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 0967a32b-0df9-477d-b5f6-66ab78d2c6d6, udp: true}
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 1337eb78-43b8-4815-ba4b-22429a9e9492, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 1337eb78-43b8-4815-ba4b-22429a9e9492, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 1337eb78-43b8-4815-ba4b-22429a9e9492, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -24,9 +21,9 @@ proxies:
 - *id004
 - *id005
 - *id006
-- *id007
-- *id008
-- *id009
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 2cc6af87-0943-48d8-9515-d15085f08797, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 2cc6af87-0943-48d8-9515-d15085f08797, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 2cc6af87-0943-48d8-9515-d15085f08797, udp: true}
 - *id003
 - *id004
 - *id005
