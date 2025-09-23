@@ -1,11 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.ptwqx.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 82c49eb7-77e5-4793-91a9-edb9dbd6e401, udp: true}
-- &id002 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.ptwqx.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 82c49eb7-77e5-4793-91a9-edb9dbd6e401, udp: true}
-- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cac56eaf-71a2-4134-b61e-3b3233cd1148, udp: true}
-- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cac56eaf-71a2-4134-b61e-3b3233cd1148, udp: true}
-- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: cac56eaf-71a2-4134-b61e-3b3233cd1148, udp: true}
+- &id005 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8e94152d-ccce-45d3-8183-1ac770291ee1, udp: true}
+- &id006 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8e94152d-ccce-45d3-8183-1ac770291ee1, udp: true}
+- &id007 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8e94152d-ccce-45d3-8183-1ac770291ee1, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 5eeed2f7-b826-4af6-b35f-7218873d49a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 5eeed2f7-b826-4af6-b35f-7218873d49a2, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 5eeed2f7-b826-4af6-b35f-7218873d49a2, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
@@ -13,10 +11,12 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: 5eeed2f7-b826-4af6-b35f-7218873d49a2, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: 5eeed2f7-b826-4af6-b35f-7218873d49a2, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 5eeed2f7-b826-4af6-b35f-7218873d49a2, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇺🇸 ss(广移)美国1 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: b04bd1a4-ebd7-4664-9857-420413a338c2, udp: true}
-- &id007 {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: b04bd1a4-ebd7-4664-9857-420413a338c2, udp: true}
-- &id008 {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: b04bd1a4-ebd7-4664-9857-420413a338c2, udp: true}
-- &id009 {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: b04bd1a4-ebd7-4664-9857-420413a338c2, udp: true}
+- &id001 {name: 🇺🇸 ss(广移)美国1 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 2a972f2d-bbc3-4811-ad5e-7c17ae28d2df, udp: true}
+- &id002 {name: 🇺🇸 ss(广移)美国2 - 雷达, server: ldu.izenny.com, port: 46197, type: ss, cipher: chacha20-ietf-poly1305, password: 2a972f2d-bbc3-4811-ad5e-7c17ae28d2df, udp: true}
+- &id003 {name: 🇺🇸 ss(广移)美国2-1 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 2a972f2d-bbc3-4811-ad5e-7c17ae28d2df, udp: true}
+- &id004 {name: 🇺🇸 ss(广移)美国2-2 - 雷达, server: ldu.izenny.com, port: 12589, type: ss, cipher: chacha20-ietf-poly1305, password: 2a972f2d-bbc3-4811-ad5e-7c17ae28d2df, udp: true}
+- &id008 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.ptwqx.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 250da343-102e-4e4b-a771-3ab693422946, udp: true}
+- &id009 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.ptwqx.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 250da343-102e-4e4b-a771-3ab693422946, udp: true}
 - *id001
 - *id002
 - *id003
@@ -24,5 +24,9 @@ proxies:
 - *id005
 - *id006
 - *id007
+- *id001
+- *id002
+- *id003
+- *id004
 - *id008
 - *id009
