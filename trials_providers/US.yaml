@@ -13,13 +13,16 @@ proxies:
 - *id002
 - *id003
 - *id004
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 37a000b2-f3f0-4209-8fee-d8387fee8890, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 37a000b2-f3f0-4209-8fee-d8387fee8890, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 37a000b2-f3f0-4209-8fee-d8387fee8890, udp: true}
+- &id007 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 53c2d13d-3366-4b12-9861-29181d90e1df, udp: true}
+- &id008 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 53c2d13d-3366-4b12-9861-29181d90e1df, udp: true}
+- &id009 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 53c2d13d-3366-4b12-9861-29181d90e1df, udp: true}
 - &id005 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.ptwqx.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: fe0167b0-317e-4bf0-a90c-a3c71c6ef005, udp: true}
 - &id006 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.ptwqx.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: fe0167b0-317e-4bf0-a90c-a3c71c6ef005, udp: true}
 - *id005
 - *id006
+- *id007
+- *id008
+- *id009
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 0cc92759-e834-4355-a9bb-ae0e2ddbf455, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 0cc92759-e834-4355-a9bb-ae0e2ddbf455, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 0cc92759-e834-4355-a9bb-ae0e2ddbf455, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
