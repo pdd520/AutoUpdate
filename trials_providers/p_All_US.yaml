@@ -1,10 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 US美国-Los Angeles-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 21000, type: ss, cipher: chacha20-ietf-poly1305, password: 8a1dc5c6-42df-4cc7-8fac-390eea1c76f9, udp: true}
-- &id002 {name: 🇺🇸 US美国-Los Angeles-02-wap - 脉冲云, server: gyaa.fnnnt.cn, port: 21012, type: ss, cipher: chacha20-ietf-poly1305, password: 8a1dc5c6-42df-4cc7-8fac-390eea1c76f9, udp: true}
-- *id001
-- *id002
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ce409332-14c6-43f0-8254-c651a82100c0, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ce409332-14c6-43f0-8254-c651a82100c0, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ce409332-14c6-43f0-8254-c651a82100c0, udp: true}
@@ -15,5 +11,3 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: 81111a3d-2658-4542-9128-d4a9255225b9, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: 81111a3d-2658-4542-9128-d4a9255225b9, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 81111a3d-2658-4542-9128-d4a9255225b9, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
