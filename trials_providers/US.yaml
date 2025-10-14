@@ -1,12 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1ea12940-a2d3-4871-90a6-607d373b0b5e, udp: true}
-- &id002 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1ea12940-a2d3-4871-90a6-607d373b0b5e, udp: true}
-- &id003 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 1ea12940-a2d3-4871-90a6-607d373b0b5e, udp: true}
-- *id001
-- *id002
-- *id003
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 6837d518-51d3-433f-97e1-7a83c13a4c3f, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 6837d518-51d3-433f-97e1-7a83c13a4c3f, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 6837d518-51d3-433f-97e1-7a83c13a4c3f, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 1e9b69da-826f-4e5b-a2b0-575f8aaba167, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 1e9b69da-826f-4e5b-a2b0-575f8aaba167, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 1e9b69da-826f-4e5b-a2b0-575f8aaba167, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
