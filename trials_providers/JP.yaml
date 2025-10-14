@@ -1,16 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- &id003 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 881d6a52-a16a-49a7-83fe-edb9ddc72ce2, udp: true}
-- &id004 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 881d6a52-a16a-49a7-83fe-edb9ddc72ce2, udp: true}
-- &id005 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 881d6a52-a16a-49a7-83fe-edb9ddc72ce2, udp: true}
 - &id001 {name: 🇯🇵 JP日本-Tokyo-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 06314837-d8c9-406a-8c45-5b2b5046c94b, udp: true}
 - &id002 {name: 🇯🇵 JP日本-Tokyo-wap-02 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 06314837-d8c9-406a-8c45-5b2b5046c94b, udp: true}
 - *id001
 - *id002
-- *id003
-- *id004
-- *id005
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 3948e3c8-d9c7-485a-a6a3-35ab4d111da5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 3948e3c8-d9c7-485a-a6a3-35ab4d111da5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 3948e3c8-d9c7-485a-a6a3-35ab4d111da5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
