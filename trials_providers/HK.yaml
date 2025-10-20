@@ -19,13 +19,13 @@ proxies:
 - *id004
 - *id005
 - *id006
-- &id007 {name: 🇭🇰 续费打开 maichongvpn.com - 脉冲云, server: gyaa.fnnnt.cn, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, udp: true}
-- &id008 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.fnnnt.cn, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, udp: true}
-- &id009 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.fnnnt.cn, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, udp: true}
-- &id010 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyaa.fnnnt.cn, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, udp: true}
-- &id011 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyaa.fnnnt.cn, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, udp: true}
-- &id012 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id013 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 43d6f8f5-cc63-4988-93a3-ecf5f544e6bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id007 {name: 🇭🇰 续费打开 maichongvpn.com - 脉冲云, server: gyaa.fnnnt.cn, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 5c59b015-73ac-49d8-b430-2b927ecbae71, udp: true}
+- &id008 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.fnnnt.cn, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 5c59b015-73ac-49d8-b430-2b927ecbae71, udp: true}
+- &id009 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.fnnnt.cn, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 5c59b015-73ac-49d8-b430-2b927ecbae71, udp: true}
+- &id010 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyaa.fnnnt.cn, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 5c59b015-73ac-49d8-b430-2b927ecbae71, udp: true}
+- &id011 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyaa.fnnnt.cn, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 5c59b015-73ac-49d8-b430-2b927ecbae71, udp: true}
+- &id012 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 5c59b015-73ac-49d8-b430-2b927ecbae71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id013 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 5c59b015-73ac-49d8-b430-2b927ecbae71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - *id007
 - *id008
 - *id009
