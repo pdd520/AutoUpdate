@@ -1,6 +1,8 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇯🇵 JP日本-Tokyo-01 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 835de605-6641-4d13-b710-d30ae19a5fc0, udp: true}
+- {name: 🇯🇵 JP日本-Tokyo-wap-02 - 脉冲云, server: gyaa.fnnnt.cn, port: 48999, type: ss, cipher: chacha20-ietf-poly1305, password: 835de605-6641-4d13-b710-d30ae19a5fc0, udp: true}
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
