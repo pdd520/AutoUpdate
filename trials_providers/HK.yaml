@@ -1,12 +1,12 @@
 %YAML 1.1
 ---
 proxies:
-- &id008 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
-- &id009 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
-- &id010 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
-- &id011 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
-- &id012 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
-- &id013 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: cc7f50a9-7a19-45b6-8d77-a274cc515978, udp: true}
+- &id008 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
+- &id009 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
+- &id010 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
+- &id011 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
+- &id012 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
+- &id013 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: a95f74d9-9ebd-4fbc-bc48-008a0e364f10, udp: true}
 - &id001 {name: 🇭🇰 续费打开 maichongvpn.com - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 976a1963-12f3-4e69-857b-a0cf84696869, udp: true}
 - &id002 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 976a1963-12f3-4e69-857b-a0cf84696869, udp: true}
 - &id003 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 976a1963-12f3-4e69-857b-a0cf84696869, udp: true}
@@ -27,12 +27,12 @@ proxies:
 - *id011
 - *id012
 - *id013
-- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 8765e924-7595-4e3c-ba79-3341116964c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 8765e924-7595-4e3c-ba79-3341116964c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 8765e924-7595-4e3c-ba79-3341116964c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: 8765e924-7595-4e3c-ba79-3341116964c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: 8765e924-7595-4e3c-ba79-3341116964c0, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: 8765e924-7595-4e3c-ba79-3341116964c0, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: f0bbbd2a-cc2f-41dc-8284-a8547ca1d007, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
