@@ -11,10 +11,6 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇸🇬 ‍新加坡
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇸🇬 ‍新加坡
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -23,9 +19,7 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 香港 - V2Board
-  - 🇸🇬 新加坡 01 - V2Board
-  - 🇸🇬 新加坡 02 - V2Board
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -45,16 +39,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇸🇬 ‍新加坡
   - ✈️ ‍起飞
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -63,31 +53,8 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港 - V2Board
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇸🇬 新加坡 01 - V2Board
-  - 🇸🇬 新加坡 02 - V2Board
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id003
 proxies:
-- {name: 🇸🇬 新加坡 01 - V2Board, server: node1.mangging.com, port: 10060, type: ss, cipher: aes-256-gcm, password: 8fffb05b-edca-4637-b70b-1e7f740718c1, udp: true}
-- {name: 🇭🇰 香港 - V2Board, server: node2.mangging.com, port: 10055, type: vmess, uuid: 8fffb05b-edca-4637-b70b-1e7f740718c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡 02 - V2Board, server: node3.mangging.com, port: 10091, type: vmess, uuid: 8fffb05b-edca-4637-b70b-1e7f740718c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 09702ea4-c354-3e43-a930-6654eefde9b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
