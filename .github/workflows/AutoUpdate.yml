@@ -37,9 +37,3 @@ jobs:
         if: ${{ steps.commit.outcome == 'success' }}
       - name: Run get_trial_update_url.py
         run: python get_trial_update_url.py
-
-      - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          retain_days: 0
-          keep_minimum_runs: 3
