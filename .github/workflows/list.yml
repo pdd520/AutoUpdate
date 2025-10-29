@@ -24,7 +24,7 @@ jobs:
 
       - name: 运行 Python 脚本
         run: |
-          python jichang_list.py # 运行您的脚本
+          python list.py # 运行您的脚本
 
       - name: Commit and push changes (only if necessary)
         if: ${{ always() }}  # Always run this step, even on failure
