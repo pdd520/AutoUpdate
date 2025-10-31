@@ -1,21 +1,21 @@
 %YAML 1.1
 ---
 proxies:
-- &id010 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id011 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id012 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id013 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id014 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id015 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: f321b25a-7b0b-44c9-9a83-f76e09951455, udp: true}
-- &id001 {name: 🇭🇰 续费打开 maichongvpn.com - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id002 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id003 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id004 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyaa.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id005 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyaa.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id006 {name: 🇭🇰 HK香港3-HKT - 脉冲云, server: 183.236.97.81, port: 18804, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id007 {name: 🇭🇰 HK香港4-HKT-动态直连 - 脉冲云, server: dongtai.fnnnt.cn, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: c8504342-bac9-4efd-aa76-cd22346ff279, udp: true}
-- &id008 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: c8504342-bac9-4efd-aa76-cd22346ff279, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id009 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: c8504342-bac9-4efd-aa76-cd22346ff279, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id010 {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id011 {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id012 {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id013 {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id014 {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id015 {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 6d0a00b0-6362-47f9-8577-34c909575f6d, udp: true}
+- &id001 {name: 🇭🇰 续费打开 maichongvpn.com - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id002 {name: 🇭🇰 HK香港1-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19523, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id003 {name: 🇭🇰 HK香港2-SJY(官网:maichongvpn.com) - 脉冲云, server: gyaa.yy9866.com, port: 19528, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id004 {name: 🇭🇰 HK香港1-PQ - 脉冲云, server: gyaa.yy9866.com, port: 49763, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id005 {name: 🇭🇰 HK香港2-PQ - 脉冲云, server: gyaa.yy9866.com, port: 48388, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id006 {name: 🇭🇰 HK香港3-HKT - 脉冲云, server: 183.236.97.81, port: 18804, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id007 {name: 🇭🇰 HK香港4-HKT-动态直连 - 脉冲云, server: dongtai.fnnnt.cn, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: 54fb340b-0b49-467f-94bb-806d51386d8d, udp: true}
+- &id008 {name: 🇭🇰 AK香港-新疆国外节点 - 脉冲云, server: 45.207.156.60, port: 13333, type: vmess, uuid: 54fb340b-0b49-467f-94bb-806d51386d8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id009 {name: 🇭🇰 WAP香港-新疆国外节点 - 脉冲云, server: 46.20.109.234, port: 13335, type: vmess, uuid: 54fb340b-0b49-467f-94bb-806d51386d8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18820, type: vmess, uuid: 4066b7fe-7cd0-32b8-bd6c-7ae634979db6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18838, type: vmess, uuid: 4066b7fe-7cd0-32b8-bd6c-7ae634979db6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - *id001
@@ -48,4 +48,4 @@ proxies:
 - *id007
 - *id008
 - *id009
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: b81a001c-7709-30df-b4a0-a6a3c7cc559c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 4dd4ee08-6067-36b6-ac24-443885c0e0f3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
