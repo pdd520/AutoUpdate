@@ -1,10 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡 - V2Board, server: 134.122.174.192, port: 12222, type: ss, cipher: chacha20-ietf-poly1305, password: 19338fad-5770-41e3-a192-49f1792553e9, udp: true}
-- {name: '🇭🇰 [trojan]香港BGP 4x - L1dder', server: bgp2.3224536.xyz, port: 443, type: trojan, password: 5c7d3e4a-b879-4e2c-bd30-1f1d9ed649f3, sni: bgp2.3224536.xyz, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [trojan]新加坡 中国优化路线 - L1dder', server: sg1.3224536.xyz, port: 443, type: trojan, password: 5c7d3e4a-b879-4e2c-bd30-1f1d9ed649f3, sni: sg1.3224536.xyz, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [trojan]美国 - L1dder', server: us1.3224536.xyz, port: 443, type: trojan, password: 5c7d3e4a-b879-4e2c-bd30-1f1d9ed649f3, sni: us1.3224536.xyz, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 续费地址官网：yam666.com - 山药网, server: n001.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 备用：yam688.com - 山药网, server: n001.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 山药网, server: n001.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
@@ -46,15 +42,3 @@ proxies:
 - {name: 🇯🇵 日本01-新疆 - 山药网, server: zl-jp01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾01-新疆 - 山药网, server: zl-tw01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01-新疆 - 山药网, server: zl-us01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 361dacfe-f868-4898-9e62-6db4e970734f, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 6366e15c-3e11-4f4f-9472-dc18f48526ee, udp: true}
-- {name: 🇰🇷 KR-IDC-节点1 - Xboard, server: 146.56.132.194, port: 30000, type: ss, cipher: aes-256-gcm, password: 766dfa27-1626-48cd-93df-0afa29783b59, udp: true}
-- {name: 🇰🇷 KR-IDC-节点2 - Xboard, server: 146.56.132.194, port: 30001, type: ss, cipher: aes-256-gcm, password: 766dfa27-1626-48cd-93df-0afa29783b59, udp: true}
-- {name: 🇯🇵 JP-IDC-NODE1 - Xboard, server: 146.56.132.194, port: 30003, type: vmess, uuid: 766dfa27-1626-48cd-93df-0afa29783b59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: net.iftballs.com, network: ws, ws-opts: {path: /ips30003}, udp: true}
