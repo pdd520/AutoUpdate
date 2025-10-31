@@ -102,6 +102,32 @@ def get_urls_from_html(html):
                 logging.debug(f"从文本中发现的无效URL已丢弃: {url_in_text}")
     return list(urls) # 返回列表，方便后续处理
 
+def get_urls_from_github_raw(content):
+    """
+    从GitHub raw内容中提取并清理URL。
+    Extract and clean URLs from GitHub raw content.
+    """
+    urls = set() # 使用集合自动去重
+    
+    # 按行分割内容
+    lines = content.strip().split('\n')
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+            
+        # 查找 http:// 或 https:// 开头的URL
+        found_urls = re.findall(r'https?://[^\s<>"\']+', line)
+        for url in found_urls:
+            url = clean_url(url.rstrip('/')) # 移除末尾斜杠和标点
+            if is_valid_url(url):
+                urls.add(url)
+            else:
+                logging.debug(f"从GitHub raw内容中发现的无效URL已丢弃: {url}")
+    
+    return list(urls) # 返回列表，方便后续处理
+
 def test_url_connectivity(url, timeout=10):
     """
     测试URL是否可连接。
@@ -144,6 +170,26 @@ def fetch_page(url, timeout=15, max_retries=3):
                 time.sleep(random.uniform(5, 12 + attempt * 2)) # 每次重试增加延迟
             else:
                 logging.error(f"在 {max_retries} 次尝试后，抓取 {url} 最终失败。")
+                return None
+    return None # 理论上不会执行到这里，因为max_retries耗尽时会直接返回None
+
+def fetch_github_raw(url, timeout=15, max_retries=3):
+    """
+    抓取GitHub raw内容，带重试和随机User-Agent。
+    Fetch GitHub raw content with retries and random User-Agent.
+    """
+    headers = {'User-Agent': random.choice(USER_AGENTS)}
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+            response.raise_for_status() # 对 4XX/5XX 状态码抛出 HTTPError
+            return response.text
+        except requests.exceptions.RequestException as e:
+            logging.warning(f"在尝试 {attempt + 1}/{max_retries} 次后，抓取GitHub raw {url} 失败: {e}")
+            if attempt < max_retries - 1:
+                time.sleep(random.uniform(5, 12 + attempt * 2)) # 每次重试增加延迟
+            else:
+                logging.error(f"在 {max_retries} 次尝试后，抓取GitHub raw {url} 最终失败。")
                 return None
     return None # 理论上不会执行到这里，因为max_retries耗尽时会直接返回None
 
@@ -228,7 +274,38 @@ def scrape_telegram_channels(start_urls, max_pages_per_source=90):
     
     return found_urls
 
-def main(start_urls, max_pages_per_source=90, max_workers=10):
+def scrape_github_sources(github_urls):
+    """
+    抓取GitHub raw文件的机场URL。
+    Scrape airport URLs from GitHub raw files.
+    """
+    found_urls = set()
+    
+    for github_url in github_urls:
+        logging.info(f"======== 开始处理GitHub来源: {github_url} ========")
+        
+        content = fetch_github_raw(github_url)
+        if content is None:
+            logging.warning(f"无法从GitHub raw {github_url} 获取内容，跳过此来源。")
+            continue
+
+        new_urls = get_urls_from_github_raw(content)
+        if new_urls:
+            logging.info(f"GitHub来源 {github_url} 发现 {len(new_urls)} 个新URL。")
+            found_urls.update(new_urls) # 直接添加到总集合中
+            logging.info(f"GitHub来源发现的总URL数量: {len(found_urls)}")
+        else:
+            logging.info(f"GitHub来源 {github_url} 未发现有效URL。")
+
+        logging.info(f"======== GitHub来源 {github_url} 处理完毕 ========")
+        time.sleep(random.uniform(5, 10)) # 随机延迟，避免请求过于频繁
+
+    logging.info(f"\n======== GitHub来源处理完毕 ========")
+    logging.info(f"GitHub来源发现的唯一URL总数: {len(found_urls)}")
+    
+    return found_urls
+
+def main(start_urls, github_urls, max_pages_per_source=90, max_workers=10):
     """
     控制抓取过程的主函数。
     Main function to control the scraping process.
@@ -237,9 +314,13 @@ def main(start_urls, max_pages_per_source=90, max_workers=10):
     # Initialize the overall URL set and load existing URLs from file for cross-run de-duplication
     overall_found_urls = load_existing_urls('./trial.cfg')
     
-    # 抓取Telegram频道
+    # 1. 抓取Telegram频道
     telegram_urls = scrape_telegram_channels(start_urls, max_pages_per_source)
     overall_found_urls.update(telegram_urls)
+    
+    # 2. 抓取GitHub raw文件
+    github_urls_found = scrape_github_sources(github_urls)
+    overall_found_urls.update(github_urls_found)
 
     logging.info(f"\n======== 所有来源处理完毕 ========")
     logging.info(f"所有来源发现的唯一URL总数: {len(overall_found_urls)}")
@@ -277,7 +358,13 @@ if __name__ == '__main__':
         # 'https://t.me/s/another_channel_example', # 您可以添加更多起始URL
     ]
     
+    # GitHub raw文件来源
+    github_urls_list = [
+        'https://raw.githubusercontent.com/zwrt/Toolbox/refs/heads/main/file/jichang.txt',
+        # 可以添加更多GitHub raw文件
+    ]
+    
     max_pages_to_crawl_per_source = 5 # 每个Telegram来源最多抓取的页数
     concurrent_workers = 15 # 并发测试URL连通性的工作线程数
 
-    main(start_urls_list, max_pages_to_crawl_per_source, concurrent_workers)
+    main(start_urls_list, github_urls_list, max_pages_to_crawl_per_source, concurrent_workers)
