@@ -29,48 +29,17 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03丨Neflix - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
-  - 🇸🇬 新加坡01 - 迅云加速
-  - 🇸🇬 新加坡02丨Tiktok - 迅云加速
-  - 🇸🇬 新加坡03丨Neflix - 迅云加速
-  - 🇸🇬 新加坡04丨GPT - 迅云加速
-  - 🇯🇵 日本01 - 迅云加速
-  - 🇯🇵 日本02丨Tiktok - 迅云加速
-  - 🇯🇵 日本03丨Neflix - 迅云加速
-  - 🇯🇵 日本04丨GPT - 迅云加速
-  - 🇺🇸 美国01 - 迅云加速
-  - 🇺🇸 美国02 - 迅云加速
-  - 🇺🇸 美国03 - 迅云加速
-  - 🇺🇸 美国04 - 迅云加速
-  - ℹ️ 续费：xyjs.app - 迅云加速
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 迅云加速
-  - 超级高佣招合作代理 - 迅云加速
-  - 🇬🇧 英国01 - 迅云加速
-  - 🇬🇧 英国02 - 迅云加速
-  - 🇬🇧 英国03 - 迅云加速
-  - 🇬🇧 英国04 - 迅云加速
-  - 🇨🇦 加拿大01 - 迅云加速
-  - 🇨🇦 加拿大02 - 迅云加速
-  - 🇨🇦 加拿大03 - 迅云加速
-  - 🇨🇦 加拿大04 - 迅云加速
-  - 🇻🇳 越南01 - 迅云加速
-  - 🇻🇳 越南02 - 迅云加速
-  - 🇻🇳 越南03 - 迅云加速
-  - 🇻🇳 越南04 - 迅云加速
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -119,146 +88,116 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03丨Neflix - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
+  use: &id002
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
+  use: &id003
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港01 - 迅云加速
-  - 🇭🇰 香港02 - 迅云加速
-  - 🇭🇰 香港03丨Neflix - 迅云加速
-  - 🇭🇰 香港04 - 迅云加速
-  - 🇹🇼 台湾01 - 迅云加速
-  - 🇹🇼 台湾02 - 迅云加速
-  - 🇹🇼 台湾03 - 迅云加速
-  - 🇹🇼 台湾04 - 迅云加速
+  use: &id004
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡01 - 迅云加速
-  - 🇸🇬 新加坡02丨Tiktok - 迅云加速
-  - 🇸🇬 新加坡03丨Neflix - 迅云加速
-  - 🇸🇬 新加坡04丨GPT - 迅云加速
+  use: &id005
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本01 - 迅云加速
-  - 🇯🇵 日本02丨Tiktok - 迅云加速
-  - 🇯🇵 日本03丨Neflix - 迅云加速
-  - 🇯🇵 日本04丨GPT - 迅云加速
+  use: &id006
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国01 - 迅云加速
-  - 🇺🇸 美国02 - 迅云加速
-  - 🇺🇸 美国03 - 迅云加速
-  - 🇺🇸 美国04 - 迅云加速
+  use: &id007
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 续费：xyjs.app - 迅云加速
-  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 迅云加速
-  - 超级高佣招合作代理 - 迅云加速
-  - 🇬🇧 英国01 - 迅云加速
-  - 🇬🇧 英国02 - 迅云加速
-  - 🇬🇧 英国03 - 迅云加速
-  - 🇬🇧 英国04 - 迅云加速
-  - 🇨🇦 加拿大01 - 迅云加速
-  - 🇨🇦 加拿大02 - 迅云加速
-  - 🇨🇦 加拿大03 - 迅云加速
-  - 🇨🇦 加拿大04 - 迅云加速
-  - 🇻🇳 越南01 - 迅云加速
-  - 🇻🇳 越南02 - 迅云加速
-  - 🇻🇳 越南03 - 迅云加速
-  - 🇻🇳 越南04 - 迅云加速
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
+  use: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  proxies: *id003
+  use: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
+  use: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  use: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  use: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
-proxies:
-- {name: ℹ️ 续费：xyjs.app - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 迅云加速, server: jp1.xunyunnode.sbs, port: 3389, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 超级高佣招合作代理 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇯🇵 日本01 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇯🇵 日本03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇯🇵 日本04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇭🇰 香港01 - 迅云加速, server: 01.xunyunnode.sbs, port: 13058, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇭🇰 香港02 - 迅云加速, server: 02.xunyunnode.sbs, port: 45473, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26200, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇭🇰 香港04 - 迅云加速, server: wa.xunyunnode.sbs, port: 35301, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇸🇬 新加坡01 - 迅云加速, server: 01.xunyunnode.sbs, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 10463, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 18416, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 50764, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇹🇼 台湾01 - 迅云加速, server: 01.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇹🇼 台湾02 - 迅云加速, server: 02.xunyunnode.sbs, port: 43592, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇹🇼 台湾03 - 迅云加速, server: xc.xunyunnode.sbs, port: 28886, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇹🇼 台湾04 - 迅云加速, server: wa.xunyunnode.sbs, port: 12009, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇬🇧 英国01 - 迅云加速, server: 01.xunyunnode.sbs, port: 17587, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇬🇧 英国02 - 迅云加速, server: 02.xunyunnode.sbs, port: 59406, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇬🇧 英国03 - 迅云加速, server: xc.xunyunnode.sbs, port: 43421, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇬🇧 英国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 25174, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇺🇸 美国01 - 迅云加速, server: 01.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇺🇸 美国02 - 迅云加速, server: 02.xunyunnode.sbs, port: 37699, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇺🇸 美国03 - 迅云加速, server: xc.xunyunnode.sbs, port: 32893, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇺🇸 美国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 22041, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇨🇦 加拿大01 - 迅云加速, server: 01.xunyunnode.sbs, port: 44306, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇨🇦 加拿大02 - 迅云加速, server: 02.xunyunnode.sbs, port: 57990, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇨🇦 加拿大03 - 迅云加速, server: xc.xunyunnode.sbs, port: 19707, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇨🇦 加拿大04 - 迅云加速, server: wa.xunyunnode.sbs, port: 50737, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇻🇳 越南01 - 迅云加速, server: 01.xunyunnode.sbs, port: 10326, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇻🇳 越南02 - 迅云加速, server: 02.xunyunnode.sbs, port: 38227, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇻🇳 越南03 - 迅云加速, server: xc.xunyunnode.sbs, port: 42767, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
-- {name: 🇻🇳 越南04 - 迅云加速, server: wa.xunyunnode.sbs, port: 43680, type: ss, cipher: chacha20-ietf-poly1305, password: 0e4e1254-403b-4804-82b5-87d8605a3344, udp: true}
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/HK.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/TW.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/SG.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/JP.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/US.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___hjxixi002.xxttx.cn/Other.yaml
+    interval: 180
+    path: trials_providers/https___hjxixi002.xxttx.cn/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
