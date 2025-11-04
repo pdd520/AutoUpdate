@@ -1,18 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇸🇬 新加坡01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 2c479745-0837-404c-bc54-40a06c9aafaa, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 2c479745-0837-404c-bc54-40a06c9aafaa, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 2c479745-0837-404c-bc54-40a06c9aafaa, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 2c479745-0837-404c-bc54-40a06c9aafaa, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡01 - 迅云加速, server: 01.xunyunnode.sbs, port: 14195, type: ss, cipher: chacha20-ietf-poly1305, password: 3ded020d-ec50-4c0b-8a2e-369df74e8b28, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 10463, type: ss, cipher: chacha20-ietf-poly1305, password: 3ded020d-ec50-4c0b-8a2e-369df74e8b28, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 18416, type: ss, cipher: chacha20-ietf-poly1305, password: 3ded020d-ec50-4c0b-8a2e-369df74e8b28, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 50764, type: ss, cipher: chacha20-ietf-poly1305, password: 3ded020d-ec50-4c0b-8a2e-369df74e8b28, udp: true}
-- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 9b392ce0-bd7d-46b1-ada0-82d38e852a40, udp: true}
-- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 9b392ce0-bd7d-46b1-ada0-82d38e852a40, udp: true}
-- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 9b392ce0-bd7d-46b1-ada0-82d38e852a40, udp: true}
-- {name: 🇸🇬 新加坡01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31200, type: trojan, password: 6763f6e5-52eb-4c00-9243-9d71417ee70d, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31200, type: trojan, password: 6763f6e5-52eb-4c00-9243-9d71417ee70d, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31201, type: trojan, password: 6763f6e5-52eb-4c00-9243-9d71417ee70d, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡04丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31201, type: trojan, password: 6763f6e5-52eb-4c00-9243-9d71417ee70d, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: 2714a5f4-34e3-487a-a395-d303b2a413d6, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: 2714a5f4-34e3-487a-a395-d303b2a413d6, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: 2714a5f4-34e3-487a-a395-d303b2a413d6, udp: true}
+- {name: 🇸🇬 新加坡01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31200, type: trojan, password: cf173f4c-e797-4b4a-971f-8033008ce36f, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31200, type: trojan, password: cf173f4c-e797-4b4a-971f-8033008ce36f, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 31201, type: trojan, password: cf173f4c-e797-4b4a-971f-8033008ce36f, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡04丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 31201, type: trojan, password: cf173f4c-e797-4b4a-971f-8033008ce36f, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
