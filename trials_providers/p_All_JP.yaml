@@ -1,14 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 8816db2a-870c-47f6-97c6-a3a901f74487, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 8816db2a-870c-47f6-97c6-a3a901f74487, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 8816db2a-870c-47f6-97c6-a3a901f74487, udp: true}
-- {name: 🇯🇵日本01 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 34378, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵日本02 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 11672, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵日本03 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 58377, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 67552528-0cdb-4159-976d-a8c88c695c03, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 67552528-0cdb-4159-976d-a8c88c695c03, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 7bb753e4-08ee-46f6-91c7-2eb50db61d5c, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 7bb753e4-08ee-46f6-91c7-2eb50db61d5c, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 7bb753e4-08ee-46f6-91c7-2eb50db61d5c, udp: true}
+- {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 1e3361b9-5afd-4bf7-94c9-79073ad0c53a, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 1e3361b9-5afd-4bf7-94c9-79073ad0c53a, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: df763814-2ff9-4435-93b5-fbb87d141168, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: df763814-2ff9-4435-93b5-fbb87d141168, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: df763814-2ff9-4435-93b5-fbb87d141168, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

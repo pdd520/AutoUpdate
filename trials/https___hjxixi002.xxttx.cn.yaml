@@ -14,12 +14,14 @@ proxy-groups:
   - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
@@ -31,21 +33,41 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰香港01 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港02 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港03 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港04 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港05 | IPLC三网直连 - 爬梯看世界
-  - 🇹🇼台湾 - 爬梯看世界
-  - 🇯🇵日本01 | IPLC三网直连 - 爬梯看世界
-  - 🇯🇵日本02 | IPLC三网直连 - 爬梯看世界
-  - 🇯🇵日本03 | IPLC三网直连 - 爬梯看世界
-  - 🇺🇸美国01 - 爬梯看世界
-  - 🇺🇸美国02 - 爬梯看世界
-  - 🇺🇸美国03 | 芝加哥(支持GPT) - 爬梯看世界
-  - 🇺🇸美国04 | 圣何塞(支持GPT) - 爬梯看世界
-  - 🇺🇸美国05 | 纽约城(支持GPT) - 爬梯看世界
-  - ℹ️ 永久官网：www.ptchain.app - 爬梯看世界
+  - 🇭🇰 香港01 - 火箭云
+  - 🇭🇰 香港02 - 火箭云
+  - 🇭🇰 香港03丨Neflix - 火箭云
+  - 🇭🇰 香港04 - 火箭云
+  - 🇹🇼 台湾01 - 火箭云
+  - 🇹🇼 台湾02 - 火箭云
+  - 🇸🇬 新加坡01 - 火箭云
+  - 🇸🇬 新加坡02丨Tiktok - 火箭云
+  - 🇸🇬 新加坡03丨Neflix - 火箭云
+  - 🇸🇬 新加坡04丨GPT - 火箭云
+  - 🇯🇵 日本01 - 火箭云
+  - 🇯🇵 日本02丨Tiktok - 火箭云
+  - 🇯🇵 日本03丨Neflix - 火箭云
+  - 🇯🇵 日本04丨GPT - 火箭云
+  - 🇺🇸 美国01丨Neflix - 火箭云
+  - 🇺🇸 美国02丨GPT - 火箭云
+  - ℹ️ 续费地址官网：yes369.com - 火箭云
+  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云
+  - 超级高佣招合作代理 - 火箭云
+  - 🇰🇷 韩国01丨Tiktok - 火箭云
+  - 🇰🇷 韩国02 - 火箭云
+  - 🇬🇧 英国01 - 火箭云
+  - 🇬🇧 英国02 - 火箭云
+  - 🇩🇪 德国01 - 火箭云
+  - 🇩🇪 德国02 - 火箭云
+  - 🇮🇳 印度01 - 火箭云
+  - 🇮🇳 印度02 - 火箭云
+  - 🇫🇷 法国01 - 火箭云
+  - 🇫🇷 法国02 - 火箭云
+  - 🇦🇪 迪拜01 - 火箭云
+  - 🇦🇪 迪拜02 - 火箭云
+  - 🇻🇳 越南01 - 火箭云
+  - 🇻🇳 越南02 - 火箭云
+  - 🇹🇭 泰国01 - 火箭云
+  - 🇹🇭 泰国02 - 火箭云
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -78,11 +100,13 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
@@ -99,57 +123,83 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇭🇰香港01 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港02 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港03 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港04 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港05 | IPLC三网直连 - 爬梯看世界
+  - 🇭🇰 香港01 - 火箭云
+  - 🇭🇰 香港02 - 火箭云
+  - 🇭🇰 香港03丨Neflix - 火箭云
+  - 🇭🇰 香港04 - 火箭云
 - name: 🇹🇼 ‍台湾
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id003
-  - 🇹🇼台湾 - 爬梯看世界
+  - 🇹🇼 台湾01 - 火箭云
+  - 🇹🇼 台湾02 - 火箭云
 - name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id004
-  - 🇭🇰香港01 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港02 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港03 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港04 | IPLC三网直连 - 爬梯看世界
-  - 🇭🇰香港05 | IPLC三网直连 - 爬梯看世界
-  - 🇹🇼台湾 - 爬梯看世界
-- name: 🇯🇵 ‍日本
+  - 🇭🇰 香港01 - 火箭云
+  - 🇭🇰 香港02 - 火箭云
+  - 🇭🇰 香港03丨Neflix - 火箭云
+  - 🇭🇰 香港04 - 火箭云
+  - 🇹🇼 台湾01 - 火箭云
+  - 🇹🇼 台湾02 - 火箭云
+- name: 🇸🇬 ‍新加坡
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id005
-  - 🇯🇵日本01 | IPLC三网直连 - 爬梯看世界
-  - 🇯🇵日本02 | IPLC三网直连 - 爬梯看世界
-  - 🇯🇵日本03 | IPLC三网直连 - 爬梯看世界
+  - 🇸🇬 新加坡01 - 火箭云
+  - 🇸🇬 新加坡02丨Tiktok - 火箭云
+  - 🇸🇬 新加坡03丨Neflix - 火箭云
+  - 🇸🇬 新加坡04丨GPT - 火箭云
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 日本01 - 火箭云
+  - 🇯🇵 日本02丨Tiktok - 火箭云
+  - 🇯🇵 日本03丨Neflix - 火箭云
+  - 🇯🇵 日本04丨GPT - 火箭云
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id006
-  - 🇺🇸美国01 - 爬梯看世界
-  - 🇺🇸美国02 - 爬梯看世界
-  - 🇺🇸美国03 | 芝加哥(支持GPT) - 爬梯看世界
-  - 🇺🇸美国04 | 圣何塞(支持GPT) - 爬梯看世界
-  - 🇺🇸美国05 | 纽约城(支持GPT) - 爬梯看世界
+  proxies: &id007
+  - 🇺🇸 美国01丨Neflix - 火箭云
+  - 🇺🇸 美国02丨GPT - 火箭云
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id007
-  - ℹ️ 永久官网：www.ptchain.app - 爬梯看世界
+  proxies: &id008
+  - ℹ️ 续费地址官网：yes369.com - 火箭云
+  - ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云
+  - 超级高佣招合作代理 - 火箭云
+  - 🇰🇷 韩国01丨Tiktok - 火箭云
+  - 🇰🇷 韩国02 - 火箭云
+  - 🇬🇧 英国01 - 火箭云
+  - 🇬🇧 英国02 - 火箭云
+  - 🇩🇪 德国01 - 火箭云
+  - 🇩🇪 德国02 - 火箭云
+  - 🇮🇳 印度01 - 火箭云
+  - 🇮🇳 印度02 - 火箭云
+  - 🇫🇷 法国01 - 火箭云
+  - 🇫🇷 法国02 - 火箭云
+  - 🇦🇪 迪拜01 - 火箭云
+  - 🇦🇪 迪拜02 - 火箭云
+  - 🇻🇳 越南01 - 火箭云
+  - 🇻🇳 越南02 - 火箭云
+  - 🇹🇭 泰国01 - 火箭云
+  - 🇹🇭 泰国02 - 火箭云
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
@@ -159,31 +209,54 @@ proxy-groups:
 - name: 👆🏻🇨🇳 ‍中国
   type: select
   proxies: *id004
-- name: 👆🏻🇯🇵 ‍日本
+- name: 👆🏻🇸🇬 ‍新加坡
   type: select
   proxies: *id005
-- name: 👆🏻🇺🇸 ‍美国
+- name: 👆🏻🇯🇵 ‍日本
   type: select
   proxies: *id006
-- name: 👆🏻🎏 ‍其他
+- name: 👆🏻🇺🇸 ‍美国
   type: select
   proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
-- {name: ℹ️ 永久官网：www.ptchain.app - 爬梯看世界, server: ptcdn.chainpt.art, port: 48537, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇭🇰香港01 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 53546, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇭🇰香港02 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 32511, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇭🇰香港03 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 48537, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇭🇰香港04 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 27886, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇭🇰香港05 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 25447, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵日本01 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 34378, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵日本02 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 11672, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇯🇵日本03 | IPLC三网直连 - 爬梯看世界, server: ptcdn.chainpt.art, port: 58377, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国01 - 爬梯看世界, server: ptcdn.chainpt.art, port: 30130, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国02 - 爬梯看世界, server: ptcdn.chainpt.art, port: 36481, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国03 | 芝加哥(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 36575, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国04 | 圣何塞(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 54885, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国05 | 纽约城(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 37467, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇹🇼台湾 - 爬梯看世界, server: ptcdn.chainpt.art, port: 12721, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
+- {name: ℹ️ 续费地址官网：yes369.com - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 问题反馈邮箱：jianyi5978@gmail.com - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 超级高佣招合作代理 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: sg01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡03丨Neflix - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 31101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: sg02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国01丨Tiktok - 火箭云, server: n001.xunxunmimisbs.sbs, port: 43100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇰🇷 韩国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 43100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: kr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 44100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 英国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 44100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: uk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02丨GPT - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 46100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇩🇪 德国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 46100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: de01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 印度01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 47100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 印度02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 47100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: in01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 48100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 48100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: fr01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇦🇪 迪拜01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇦🇪 迪拜02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49100, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: db01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳 越南01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49110, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇻🇳 越南02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49110, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: vn01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇭 泰国01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49120, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇭 泰国02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49120, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: tai01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 1b9cc022-51c6-4ef2-be33-b48d30cf177b, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
