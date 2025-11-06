@@ -1,17 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 6ee31b87-9be8-4d47-984c-98f8658a4fab, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 6ee31b87-9be8-4d47-984c-98f8658a4fab, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 6ee31b87-9be8-4d47-984c-98f8658a4fab, udp: true}
-- {name: 🇺🇸美国01 - 爬梯看世界, server: ptcdn.chainpt.art, port: 30130, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国02 - 爬梯看世界, server: ptcdn.chainpt.art, port: 36481, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国03 | 芝加哥(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 36575, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国04 | 圣何塞(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 54885, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸美国05 | 纽约城(支持GPT) - 爬梯看世界, server: ptcdn.chainpt.art, port: 37467, type: ss, cipher: chacha20-ietf-poly1305, password: 8d89da22-550a-43f6-858c-74df5cd50483, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 7537556c-a84c-455b-9361-6cb9f1e7e3f4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 24100, type: trojan, password: 40f291ee-0631-4277-ba56-b28ad327c224, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 24100, type: trojan, password: 40f291ee-0631-4277-ba56-b28ad327c224, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 5ac52055-06e0-444f-ba5b-bb511e40eaef, udp: true}
+- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 5ac52055-06e0-444f-ba5b-bb511e40eaef, udp: true}
+- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 5ac52055-06e0-444f-ba5b-bb511e40eaef, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8443d17e-b156-4aba-b1b3-8ebe2eee0ddd, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 9a2b6dd4-e6b8-4dc0-8931-ffda4ad43957, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 9a2b6dd4-e6b8-4dc0-8931-ffda4ad43957, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 9a2b6dd4-e6b8-4dc0-8931-ffda4ad43957, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
