@@ -1,8 +1,8 @@
 name: Auto Update
 on:
   workflow_dispatch:
-  #schedule:
-   #  - cron: '0 * * * *'
+  schedule:
+     - cron: '0 * * * *'
 permissions: write-all
 jobs:
   AutoUpdate:
@@ -17,15 +17,44 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}
+
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+
       - name: Prepare
         run: pip install requests beautifulsoup4 ruamel.yaml json5 pyyaml
+
       - name: Run get_trial.py
         env:
           TRIAL_CFG_URL: ${{ secrets.TRIAL_CFG_URL }} 
         run: python get_trial.py
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.REPO }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: temp-repo
+          ref: master
+
+      - name: Push
+        run: |
+          cd temp-repo
+          TARGET_DIR="output/data"
+          mkdir -p $TARGET_DIR
+
+          rm -f $TARGET_DIR/trial
+          [ -f ../trial ] && cp ../trial $TARGET_DIR/trial
+
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          git add $TARGET_DIR/trial
+          git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+
+          git push || echo "No changes to push"
+
       - name: Commit
         id: commit
         continue-on-error: true
@@ -33,9 +62,11 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
           git add .
-          git commit -m "update $(date +%Y-%m-%d" "%H:%M:%S)"
+          git commit -m "update $(date +%Y-%m-%d\" \"%H:%M:%S)"
           git pull --rebase
+
       - uses: ad-m/github-push-action@master
         if: ${{ steps.commit.outcome == 'success' }}
+
       - name: Run get_trial_update_url.py
         run: python get_trial_update_url.py
