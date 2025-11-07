@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 91154098-4fd9-4689-95de-60511da5778a, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 17c5006e-f42f-4c32-9d09-364ce6991b9a, udp: true}
+- {name: 🇹🇼 台湾01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 57400, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾02 - 雕云, server: n002.xunxunmimisbs.sbs, port: 57400, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾01 - 迅云加速, server: 01.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}
 - {name: 🇹🇼 台湾02 - 迅云加速, server: 02.xunyunnode.sbs, port: 43592, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}
 - {name: 🇹🇼 台湾03 - 迅云加速, server: xc.xunyunnode.sbs, port: 28886, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}

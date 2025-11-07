@@ -1,11 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 564fcded-9f80-4f97-a67d-8940935ec455, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 91154098-4fd9-4689-95de-60511da5778a, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 17c5006e-f42f-4c32-9d09-364ce6991b9a, udp: true}
+- {name: 🇯🇵 日本01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 41400, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 雕云, server: n002.xunxunmimisbs.sbs, port: 41400, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 41401, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本04丨GPT - 雕云, server: n002.xunxunmimisbs.sbs, port: 41401, type: trojan, password: aa8db40d-b63e-4cb4-84ae-5941504ed307, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本01 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}
 - {name: 🇯🇵 日本02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}
 - {name: 🇯🇵 日本03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: b67bd84a-7a8e-41bc-a063-61d87fe2570c, udp: true}
