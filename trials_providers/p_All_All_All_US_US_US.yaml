@@ -1,16 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国01丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 6fba9b68-42e7-4eb2-9889-23bdf22d3a82, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 火箭云, server: n001.xunxunmimisbs.sbs, port: 45100, type: trojan, password: 6fba9b68-42e7-4eb2-9889-23bdf22d3a82, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01 - 迅云加速, server: 01.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: 5e39c62e-6b56-46d6-83e2-c38542bd36ab, udp: true}
-- {name: 🇺🇸 美国02 - 迅云加速, server: 02.xunyunnode.sbs, port: 37699, type: ss, cipher: chacha20-ietf-poly1305, password: 5e39c62e-6b56-46d6-83e2-c38542bd36ab, udp: true}
-- {name: 🇺🇸 美国03 - 迅云加速, server: xc.xunyunnode.sbs, port: 32893, type: ss, cipher: chacha20-ietf-poly1305, password: 5e39c62e-6b56-46d6-83e2-c38542bd36ab, udp: true}
-- {name: 🇺🇸 美国04 - 迅云加速, server: wa.xunyunnode.sbs, port: 22041, type: ss, cipher: chacha20-ietf-poly1305, password: 5e39c62e-6b56-46d6-83e2-c38542bd36ab, udp: true}
-- {name: 🇺🇸 美国01丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 53000, type: trojan, password: 3493d8a5-5485-4276-b6b7-598a4f032107, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 雕云, server: n002.xunxunmimisbs.sbs, port: 53000, type: trojan, password: 3493d8a5-5485-4276-b6b7-598a4f032107, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 24100, type: trojan, password: d31e2793-0a9e-4526-a132-c902ee5b13a9, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02丨GPT - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 24100, type: trojan, password: d31e2793-0a9e-4526-a132-c902ee5b13a9, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国01丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 53000, type: trojan, password: a50a754a-f55b-4d35-af31-8405a3017a7d, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国02丨GPT - 雕云, server: n002.xunxunmimisbs.sbs, port: 53000, type: trojan, password: a50a754a-f55b-4d35-af31-8405a3017a7d, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5281402b-4829-46b6-b734-6f413f372d09, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5281402b-4829-46b6-b734-6f413f372d09, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 5281402b-4829-46b6-b734-6f413f372d09, udp: true}
