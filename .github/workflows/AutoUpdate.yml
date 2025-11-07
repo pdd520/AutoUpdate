@@ -22,9 +22,9 @@ jobs:
           python-version: '3.10'
       - name: Prepare
         run: pip install requests beautifulsoup4 ruamel.yaml json5 pyyaml
-      - name: 运行 Python 脚本
-        run: |
-          python list.py # 运行您的脚本
+      #- name: 运行 Python 脚本
+      #  run: |
+      #    python list.py # 运行您的脚本
       - name: Run get_trial.py
         run: python get_trial.py
       - name: Commit
