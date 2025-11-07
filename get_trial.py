@@ -21,6 +21,7 @@ from random import choice
 from time import time
 from urllib.parse import urlsplit, urlunsplit
 import multiprocessing
+import requests  # 修改：新增 import requests，用于下载远程文件
 
 from apis import PanelSession, TempEmail, guess_panel, panel_class_map
 from subconverter import gen_base64_and_clash_config, get
@@ -417,6 +418,63 @@ def build_options(cfg):
     }
     return opt
 
+# 修改：下载远程配置函数，支持重试（不变）
+def download_remote_cfg(url: str, max_retries: int = 3) -> str:
+    """下载远程 trial.cfg 内容"""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            return response.text.strip()
+        except Exception as e:
+            if attempt == max_retries - 1:
+                raise Exception(f"下载远程配置失败（重试 {max_retries} 次）: {e}")
+            time.sleep(1)  # 等待 1 秒重试
+
+# 修改：完全移除硬编码 URL，优先 Secrets URL → 下载；无 Secrets 则用本地文件
+def parse_secrets_or_remote() -> dict:
+    """从 Secrets 或本地文件读取配置，返回类似 read_cfg('trial.cfg')['default'] 的结构"""
+    # 优先从 Secrets 取 URL（不打印 URL 以防日志暴露）
+    secret_url = os.environ.get('TRIAL_CFG_URL')
+    if secret_url:
+        try:
+            content = download_remote_cfg(secret_url)
+            host_count = len([line for line in content.split('\n') if line.strip()])
+            print(f"使用 Secrets URL 下载配置（主机数: {host_count}）", flush=True)  # 日志：不暴露 URL，只显示数量
+            source = 'Secrets URL'
+        except Exception as e:
+            print(f"Secrets URL 下载失败: {e}，fallback 到本地 trial.cfg", flush=True)
+            source = '本地文件'
+            cfg_dict = read_cfg('trial.cfg')
+            if not cfg_dict.get('default'):
+                raise Exception("无有效配置：Secrets 下载失败且本地 trial.cfg 为空")
+            return cfg_dict
+    else:
+        # 无 Secrets，fallback 到本地文件
+        cfg_dict = read_cfg('trial.cfg')
+        if not cfg_dict.get('default'):
+            raise Exception("请设置 TRIAL_CFG_URL Secrets 或提供本地 trial.cfg 文件")
+        print("使用本地 trial.cfg 文件配置", flush=True)
+        source = '本地文件'
+        return cfg_dict
+    
+    # 解析下载内容：每行一个条目，支持 'url key=value' 格式
+    lines = [line.strip() for line in content.split('\n') if line.strip() and not line.startswith('#')]
+    config = []
+    for line in lines:
+        parts = line.split(maxsplit=1)  # 支持空格分隔选项
+        if len(parts) == 1:
+            config.append([parts[0]])  # 纯 URL
+        else:
+            # 支持选项，如 'url reg_limit=3' → ['url', 'reg_limit', '3']
+            url = parts[0]
+            options = parts[1].split()
+            entry = [url] + [opt for opt in options if '=' in opt]  # 只取 key=value
+            config.append(entry)
+    
+    print(f"配置解析完成（来源: {source}，主机数: {len(config)}）", flush=True)
+    return {'default': config}  # 匹配原 read_cfg 返回格式
+
 if __name__ == '__main__':
     pre_repo = read('.github/repo_get_trial')
     cur_repo = os.getenv('GITHUB_REPOSITORY')
@@ -424,7 +482,10 @@ if __name__ == '__main__':
         remove('trial.cache')
         write('.github/repo_get_trial', cur_repo)
 
-    cfg = read_cfg('trial.cfg')['default']
+    # 修改：使用新解析函数获取 cfg（无硬编码）
+    cfg_dict = parse_secrets_or_remote()
+    cfg = cfg_dict['default']
+    
     opt = build_options(cfg)
     cache = read_cfg('trial.cache', dict_items=True)
 
