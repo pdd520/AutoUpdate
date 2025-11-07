@@ -9,8 +9,52 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇸🇬 ‍新加坡
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港3 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港4 | Agg - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo5 | 直连 - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo7 | 直连 - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港5 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港6 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港7 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港8 | Egg - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg5 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg7 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg1 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg2 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg3 | IPv4 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo2 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo3 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd1 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd2 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd3 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd4 | 高速 - E云-跨境电商服务
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +71,21 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇸🇬 ‍新加坡
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,6 +93,67 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港3 | Agg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港4 | Agg - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo5 | 直连 - E云-跨境电商服务
+  - 🇭🇰 HK香港 | Evo7 | 直连 - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港5 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港6 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港7 | Egg - E云-跨境电商服务
+  - 🇭🇰 【高速】HK香港8 | Egg - E云-跨境电商服务
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇸🇬 SG新加坡 | gg5 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | gg7 | 直连 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg1 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg2 | 高速 - E云-跨境电商服务
+  - 🇸🇬 SG新加坡 | Ggg3 | IPv4 - E云-跨境电商服务
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id004
+  - 🇺🇸 US美国 | evo | 直连1 - E云-跨境电商服务
+  - 🇺🇸 US美国 | evo | 直连2 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo1 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo2 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo3 | 高速 - E云-跨境电商服务
+  - 🇺🇸 US美国 | Evo4 | 高速 - E云-跨境电商服务
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id005
+  - 🇫🇷 FR法国 | Ggd1 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd2 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd3 | 高速 - E云-跨境电商服务
+  - 🇫🇷 FR法国 | Ggd4 | 高速 - E云-跨境电商服务
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id003
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id004
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id005
 proxies:
 - {name: 🇭🇰 【高速】HK香港1 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14641, type: ss, cipher: aes-128-gcm, password: fe00d0cc-67b6-4880-b6d0-91c42dab5f45, udp: true}
 - {name: 🇭🇰 【高速】HK香港2 | Agg - E云-跨境电商服务, server: iepl.eyun-niihost.ayun.mom, port: 14642, type: ss, cipher: aes-128-gcm, password: fe00d0cc-67b6-4880-b6d0-91c42dab5f45, udp: true}
