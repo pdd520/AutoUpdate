@@ -55,6 +55,10 @@ jobs:
 
           git push || echo "No changes to push"
 
+      - name: Cleanup
+        continue-on-error: true
+        run: rm -rf temp-repo
+
       - name: Commit
         id: commit
         continue-on-error: true
