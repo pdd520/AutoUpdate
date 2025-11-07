@@ -1,0 +1,26 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇭🇰 香港01 - 迅云加速, server: 01.xunyunnode.sbs, port: 13058, type: ss, cipher: chacha20-ietf-poly1305, password: eb9af575-1152-46ac-868d-e88f92ee6be0, udp: true}
+- {name: 🇭🇰 香港02 - 迅云加速, server: 02.xunyunnode.sbs, port: 45473, type: ss, cipher: chacha20-ietf-poly1305, password: eb9af575-1152-46ac-868d-e88f92ee6be0, udp: true}
+- {name: 🇭🇰 香港03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26200, type: ss, cipher: chacha20-ietf-poly1305, password: eb9af575-1152-46ac-868d-e88f92ee6be0, udp: true}
+- {name: 🇭🇰 香港04 - 迅云加速, server: wa.xunyunnode.sbs, port: 35301, type: ss, cipher: chacha20-ietf-poly1305, password: eb9af575-1152-46ac-868d-e88f92ee6be0, udp: true}
+- {name: 🇭🇰 香港8.1 - gost, server: hk18.xjay.xyz, port: 48458, type: vmess, uuid: 7bdb1bc8-2e53-4331-9628-a473067c3f6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 2802a65f-8fad-4d39-a456-e74897cf302b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 21000, type: trojan, password: 2802a65f-8fad-4d39-a456-e74897cf302b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03丨Neflix - 山药网, server: n001.xunxunmimisbs.sbs, port: 21001, type: trojan, password: 2802a65f-8fad-4d39-a456-e74897cf302b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港04 - 山药网, server: n002.xunxunmimisbs.sbs, port: 21001, type: trojan, password: 2802a65f-8fad-4d39-a456-e74897cf302b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港01-新疆 - 山药网, server: zl-hk01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 2802a65f-8fad-4d39-a456-e74897cf302b, sni: zl_hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18820, type: vmess, uuid: 1fc6b918-b5c1-39ac-bacd-baae9313d498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇭🇰 香港③一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18838, type: vmess, uuid: 1fc6b918-b5c1-39ac-bacd-baae9313d498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: cf5d0e1e-6979-4d36-8aa4-ded2c55c782e, udp: true}
+- {name: 🇭🇰 香港01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: 7de87371-3150-4c34-b127-be7319c6b241, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21200, type: trojan, password: 7de87371-3150-4c34-b127-be7319c6b241, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21201, type: trojan, password: 7de87371-3150-4c34-b127-be7319c6b241, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港04 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21201, type: trojan, password: 7de87371-3150-4c34-b127-be7319c6b241, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 12ae0237-966a-4238-a4b3-583d416ff0f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 12ae0237-966a-4238-a4b3-583d416ff0f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 12ae0237-966a-4238-a4b3-583d416ff0f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: 12ae0237-966a-4238-a4b3-583d416ff0f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: 12ae0237-966a-4238-a4b3-583d416ff0f7, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: 12ae0237-966a-4238-a4b3-583d416ff0f7, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
