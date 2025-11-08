@@ -1,7 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 65841254-a1db-450a-ae49-b1a9f4eef29a, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 722f6643-300a-4937-b8b8-80b9f2409c4e, udp: true}
+- {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: bcf7706d-8de1-4c1c-82dd-7a327adbb025, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: bcf7706d-8de1-4c1c-82dd-7a327adbb025, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 13638cd7-7cba-4e06-b96e-8c22701d7d24, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 13638cd7-7cba-4e06-b96e-8c22701d7d24, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾01-新疆 - 山药网, server: zl-tw01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 13638cd7-7cba-4e06-b96e-8c22701d7d24, skip-cert-verify: true, udp: true}
