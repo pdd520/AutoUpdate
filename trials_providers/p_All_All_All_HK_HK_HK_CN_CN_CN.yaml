@@ -1,14 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 974cf394-05dc-47fc-9eb3-09aff11a04b4, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 974cf394-05dc-47fc-9eb3-09aff11a04b4, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 974cf394-05dc-47fc-9eb3-09aff11a04b4, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 974cf394-05dc-47fc-9eb3-09aff11a04b4, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 21300, type: trojan, password: 3751f509-a4ea-4eea-b6f8-32747f39fba8, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港02 - 雕云, server: n002.xunxunmimisbs.sbs, port: 21300, type: trojan, password: 3751f509-a4ea-4eea-b6f8-32747f39fba8, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 21301, type: trojan, password: 3751f509-a4ea-4eea-b6f8-32747f39fba8, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港04 - 雕云, server: n002.xunxunmimisbs.sbs, port: 21301, type: trojan, password: 3751f509-a4ea-4eea-b6f8-32747f39fba8, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21200, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21200, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港03丨Neflix - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 21201, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港04 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 21201, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港01 - 迅云加速, server: 01.xunyunnode.sbs, port: 13058, type: ss, cipher: chacha20-ietf-poly1305, password: 7799f6e8-967e-4c73-af67-fd04179b8c63, udp: true}
 - {name: 🇭🇰 香港02 - 迅云加速, server: 02.xunyunnode.sbs, port: 45473, type: ss, cipher: chacha20-ietf-poly1305, password: 7799f6e8-967e-4c73-af67-fd04179b8c63, udp: true}
 - {name: 🇭🇰 香港03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26200, type: ss, cipher: chacha20-ietf-poly1305, password: 7799f6e8-967e-4c73-af67-fd04179b8c63, udp: true}
