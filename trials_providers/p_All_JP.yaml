@@ -1,11 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 38f0e2f8-c14b-4ed2-8df9-192540387aa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 38f0e2f8-c14b-4ed2-8df9-192540387aa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 迅云加速, server: 01.xunyunnode.sbs, port: 38763, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 迅云加速, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇯🇵 日本03丨Neflix - 迅云加速, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇯🇵 日本04丨GPT - 迅云加速, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 1d3f55b1-71b6-4488-8813-6791d5380682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 1d3f55b1-71b6-4488-8813-6791d5380682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}

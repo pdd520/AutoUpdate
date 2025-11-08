@@ -1,13 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 9842923c-4b41-4bd4-8f3c-b03924cd1349, udp: true}
-- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 38f0e2f8-c14b-4ed2-8df9-192540387aa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: a8ecef53-5e97-4559-a0c4-1013a50f087c, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: a8ecef53-5e97-4559-a0c4-1013a50f087c, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: a8ecef53-5e97-4559-a0c4-1013a50f087c, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾01 - 迅云加速, server: 01.xunyunnode.sbs, port: 16755, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇹🇼 台湾02 - 迅云加速, server: 02.xunyunnode.sbs, port: 43592, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇹🇼 台湾03 - 迅云加速, server: xc.xunyunnode.sbs, port: 28886, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: 🇹🇼 台湾04 - 迅云加速, server: wa.xunyunnode.sbs, port: 12009, type: ss, cipher: chacha20-ietf-poly1305, password: 5beca502-cf95-485a-b9c7-48dc1747c3b7, udp: true}
+- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 11f4dfd7-7ba8-4bdc-86e3-1cd2587de8ca, udp: true}
+- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 1d3f55b1-71b6-4488-8813-6791d5380682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 7603db1f-a7e4-459d-89f5-1ab381e46d3a, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 7603db1f-a7e4-459d-89f5-1ab381e46d3a, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 7603db1f-a7e4-459d-89f5-1ab381e46d3a, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18850, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18856, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 3bbaead2-c184-3949-aa59-fce06b34701a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

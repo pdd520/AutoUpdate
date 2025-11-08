@@ -93,7 +93,6 @@ proxy-groups:
   - p_All_All_JP_JP
   - p_All_All_JP_JP
   - p_All_HK_CN
-  - p_All_US
   - p_All_Other
   - p_All_All_All_All_Other_Other_Other_Other
   - p_All_All_All_All_Other_Other_Other_Other
@@ -119,9 +118,10 @@ proxy-groups:
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_CN
-  - p_All_TW_CN
   - p_All_JP
+  - p_All_TW_CN
+  - p_All_US
+  - p_All_CN
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -242,8 +242,8 @@ proxy-groups:
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
-  - p_All_CN
   - p_All_TW_CN
+  - p_All_CN
 - name: 🇸🇬 ‍新加坡
   type: url-test
   tolerance: 100
@@ -296,11 +296,11 @@ proxy-groups:
   - p_All_All_All_US_US_US
   - p_All_All_All_US_US_US
   - p_All_All_All_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
   - p_All_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
-  - p_All_All_All_All_US_US_US_US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
@@ -522,15 +522,6 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   p_All_Other:
     type: http
     url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_Other.yaml
@@ -594,11 +585,11 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_CN:
+  p_All_JP:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_CN.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_JP.yaml
     interval: 180
-    path: trials_providers/p_All_CN.yaml
+    path: trials_providers/p_All_JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -612,11 +603,20 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_JP:
+  p_All_US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_JP.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_US.yaml
     interval: 180
-    path: trials_providers/p_All_JP.yaml
+    path: trials_providers/p_All_US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  p_All_CN:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_CN.yaml
+    interval: 180
+    path: trials_providers/p_All_CN.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
