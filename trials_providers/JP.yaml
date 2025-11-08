@@ -1,70 +1,71 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 6bbc7780-fa52-46e8-9541-a8fec2206104, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 6bbc7780-fa52-46e8-9541-a8fec2206104, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id013 {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 399c23d9-7d36-4e2d-be6e-d4ace9174e82, udp: true}
+- &id001 {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 96d72d48-7f37-4510-b763-972651aef7f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 96d72d48-7f37-4510-b763-972651aef7f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id007 {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id008 {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id009 {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id010 {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- &id003 {name: 🇯🇵 日本01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 41400, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇯🇵 日本02丨Tiktok - 雕云, server: n002.xunxunmimisbs.sbs, port: 41400, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id005 {name: 🇯🇵 日本03丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 41401, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇯🇵 日本04丨GPT - 雕云, server: n002.xunxunmimisbs.sbs, port: 41401, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇯🇵 日本01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 41400, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇯🇵 日本02丨Tiktok - 雕云, server: n002.xunxunmimisbs.sbs, port: 41400, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id005 {name: 🇯🇵 日本03丨Neflix - 雕云, server: n001.xunxunmimisbs.sbs, port: 41401, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇯🇵 日本04丨GPT - 雕云, server: n002.xunxunmimisbs.sbs, port: 41401, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
 - *id005
 - *id006
-- &id009 {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id010 {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id012 {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id007 {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id008 {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- *id007
+- *id008
+- *id009
+- *id010
+- &id011 {name: 🇯🇵 日本01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5e037f2e-9c5b-4d29-883a-e38b4f537ed1, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id012 {name: 🇯🇵 日本02丨Tiktok - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 41300, type: trojan, password: 5e037f2e-9c5b-4d29-883a-e38b4f537ed1, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 93f40b13-edc3-4f4e-bc9a-94b60159e4a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 93f40b13-edc3-4f4e-bc9a-94b60159e4a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id014 {name: 🇯🇵 日本01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 41000, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id015 {name: 🇯🇵 日本02丨Tiktok - 山药网, server: n002.xunxunmimisbs.sbs, port: 41000, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id016 {name: 🇯🇵 日本03丨Neflix - 山药网, server: n001.xunxunmimisbs.sbs, port: 41001, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id017 {name: 🇯🇵 日本04丨GPT - 山药网, server: n002.xunxunmimisbs.sbs, port: 41001, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id018 {name: 🇯🇵 日本01-新疆 - 山药网, server: zl-jp01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 0a4f0f5f-e48d-47ec-a9a2-da677d0cc803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 0a4f0f5f-e48d-47ec-a9a2-da677d0cc803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id013 {name: 🇯🇵 日本01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 41000, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id014 {name: 🇯🇵 日本02丨Tiktok - 山药网, server: n002.xunxunmimisbs.sbs, port: 41000, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id015 {name: 🇯🇵 日本03丨Neflix - 山药网, server: n001.xunxunmimisbs.sbs, port: 41001, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id016 {name: 🇯🇵 日本04丨GPT - 山药网, server: n002.xunxunmimisbs.sbs, port: 41001, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id017 {name: 🇯🇵 日本01-新疆 - 山药网, server: zl-jp01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id007
 - *id008
 - *id009
 - *id010
-- *id011
-- *id012
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- *id013
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: bc960038-349d-44e7-bdb6-694554c86f7b, udp: true}
 - *id001
 - *id002
-- *id007
-- *id008
+- *id011
+- *id012
 - *id003
 - *id004
 - *id005
 - *id006
-- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 87f58993-68cf-4786-964d-2de0919dcd1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 87f58993-68cf-4786-964d-2de0919dcd1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 87f58993-68cf-4786-964d-2de0919dcd1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 87f58993-68cf-4786-964d-2de0919dcd1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 87f58993-68cf-4786-964d-2de0919dcd1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 87f58993-68cf-4786-964d-2de0919dcd1d, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 87f58993-68cf-4786-964d-2de0919dcd1d, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 87f58993-68cf-4786-964d-2de0919dcd1d, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-- *id007
-- *id008
+- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 8d39124e-81e5-4c8a-bba9-47a7165e2b29, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+- *id011
+- *id012
 - {name: '🇯🇵 [vip①]②日本 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 3bbaead2-c184-3949-aa59-fce06b34701a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id013
 - *id014
 - *id015
 - *id016
 - *id017
-- *id018

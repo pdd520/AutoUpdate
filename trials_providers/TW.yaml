@@ -1,49 +1,45 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 6bbc7780-fa52-46e8-9541-a8fec2206104, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 6bbc7780-fa52-46e8-9541-a8fec2206104, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id009 {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 399c23d9-7d36-4e2d-be6e-d4ace9174e82, udp: true}
+- &id001 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 96d72d48-7f37-4510-b763-972651aef7f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 96d72d48-7f37-4510-b763-972651aef7f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id005 {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: 4bc81bc9-c2c0-493e-9226-5cf7438161fc, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- &id003 {name: 🇹🇼 台湾01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 57400, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇹🇼 台湾02 - 雕云, server: n002.xunxunmimisbs.sbs, port: 57400, type: trojan, password: c4ac30b8-1e5b-494a-b295-3c66a4b3f9a2, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇹🇼 台湾01 - 雕云, server: n001.xunxunmimisbs.sbs, port: 57400, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇹🇼 台湾02 - 雕云, server: n002.xunxunmimisbs.sbs, port: 57400, type: trojan, password: 78ceb72c-8a10-45bd-b47f-b353290ad15d, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
-- &id007 {name: 🇹🇼 台湾01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 49130, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id008 {name: 🇹🇼 台湾02 - 火箭云, server: n002.xunxunmimisbs.sbs, port: 49130, type: trojan, password: dcc7ee36-b300-4539-91d2-7482bb929b65, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id005 {name: 🇹🇼 台湾01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28400, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇹🇼 台湾02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28400, type: trojan, password: 5279d7a0-fdd1-4736-895a-d7a846e5b42f, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: f1a181ca-d906-4df3-92a8-f981affd0f20, udp: true}
-- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 93f40b13-edc3-4f4e-bc9a-94b60159e4a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id010 {name: 🇹🇼 台湾01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇹🇼 台湾02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 19030, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id012 {name: 🇹🇼 台湾01-新疆 - 山药网, server: zl-tw01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: 3cb3ceeb-fa8a-457b-bba7-aec3eba7fc7e, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 215372f5-cfe4-4d6a-855f-57017a0867ce, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 215372f5-cfe4-4d6a-855f-57017a0867ce, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 215372f5-cfe4-4d6a-855f-57017a0867ce, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id005
 - *id006
-- *id007
-- *id008
+- &id007 {name: 🇹🇼 台湾01 - 疾速cloud, server: n001.xunxunmimisbs.sbs, port: 28400, type: trojan, password: 5e037f2e-9c5b-4d29-883a-e38b4f537ed1, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id008 {name: 🇹🇼 台湾02 - 疾速cloud, server: n002.xunxunmimisbs.sbs, port: 28400, type: trojan, password: 5e037f2e-9c5b-4d29-883a-e38b4f537ed1, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 345eeccc-898d-465e-93ed-e4d26e3ba307, udp: true}
+- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 0a4f0f5f-e48d-47ec-a9a2-da677d0cc803, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id009 {name: 🇹🇼 台湾01 - 山药网, server: n001.xunxunmimisbs.sbs, port: 19030, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id010 {name: 🇹🇼 台湾02 - 山药网, server: n002.xunxunmimisbs.sbs, port: 19030, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, sni: tw01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id011 {name: 🇹🇼 台湾01-新疆 - 山药网, server: zl-tw01.xxxxyyyysbs.sbs, port: 52800, type: trojan, password: af6f3952-592e-4026-9995-b8dd7f4588ab, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id005
+- *id006
 - {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18850, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18856, type: vmess, uuid: 8b1d027a-5e8b-397a-8b9d-5cbe19d6872d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
-- *id009
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: bc960038-349d-44e7-bdb6-694554c86f7b, udp: true}
 - *id001
 - *id002
-- *id005
-- *id006
+- *id007
+- *id008
 - *id003
 - *id004
-- *id005
-- *id006
+- *id007
+- *id008
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 3bbaead2-c184-3949-aa59-fce06b34701a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id009
 - *id010
 - *id011
-- *id012
