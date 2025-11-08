@@ -24,7 +24,6 @@ proxy-groups:
   tolerance: 100
   proxies: &id001
   - 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼
-  - 🇺🇸 美国-拉斯维加斯-002 - 漏网之鱼
   - 🇺🇸 美国-纽约-001 - 漏网之鱼
   - ❤️故障报修邮箱❤️ - 漏网之鱼
   - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
@@ -72,7 +71,6 @@ proxy-groups:
   tolerance: 300
   proxies: &id002
   - 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼
-  - 🇺🇸 美国-拉斯维加斯-002 - 漏网之鱼
   - 🇺🇸 美国-纽约-001 - 漏网之鱼
 - name: 🎏 ‍其他
   type: url-test
@@ -90,7 +88,6 @@ proxy-groups:
   proxies: *id003
 proxies:
 - {name: 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼, server: 212.192.13.86, port: 23188, type: vmess, uuid: 9c87d694-6bbb-4363-9945-816a2f83d3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: 🇺🇸 美国-拉斯维加斯-002 - 漏网之鱼, server: 212.192.13.86, port: 25170, type: vmess, uuid: 9c87d694-6bbb-4363-9945-816a2f83d3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: 🇺🇸 美国-纽约-001 - 漏网之鱼, server: 212.192.13.86, port: 22130, type: vmess, uuid: 9c87d694-6bbb-4363-9945-816a2f83d3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 212.192.13.86, port: 26125, type: vmess, uuid: 9c87d694-6bbb-4363-9945-816a2f83d3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 212.192.13.86, port: 27126, type: vmess, uuid: 9c87d694-6bbb-4363-9945-816a2f83d3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
