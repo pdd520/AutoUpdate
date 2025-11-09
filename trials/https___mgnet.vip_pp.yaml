@@ -14,14 +14,12 @@ proxy-groups:
   - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
@@ -31,25 +29,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - p_All_All_US_US
-  - p_All_All_US_US
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_SG
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_HK_CN
-  - p_All_Other
-  - p_All_CN
-  - p_All_TW_CN
-  - p_All_JP
-  - p_All_US
+  - HK
+  - TW
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -82,13 +66,11 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
@@ -103,55 +85,33 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id002
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_HK_CN
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
   tolerance: 100
   use: &id003
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_TW_CN
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
   tolerance: 100
   use: &id004
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_HK_HK_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_All_TW_TW_CN_CN
-  - p_All_HK_CN
-  - p_All_CN
-  - p_All_TW_CN
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 100
-  use: &id005
-  - p_All_SG
-  - p_All_All_SG_SG
-  - p_All_All_SG_SG
+  - HK
+  - TW
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 100
-  use: &id006
-  - p_All_All_JP_JP
-  - p_All_All_JP_JP
-  - p_All_JP
+  use: &id005
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
-  use: &id007
-  - p_All_All_US_US
-  - p_All_All_US_US
-  - p_All_US
+  use: &id006
+  - US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
-  use: &id008
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_Other
+  use: &id007
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -161,132 +121,57 @@ proxy-groups:
 - name: 👆🏻🇨🇳 ‍中国
   type: select
   use: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  use: *id006
+  use: *id005
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  use: *id006
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
+  use: *id007
 proxy-providers:
-  p_All_All_US_US:
+  HK:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_US_US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/HK.yaml
     interval: 180
-    path: trials_providers/p_All_All_US_US.yaml
+    path: trials_providers/https___mgnet.vip/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_Other_Other:
+  TW:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_Other_Other.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/TW.yaml
     interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
+    path: trials_providers/https___mgnet.vip/TW.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_SG:
+  JP:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_SG.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/JP.yaml
     interval: 180
-    path: trials_providers/p_All_SG.yaml
+    path: trials_providers/https___mgnet.vip/JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_HK_HK_CN_CN:
+  US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_HK_HK_CN_CN.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/US.yaml
     interval: 180
-    path: trials_providers/p_All_All_HK_HK_CN_CN.yaml
+    path: trials_providers/https___mgnet.vip/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_SG_SG:
+  Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_SG_SG.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_SG_SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_TW_TW_CN_CN:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_All_TW_TW_CN_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_JP_JP:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_JP_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_All_JP_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_HK_CN:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_HK_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_HK_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_CN:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_TW_CN:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_TW_CN.yaml
-    interval: 180
-    path: trials_providers/p_All_TW_CN.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_JP:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_JP.yaml
-    interval: 180
-    path: trials_providers/p_All_JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_US:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_US.yaml
-    interval: 180
-    path: trials_providers/p_All_US.yaml
+    path: trials_providers/https___mgnet.vip/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
