@@ -14,13 +14,17 @@ proxy-groups:
   - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
+  - 🎏 ‍其他
   - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
@@ -29,8 +33,10 @@ proxy-groups:
   use: &id001
   - HK
   - TW
+  - SG
   - JP
   - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -63,11 +69,15 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
   - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
   - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -92,16 +102,26 @@ proxy-groups:
   use: &id004
   - HK
   - TW
-- name: 🇯🇵 ‍日本
+- name: 🇸🇬 ‍新加坡
   type: url-test
   tolerance: 100
   use: &id005
+  - SG
+- name: 🇯🇵 ‍日本
+  type: url-test
+  tolerance: 100
+  use: &id006
   - JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
-  use: &id006
+  use: &id007
   - US
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 100
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -111,45 +131,69 @@ proxy-groups:
 - name: 👆🏻🇨🇳 ‍中国
   type: select
   use: *id004
-- name: 👆🏻🇯🇵 ‍日本
+- name: 👆🏻🇸🇬 ‍新加坡
   type: select
   use: *id005
-- name: 👆🏻🇺🇸 ‍美国
+- name: 👆🏻🇯🇵 ‍日本
   type: select
   use: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  use: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use: *id008
 proxy-providers:
   HK:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/http___dingyue.xjay.xyz/HK.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/HK.yaml
     interval: 180
-    path: trials_providers/http___dingyue.xjay.xyz/HK.yaml
+    path: trials_providers/https___gods4.dashicn.buzz_/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   TW:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/http___dingyue.xjay.xyz/TW.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/TW.yaml
     interval: 180
-    path: trials_providers/http___dingyue.xjay.xyz/TW.yaml
+    path: trials_providers/https___gods4.dashicn.buzz_/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/SG.yaml
+    interval: 180
+    path: trials_providers/https___gods4.dashicn.buzz_/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   JP:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/http___dingyue.xjay.xyz/JP.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/JP.yaml
     interval: 180
-    path: trials_providers/http___dingyue.xjay.xyz/JP.yaml
+    path: trials_providers/https___gods4.dashicn.buzz_/JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/http___dingyue.xjay.xyz/US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/US.yaml
     interval: 180
-    path: trials_providers/http___dingyue.xjay.xyz/US.yaml
+    path: trials_providers/https___gods4.dashicn.buzz_/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___gods4.dashicn.buzz_/Other.yaml
+    interval: 180
+    path: trials_providers/https___gods4.dashicn.buzz_/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
