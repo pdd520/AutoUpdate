@@ -1,4 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: f18d913c-2f7b-442e-84fd-04b1e5c8dc21, udp: true}
+- {name: 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼, server: 212.192.13.86, port: 23188, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇺🇸 美国-纽约-001 - 漏网之鱼, server: 212.192.13.86, port: 22130, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: b377ee26-2b0a-496b-a73a-c02968c829bc, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8bfe5785-5173-4e5f-95d5-f90191cdc1a3, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8bfe5785-5173-4e5f-95d5-f90191cdc1a3, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 8bfe5785-5173-4e5f-95d5-f90191cdc1a3, udp: true}
