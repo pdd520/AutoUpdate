@@ -1,15 +1,3 @@
-def sanitize_filename(filename):
-    """清理文件名，移除Windows不允许的字符"""
-    # Windows不允许的字符: < > : " | ? * \ /
-    # 将 : 替换为 _
-    # 将 / 替换为 _
-    # 将 \ 替换为 _
-    # 移除其他不允许的字符
-    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
-    filename = filename.replace(':', '_')
-    return filename
-
-from urllib.parse import urlparse
 import re
 import os
 import string
@@ -17,9 +5,9 @@ import secrets
 from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError
 from datetime import timedelta
 from random import choice
-from time import time  # 修改：保留 from time import time
-import time  # 新增：导入整个 time 模块，支持 time.sleep
-from urllib.parse import urlsplit, urlunsplit
+from time import time  # 用于时间戳
+import time  # 用于 time.sleep
+from urllib.parse import urlparse, urlsplit, urlunsplit
 import multiprocessing
 import requests  # 用于下载远程文件
 
@@ -34,9 +22,48 @@ MAX_WORKERS = min(16, multiprocessing.cpu_count() * 2)  # 动态设置最大工�
 MAX_TASK_TIMEOUT = 45  # 单任务最大等待时间（秒）
 DEFAULT_EMAIL_DOMAINS = ['gmail.com', 'qq.com', 'outlook.com']  # 默认邮箱域名池
 
-# ... (以下函数保持不变：generate_random_username, get_available_domain, log_error, get_sub, should_turn, _register, _get_email_and_email_code, register, is_checkin, try_checkin, try_buy, do_turn, try_turn, cache_sub_info, save_sub_base64_and_clash, save_sub, get_and_save, new_panel_session, get_trial, build_options)
+# ... (其他省略的函数保持不变：generate_random_username, get_available_domain, log_error, get_sub, should_turn, _register, _get_email_and_email_code, register, is_checkin, try_checkin, try_buy, do_turn, try_turn, cache_sub_info, save_sub_base64_and_clash, save_sub, get_and_save, new_panel_session, get_trial)
 
-# 修改：下载远程配置函数，支持重试（不变，但现在 time.sleep 可用）
+def sanitize_filename(filename):
+    """清理文件名，移除Windows不允许的字符"""
+    # Windows不允许的字符: < > : " | ? * \ /
+    # 将 : 替换为 _
+    # 将 / 替换为 _
+    # 将 \ 替换为 _
+    # 移除其他不允许的字符
+    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
+    filename = filename.replace(':', '_')
+    return filename
+
+def build_options(cfg):
+    """根据配置列表构建选项字典 {host: {key: value, ...}}"""
+    opt = {}
+    for entry in cfg:
+        if not entry:  # 跳过空条目
+            continue
+        url = entry[0]
+        # 从 URL 提取主机名（netloc）
+        parsed_url = urlparse(url)
+        host = parsed_url.netloc or parsed_url.path.split('/')[0]  # fallback 到 path 如果 netloc 为空
+        host = host.split(':')[0]  # 移除端口
+        
+        options = {}
+        for param in entry[1:]:
+            if '=' in param:
+                try:
+                    key, value = param.split('=', 1)  # 只拆分第一个 =，支持值中有 =
+                    options[key.strip()] = value.strip()
+                except ValueError:
+                    print(f"警告: 无效参数格式 '{param}'，跳过", flush=True)
+        
+        if host:
+            opt[host] = options
+        else:
+            print(f"警告: 无法从 URL '{url}' 提取主机名，跳过", flush=True)
+    
+    print(f"选项构建完成（主机数: {len(opt)}）", flush=True)
+    return opt
+
 def download_remote_cfg(url: str, max_retries: int = 3) -> str:
     """下载远程 trial.cfg 内容"""
     for attempt in range(max_retries):
@@ -47,9 +74,8 @@ def download_remote_cfg(url: str, max_retries: int = 3) -> str:
         except Exception as e:
             if attempt == max_retries - 1:
                 raise Exception(f"下载远程配置失败（重试 {max_retries} 次）: {e}")
-            time.sleep(1)  # 等待 1 秒重试（现在已导入 time 模块）
+            time.sleep(1)  # 等待 1 秒重试
 
-# 修改：智能处理 Secrets URL，支持多行 URL 列表或单个远程文件 URL
 def parse_secrets_or_remote() -> dict:
     """从 Secrets 或本地文件读取配置，返回类似 read_cfg('trial.cfg')['default'] 的结构"""
     # 优先从 Secrets 取 URL（不打印 URL 以防日志暴露）
@@ -112,7 +138,7 @@ if __name__ == '__main__':
     cfg_dict = parse_secrets_or_remote()
     cfg = cfg_dict['default']
     
-    opt = build_options(cfg)
+    opt = build_options(cfg)  # 现在已定义，不会报错
     cache = read_cfg('trial.cache', dict_items=True)
 
     for host in [*cache]:
@@ -136,7 +162,7 @@ if __name__ == '__main__':
 
     with ThreadPoolExecutor(MAX_WORKERS) as executor:
         futures = []
-        args = [(h, opt[h], cache[h]) for h, *_ in cfg]
+        args = [(h, opt[h], cache.get(h, {})) for h, *_ in cfg]  # 小调整：用 .get(h, {}) 避免 KeyError
         for h, o, c in args:
             futures.append(executor.submit(get_trial, h, o, c))
         for future in as_completed(futures):
