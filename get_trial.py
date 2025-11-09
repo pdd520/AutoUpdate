@@ -1,4 +1,17 @@
+def sanitize_filename(filename):
+    """清理文件名，移除Windows不允许的字符"""
+    # Windows不允许的字符: < > : " | ? * \ /
+    # 将 : 替换为 _
+    # 将 / 替换为 _
+    # 将 \ 替换为 _
+    # 移除其他不允许的字符
+    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
+    filename = filename.replace(':', '_')
+    return filename
+
+from urllib.parse import urlparse
 import re
+
 import os
 import string
 import secrets
@@ -8,8 +21,7 @@ from random import choice
 from time import time
 from urllib.parse import urlsplit, urlunsplit
 import multiprocessing
-import json
-import argparse
+import requests  # 用于下载远程文件
 
 from apis import PanelSession, TempEmail, guess_panel, panel_class_map
 from subconverter import gen_base64_and_clash_config, get
@@ -18,15 +30,9 @@ from utils import (clear_files, g0, keep, list_file_paths, list_folder_paths,
                    timestamp2str, to_zero, write, write_cfg)
 
 # 全局配置
-MAX_WORKERS = min(16, multiprocessing.cpu_count() * 2)
-MAX_TASK_TIMEOUT = 45
-DEFAULT_EMAIL_DOMAINS = ['gmail.com', 'qq.com', 'outlook.com']
-
-def sanitize_filename(filename):
-    """清理文件名，移除Windows不允许的字符"""
-    filename = re.sub(r'[<>:"|?*\\/]', '_', filename)
-    filename = filename.replace(':', '_')
-    return filename
+MAX_WORKERS = min(16, multiprocessing.cpu_count() * 2)  # 动态设置最大工作线程数
+MAX_TASK_TIMEOUT = 45  # 单任务最大等待时间（秒）
+DEFAULT_EMAIL_DOMAINS = ['gmail.com', 'qq.com', 'outlook.com']  # 默认邮箱域名池
 
 def generate_random_username(length=12) -> str:
     """生成指定长度的随机用户名，仅包含字母和数字"""
@@ -38,7 +44,7 @@ def get_available_domain(cache: dict[str, list[str]]) -> str:
     banned_domains = cache.get('banned_domains', [])
     available_domains = [d for d in DEFAULT_EMAIL_DOMAINS if d not in banned_domains]
     if not available_domains:
-        raise Exception("所有默认域名均被封禁，请手动添加新域名到 DEFAULT_EMAIL_DOMAINS")
+        raise Exception("所有默认域名均被封禁")
     return choice(available_domains)
 
 def log_error(host: str, email: str, message: str, log: list):
@@ -338,7 +344,9 @@ def cache_sub_info(info, opt: dict, cache: dict[str, list[str]]):
     cache['sub_info'] = [size2str(used), size2str(total), expire, rest]
 
 def save_sub_base64_and_clash(base64, clash, host, opt: dict):
-    safe_host = sanitize_filename(host)  # 使用 sanitize_filename 清理主机名
+    # 在 GitHub Actions 环境中，路径分隔符是 /，不需要特殊处理
+    # 但在 Windows 本地测试时，需要处理 URL 中的特殊字符
+    safe_host = host.replace(':', '_').replace('/', '_').replace('\\', '_')
     return gen_base64_and_clash_config(
         base64_path=f'trials/{safe_host}',
         clash_path=f'trials/{safe_host}.yaml',
@@ -391,59 +399,16 @@ def new_panel_session(host, cache: dict[str, list[str]], log: list) -> PanelSess
         log.append(f"{host} new_panel_session 异常: {e}")
         return None
 
-def get_trial(host, opt: dict, cache: dict[str, list[str]], success_callback=None):
-    """
-    处理单个主机，新增 success_callback 用于收集成功主机
-    """
+def get_trial(host, opt: dict, cache: dict[str, list[str]]):
     log = []
-    reg_success = False
-    node_count = 0
     try:
         session = new_panel_session(host, cache, log)
         if session:
-            # 检查注册是否成功（从 do_turn 中判断）
-            original_email_len = len(cache.get('email', []))
             get_and_save(session, host, opt, cache, log)
-            # 判断注册成功：email 列表长度增加 或 sub_url 存在
-            reg_success = len(cache.get('email', [])) > original_email_len or 'sub_url' in cache
             if hasattr(session, 'redirect_origin') and session.redirect_origin:
                 cache['api_host'] = session.host
-            
-            # 获取节点数
-            node_count = int(g0(cache, 'node_n', 0))
-            
-            # 如果成功，回调收集
-            if reg_success and node_count > 0:
-                if success_callback:
-                    success_callback(host, {
-                        'node_count': node_count,
-                        'sub_url': cache.get('sub_url', [''])[0],
-                        'email': cache.get('email', [''])[0],
-                        'expire_info': cache.get('sub_info', [''])[2]  # 过期信息
-                    })
-                log.append(f"✅ 成功: {host} (节点数: {node_count}, 订阅: {cache.get('sub_url', [''])[0]})")
-            else:
-                # 失败时清理文件
-                safe_host = sanitize_filename(host)
-                for path in [f'trials/{safe_host}', f'trials/{safe_host}.yaml', f'trials_providers/{safe_host}']:
-                    if os.path.exists(path):
-                        if os.path.isfile(path):
-                            remove(path)
-                        else:
-                            clear_files(path)
-                            remove(path)
-                log.append(f"❌ 失败: {host} (注册: {'是' if reg_success else '否'}, 节点: {node_count})")
     except Exception as e:
         log.append(f"{host} 处理异常: {e}")
-        # 异常时也清理
-        safe_host = sanitize_filename(host)
-        for path in [f'trials/{safe_host}', f'trials/{safe_host}.yaml', f'trials_providers/{safe_host}']:
-            if os.path.exists(path):
-                if os.path.isfile(path):
-                    remove(path)
-                else:
-                    clear_files(path)
-                    remove(path)
     return log
 
 def build_options(cfg):
@@ -453,38 +418,77 @@ def build_options(cfg):
     }
     return opt
 
-def save_success_domains(success_hosts, output_dir='.'):
-    """保存成功域名列表"""
-    if not success_hosts:
-        print("无成功主机。")
-        return
+# 修改：下载远程配置函数，添加 User-Agent 头，提高成功率
+def download_remote_cfg(url: str, max_retries: int = 3) -> str:
+    """下载远程 trial.cfg 内容"""
+    headers = {'User-Agent': 'Mozilla/5.0 (compatible; Python-Request)'}  # 模拟浏览器
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+            return response.text.strip()
+        except requests.exceptions.RequestException as e:
+            print(f"下载尝试 {attempt + 1}/{max_retries} 失败: {str(e)[:100]}...", flush=True)  # 调试日志
+            if attempt == max_retries - 1:
+                raise Exception(f"下载远程配置失败（重试 {max_retries} 次，可能网络问题或 URL 无效）: {e}")
+            time.sleep(2 ** attempt)  # 指数退避重试
+
+# 修改：优化解析函数，添加调试日志和更友好错误
+def parse_secrets_or_remote() -> dict:
+    """从 Secrets 或本地文件读取配置，返回类似 read_cfg('trial.cfg')['default'] 的结构"""
+    # 优先从 Secrets 取 URL
+    secret_url = os.environ.get('TRIAL_CFG_URL')
+    print(f"DEBUG: TRIAL_CFG_URL = {'SET' if secret_url else 'NOT_SET'}", flush=True)  # 临时调试日志
+    if secret_url:
+        try:
+            content = download_remote_cfg(secret_url)
+            host_count = len([line for line in content.split('\n') if line.strip()])
+            print(f"使用 Secrets URL 下载配置（主机数: {host_count}）", flush=True)
+            source = 'Secrets URL'
+        except Exception as e:
+            print(f"Secrets URL 下载失败: {e}，fallback 到本地 trial.cfg", flush=True)
+            source = '本地文件'
+            cfg_dict = read_cfg('trial.cfg')
+            if not cfg_dict.get('default'):
+                raise Exception(f"配置加载失败：Secrets 下载错误（{e}），且本地 trial.cfg 为空或无效。请检查网络/URL 或提供本地文件。")
+            print(f"使用本地 trial.cfg（主机数: {len(cfg_dict['default'])}）", flush=True)
+            return cfg_dict
+    else:
+        # 无 Secrets，fallback 到本地文件
+        cfg_dict = read_cfg('trial.cfg')
+        if not cfg_dict.get('default'):
+            raise Exception("配置加载失败：未设置 TRIAL_CFG_URL Secrets，且本地 trial.cfg 为空或无效。请在 GitHub Actions YAML 中添加 env: TRIAL_CFG_URL: ${{ secrets.TRIAL_CFG_URL }}，或提供本地文件。")
+        print(f"使用本地 trial.cfg 文件配置（主机数: {len(cfg_dict['default'])}）", flush=True)
+        return cfg_dict
     
-    # 纯文本列表
-    txt_path = os.path.join(output_dir, 'success_domains.txt')
-    with open(txt_path, 'w', encoding='utf-8') as f:
-        for host in success_hosts:
-            f.write(host + '\n')
-    print(f"成功域名列表已保存到: {txt_path} (总数: {len(success_hosts)})")
+    # 解析下载内容：每行一个条目，支持 'url key=value' 格式
+    lines = [line.strip() for line in content.split('\n') if line.strip() and not line.startswith('#')]
+    config = []
+    for line in lines:
+        parts = line.split(maxsplit=1)  # 支持空格分隔选项
+        if len(parts) == 1:
+            config.append([parts[0]])  # 纯 URL
+        else:
+            # 支持选项，如 'url reg_limit=3' → ['url', 'reg_limit', '3']
+            url = parts[0]
+            options = parts[1].split()
+            entry = [url] + [opt for opt in options if '=' in opt]  # 只取 key=value
+            config.append(entry)
     
-    # JSON 带元数据
-    json_path = os.path.join(output_dir, 'success_domains.json')
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(success_hosts, f, ensure_ascii=False, indent=2)
-    print(f"成功域名详情已保存到: {json_path}")
+    print(f"配置解析完成（来源: {source}，主机数: {len(config)}）", flush=True)
+    return {'default': config}  # 匹配原 read_cfg 返回格式
 
 if __name__ == '__main__':
-    # 命令行参数
-    parser = argparse.ArgumentParser(description='批量获取机场试用订阅')
-    parser.add_argument('--output-dir', type=str, default='.', help='输出目录 (默认当前目录)')
-    args = parser.parse_args()
-    
     pre_repo = read('.github/repo_get_trial')
     cur_repo = os.getenv('GITHUB_REPOSITORY')
     if pre_repo != cur_repo and cur_repo is not None:
         remove('trial.cache')
         write('.github/repo_get_trial', cur_repo)
 
-    cfg = read_cfg('trial.cfg')['default']
+    # 使用新解析函数获取 cfg
+    cfg_dict = parse_secrets_or_remote()
+    cfg = cfg_dict['default']
+    
     opt = build_options(cfg)
     cache = read_cfg('trial.cache', dict_items=True)
 
@@ -507,19 +511,11 @@ if __name__ == '__main__':
             clear_files(path)
             remove(path)
 
-    # 收集成功主机
-    success_hosts = []  # 列表[host] for txt
-    success_details = {}  # dict{host: details} for json
-    
-    def collect_success(host, details):
-        success_hosts.append(host)
-        success_details[host] = details
-
     with ThreadPoolExecutor(MAX_WORKERS) as executor:
         futures = []
-        args_list = [(h, opt[h], cache[h]) for h, *_ in cfg]
-        for h, o, c in args_list:
-            futures.append(executor.submit(get_trial, h, o, c, collect_success))
+        args = [(h, opt[h], cache[h]) for h, *_ in cfg]
+        for h, o, c in args:
+            futures.append(executor.submit(get_trial, h, o, c))
         for future in as_completed(futures):
             try:
                 log = future.result(timeout=MAX_TASK_TIMEOUT)
@@ -529,9 +525,6 @@ if __name__ == '__main__':
                 print("有任务超时（超过45秒未完成），已跳过。", flush=True)
             except Exception as e:
                 print(f"任务异常: {e}", flush=True)
-
-    # 保存成功列表
-    save_success_domains(success_details, args.output_dir)
 
     total_node_n = gen_base64_and_clash_config(
         base64_path='trial',
