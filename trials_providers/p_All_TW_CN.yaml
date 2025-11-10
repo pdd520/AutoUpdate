@@ -1,13 +1,19 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: d2acf14b-5d09-47eb-b104-7579e2c7dc93, udp: true}
-- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: d2acf14b-5d09-47eb-b104-7579e2c7dc93, udp: true}
-- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: d2acf14b-5d09-47eb-b104-7579e2c7dc93, udp: true}
-- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 86618651-3d2b-4db8-83c0-8c83f5c7296c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 8a1e7a7e-5956-474f-8a4a-ef7367bc449d, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 8a1e7a7e-5956-474f-8a4a-ef7367bc449d, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 8a1e7a7e-5956-474f-8a4a-ef7367bc449d, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: b6df94cc-2e63-4532-b4d6-d549f8a0ffbd, udp: true}
+- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: b6df94cc-2e63-4532-b4d6-d549f8a0ffbd, udp: true}
+- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: b6df94cc-2e63-4532-b4d6-d549f8a0ffbd, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 5c7e3e76-8bc2-4624-a461-43f3bc4d68f6, udp: true}
+- {name: 🇹🇼 台湾.01 - gost, server: hk17.xjay.xyz, port: 34575, type: vmess, uuid: 887341f7-8db4-4064-ad8c-02fc12f1241f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: c7540432-eee6-4b41-9b5a-064648f8975b, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: c7540432-eee6-4b41-9b5a-064648f8975b, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: c7540432-eee6-4b41-9b5a-064648f8975b, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18850, type: vmess, uuid: 78758dd3-20ad-37a6-82d1-804551c2c9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇹🇼 台湾台北原生一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18856, type: vmess, uuid: 78758dd3-20ad-37a6-82d1-804551c2c9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 7fed188f-f802-39a6-af65-a870f1abe200, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
