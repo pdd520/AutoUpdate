@@ -1,9 +1,11 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: c8baaae1-4fc0-476e-8ed0-0914ad802820, udp: true}
-- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 2283020f-cae6-4e24-90ea-267501f3352e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 2283020f-cae6-4e24-90ea-267501f3352e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 498678f5-691e-4220-87ae-9cada199c62a, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 498678f5-691e-4220-87ae-9cada199c62a, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 498678f5-691e-4220-87ae-9cada199c62a, udp: true}
+- {name: 🇯🇵 日本8解锁GPT - gost, server: jp08.vip.xjay.xyz, port: 42357, type: vmess, uuid: 709a1bfd-8619-4d3c-850a-8f2483631ba1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本6解锁GPT - gost, server: jp066.vip.xjay.xyz, port: 33251, type: vmess, uuid: 709a1bfd-8619-4d3c-850a-8f2483631ba1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本①一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18813, type: vmess, uuid: 78758dd3-20ad-37a6-82d1-804551c2c9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本②东京一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18806, type: vmess, uuid: 78758dd3-20ad-37a6-82d1-804551c2c9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
 - {name: 🇯🇵 日本③大阪一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18812, type: vmess, uuid: 78758dd3-20ad-37a6-82d1-804551c2c9bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: ixigua.com, network: ws, ws-opts: {path: /, headers: {Host: ixigua.com}}, udp: true}
