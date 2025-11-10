@@ -9,23 +9,8 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
-  - ⚡ ‍低延迟
-  - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
-- name: ⚡ ‍低延迟
-  type: url-test
-  tolerance: 100
-  use: &id001
-  - HK
-  - Other
-- name: 👆🏻 ‍指定
-  type: select
-  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -42,17 +27,11 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🎏 ‍其他
-  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -60,41 +39,7 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - HK
-- name: 🎏 ‍其他
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - Other
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
-- name: 👆🏻🎏 ‍其他
-  type: select
-  use: *id003
-proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___huojian4.top_/HK.yaml
-    interval: 180
-    path: trials_providers/https___huojian4.top_/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___huojian4.top_/Other.yaml
-    interval: 180
-    path: trials_providers/https___huojian4.top_/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxy-providers: {}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
