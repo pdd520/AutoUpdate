@@ -9,15 +9,12 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 0a53f2dd-a095-4857-8909-83fbd65a87f1, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: 0a53f2dd-a095-4857-8909-83fbd65a87f1, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: 0a53f2dd-a095-4857-8909-83fbd65a87f1, udp: true}
-- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 741dd91d-6972-4d9d-801a-a3112448b16c, udp: true}
-- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 741dd91d-6972-4d9d-801a-a3112448b16c, udp: true}
-- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 741dd91d-6972-4d9d-801a-a3112448b16c, udp: true}
+- &id003 {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 78a1b376-c64c-4f2f-89bb-ab25a5a1aec5, udp: true}
+- &id004 {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 78a1b376-c64c-4f2f-89bb-ab25a5a1aec5, udp: true}
+- &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 78a1b376-c64c-4f2f-89bb-ab25a5a1aec5, udp: true}
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 91a780ed-cc7a-4d27-bd51-7c507cd22568, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 693d56e3-2b69-4bfb-8f5b-68f91de130b8, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
 - *id005
@@ -26,9 +23,6 @@ proxies:
 - {name: 🇺🇸 美国洛杉矶②一优化 - tuboshu.io|土拨鼠.co, server: yresdc3fjfg.raspn.cn, port: 18837, type: vmess, uuid: 9389981f-b04b-37bd-aab8-5e7893941606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yresdc3fjfg.raspn.cn}}, udp: true}
 - *id006
 - *id007
-- *id003
-- *id004
-- *id005
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 26a6b996-1560-4d4f-bb70-ad0480822aaf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
