@@ -11,21 +11,18 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - 🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
+  - 🎏 ‍其他
   - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
   tolerance: 100
   use: &id001
-  - TW
   - US
-  - p_All_CN
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -45,20 +42,16 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
+  - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -67,55 +60,37 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - TW
-- name: 🇨🇳 ‍中国
-  type: url-test
-  tolerance: 100
-  use: &id003
-  - TW
-  - p_All_CN
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
-  use: &id004
+  use: &id002
   - US
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  use: *id002
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  use: *id003
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 100
+  use: &id003
+  - Other
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id004
+  use: *id002
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use: *id003
 proxy-providers:
-  TW:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___yywhale.com/TW.yaml
-    interval: 180
-    path: trials_providers/https___yywhale.com/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___yywhale.com/US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___vaamx.louwangzhiyu.online_/US.yaml
     interval: 180
-    path: trials_providers/https___yywhale.com/US.yaml
+    path: trials_providers/https___vaamx.louwangzhiyu.online_/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_CN:
+  Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___yywhale.com/p_All_CN.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___vaamx.louwangzhiyu.online_/Other.yaml
     interval: 180
-    path: trials_providers/https___yywhale.com/p_All_CN.yaml
+    path: trials_providers/https___vaamx.louwangzhiyu.online_/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
