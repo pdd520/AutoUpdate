@@ -1,21 +1,21 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: b2ca6bb3-7e4f-4257-a525-08d8dfae1c6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: b2ca6bb3-7e4f-4257-a525-08d8dfae1c6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: fb54996b-9a10-4529-b4f9-a7544de9504c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: fb54996b-9a10-4529-b4f9-a7544de9504c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
-- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: d974e96d-3578-457e-9f37-74bf479cee56, udp: true}
-- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: d974e96d-3578-457e-9f37-74bf479cee56, udp: true}
-- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: d974e96d-3578-457e-9f37-74bf479cee56, udp: true}
-- &id003 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
-- &id004 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
-- &id005 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
-- &id006 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
-- &id007 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
-- &id008 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 71bcbfff-2b80-42b0-a10a-cc10249c8a08, udp: true}
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: aaf0cc91-7b41-4573-b377-61479359df4f, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: aaf0cc91-7b41-4573-b377-61479359df4f, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: aaf0cc91-7b41-4573-b377-61479359df4f, udp: true}
+- &id003 {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
+- &id004 {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
+- &id005 {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
+- &id006 {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
+- &id007 {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
+- &id008 {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: c7f59bf0-6d13-4128-ba6b-fc095409053a, udp: true}
 - *id001
 - *id002
 - *id003
