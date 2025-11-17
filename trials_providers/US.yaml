@@ -17,10 +17,12 @@ proxies:
 - &id005 {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ec030c29-5e0a-413b-a1a3-5f4d30401d00, udp: true}
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: a7114a6d-9cb9-4f3e-bdbb-d124d1405daf, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: fe7d3d02-ffea-4db6-8d78-b7dcd9e5a1b0, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
 - *id005
+- *id006
+- *id007
 - *id003
 - *id004
 - *id005
@@ -35,4 +37,3 @@ proxies:
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 3dae572e-af27-467b-98f1-6de9c8b161ec, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
 - *id006
 - *id007
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 9f251a63-fca2-31e8-98df-58f8f22a5e18, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
