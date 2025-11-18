@@ -7,14 +7,14 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 552393e0-ff95-462c-b5fa-9aa2c3b56c47, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 552393e0-ff95-462c-b5fa-9aa2c3b56c47, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 552393e0-ff95-462c-b5fa-9aa2c3b56c47, udp: true}
-- *id001
-- *id002
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 7c2a6ba8-35d9-49ac-9e07-933d4270d4dc, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 7c2a6ba8-35d9-49ac-9e07-933d4270d4dc, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 7c2a6ba8-35d9-49ac-9e07-933d4270d4dc, udp: true}
 - &id003 {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5a70b2bc-7d7d-4c08-b16c-4e35bfb50f00, udp: true}
 - &id004 {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5a70b2bc-7d7d-4c08-b16c-4e35bfb50f00, udp: true}
 - &id005 {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 5a70b2bc-7d7d-4c08-b16c-4e35bfb50f00, udp: true}
+- *id001
+- *id002
 - *id003
 - *id004
 - *id005
