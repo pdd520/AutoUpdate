@@ -19,7 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
+  - ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple
+  - ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -54,7 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 135bbacb-c310-3f5b-ac32-ffcb837ce7a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 07eaebee-c426-3efd-a630-af5d6f7c8d10, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 07eaebee-c426-3efd-a630-af5d6f7c8d10, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
