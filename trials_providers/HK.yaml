@@ -1,29 +1,22 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: be4cad70-c161-4b8d-8a3d-aca602740ee0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: be4cad70-c161-4b8d-8a3d-aca602740ee0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: c43ecd1e-c85a-445a-b57e-188a6c5e5b0b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: c43ecd1e-c85a-445a-b57e-188a6c5e5b0b, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id005 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: c43ecd1e-c85a-445a-b57e-188a6c5e5b0b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id006 {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: c43ecd1e-c85a-445a-b57e-188a6c5e5b0b, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 97b5245e-349a-4509-9103-9718b7583d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 97b5245e-349a-4509-9103-9718b7583d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇭🇰 香港01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 9c0f3c55-77b7-467e-a920-7614bec86395, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇭🇰 香港02 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21100, type: trojan, password: 9c0f3c55-77b7-467e-a920-7614bec86395, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id005 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 9c0f3c55-77b7-467e-a920-7614bec86395, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id006 {name: 🇭🇰 香港04 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 21101, type: trojan, password: 9c0f3c55-77b7-467e-a920-7614bec86395, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id001
+- *id002
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
 - *id006
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: f85b905e-9df0-4587-88fe-798e3e910b89, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: f85b905e-9df0-4587-88fe-798e3e910b89, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: f85b905e-9df0-4587-88fe-798e3e910b89, udp: true}
 - *id001
 - *id002
-- *id001
-- *id002
-- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: cff8a8c2-3746-4422-8746-be0685731f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: cff8a8c2-3746-4422-8746-be0685731f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: cff8a8c2-3746-4422-8746-be0685731f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: cff8a8c2-3746-4422-8746-be0685731f5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: cff8a8c2-3746-4422-8746-be0685731f5f, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: cff8a8c2-3746-4422-8746-be0685731f5f, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
 - {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: af1162e9-088e-3233-a543-526d275444c2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
