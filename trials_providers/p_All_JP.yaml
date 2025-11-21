@@ -1,9 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 5d25e634-9233-4520-aae9-73902a479b5a, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 5d25e634-9233-4520-aae9-73902a479b5a, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 5d25e634-9233-4520-aae9-73902a479b5a, udp: true}
 - {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4d95ecca-182e-4e99-9ebb-7a1483377c68, udp: true}
 - {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4d95ecca-182e-4e99-9ebb-7a1483377c68, udp: true}
 - {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 4d95ecca-182e-4e99-9ebb-7a1483377c68, udp: true}
@@ -15,3 +12,5 @@ proxies:
 - {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 3e0a0524-4e1b-4a39-af41-fb404c2fda0a, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 3e0a0524-4e1b-4a39-af41-fb404c2fda0a, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 3e0a0524-4e1b-4a39-af41-fb404c2fda0a, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]②日本 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 0b2892f5-ff42-3992-9f4a-40f0f399fd3b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]日本2 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 0b2892f5-ff42-3992-9f4a-40f0f399fd3b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
