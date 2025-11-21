@@ -1,0 +1,9 @@
+%YAML 1.1
+---
+proxies:
+- {name: 🇯🇵 日本01 - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42100, type: trojan, password: fe1c147e-a53b-4ae0-b196-fd1d9f7b849c, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02丨Tiktok - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42100, type: trojan, password: fe1c147e-a53b-4ae0-b196-fd1d9f7b849c, sni: jp01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03丨Neflix - 火箭云, server: n001.xunxunmimisbs.sbs, port: 42101, type: trojan, password: fe1c147e-a53b-4ae0-b196-fd1d9f7b849c, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本04丨GPT - 火箭云, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: fe1c147e-a53b-4ae0-b196-fd1d9f7b849c, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本NO.1 - 大师专线, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 0fc0aaf5-d291-4bb8-be41-1aa40943474f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本NO.2 - 大师专线, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 0fc0aaf5-d291-4bb8-be41-1aa40943474f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
