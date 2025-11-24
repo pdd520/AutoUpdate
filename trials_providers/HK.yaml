@@ -3,27 +3,27 @@
 proxies:
 - &id005 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: f8df48b6-6960-45dc-beb1-de8ba9955ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id006 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: f8df48b6-6960-45dc-beb1-de8ba9955ff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id001 {name: 🇭🇰 香港01 - 火箭云, server: n001.lkjxyqwe.sbs, port: 21100, type: trojan, password: 9c2174a6-4c8a-4b15-8759-a552e2655c9c, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇭🇰 香港02 - 火箭云, server: n001.lkjxyqwe.sbs, port: 21100, type: trojan, password: 9c2174a6-4c8a-4b15-8759-a552e2655c9c, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id003 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: n001.lkjxyqwe.sbs, port: 21101, type: trojan, password: 9c2174a6-4c8a-4b15-8759-a552e2655c9c, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇭🇰 香港04 - 火箭云, server: n001.lkjxyqwe.sbs, port: 21101, type: trojan, password: 9c2174a6-4c8a-4b15-8759-a552e2655c9c, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港01 - 火箭云, server: zzz01.lkjxyqwe.sbs, port: 21100, type: trojan, password: b55870fc-54e9-4bc5-8b03-a8f272a9cbb9, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇭🇰 香港02 - 火箭云, server: zzz01.lkjxyqwe.sbs, port: 21100, type: trojan, password: b55870fc-54e9-4bc5-8b03-a8f272a9cbb9, sni: hk01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇭🇰 香港03丨Neflix - 火箭云, server: zzz01.lkjxyqwe.sbs, port: 21101, type: trojan, password: b55870fc-54e9-4bc5-8b03-a8f272a9cbb9, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇭🇰 香港04 - 火箭云, server: zzz01.lkjxyqwe.sbs, port: 21101, type: trojan, password: b55870fc-54e9-4bc5-8b03-a8f272a9cbb9, sni: hk02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
 - *id004
 - *id005
 - *id006
-- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 3473cd40-502c-431e-bb01-f024d764d8bf, udp: true}
-- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 3473cd40-502c-431e-bb01-f024d764d8bf, udp: true}
-- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 3473cd40-502c-431e-bb01-f024d764d8bf, udp: true}
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: 4fe26976-45f6-4702-b327-75c5411efde6, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: 4fe26976-45f6-4702-b327-75c5411efde6, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: 4fe26976-45f6-4702-b327-75c5411efde6, udp: true}
 - *id005
 - *id006
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: e4b2d212-624b-45db-bafe-da49d9a4e802, udp: true}
+- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
+- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
+- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
+- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
+- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
+- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab2bbeb-fd1b-4752-850c-6bd4ed9a7ea0, udp: true}
 - *id001
 - *id002
 - *id003
