@@ -1,11 +1,14 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.cyou, port: 45054, type: vmess, uuid: 982e950f-d8ed-4b6f-9c4c-8b9afd42f716, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.cyou, port: 45055, type: vmess, uuid: 982e950f-d8ed-4b6f-9c4c-8b9afd42f716, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.cyou, port: 45054, type: vmess, uuid: 04869227-cb0f-47b3-9415-8b406814d1ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.cyou, port: 45055, type: vmess, uuid: 04869227-cb0f-47b3-9415-8b406814d1ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
+- {name: '🇸🇬 [电信专线] 新加坡 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 50412, type: ss, cipher: chacha20-ietf-poly1305, password: e432c23a-2513-4aed-9997-90c107f26eb0, udp: true}
+- {name: '🇸🇬 [联通专线] 新加坡 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 55375, type: ss, cipher: chacha20-ietf-poly1305, password: e432c23a-2513-4aed-9997-90c107f26eb0, udp: true}
+- {name: '🇸🇬 [移动专线] 新加坡 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59384, type: ss, cipher: chacha20-ietf-poly1305, password: e432c23a-2513-4aed-9997-90c107f26eb0, udp: true}
 - *id001
 - *id002
