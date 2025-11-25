@@ -1,23 +1,25 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: bc497047-a2f5-47ab-a964-8c6f7a639fd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: bc497047-a2f5-47ab-a964-8c6f7a639fd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id004 {name: 🇺🇸 美国-纽约-001 - 漏网之鱼, server: 91.149.236.68, port: 22130, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.cyou, port: 45052, type: vmess, uuid: bc497047-a2f5-47ab-a964-8c6f7a639fd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.cyou, port: 45053, type: vmess, uuid: bc497047-a2f5-47ab-a964-8c6f7a639fd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
-- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: b7e085d0-9b9f-45f2-ad7f-6f3577512eb4, udp: true}
-- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: b7e085d0-9b9f-45f2-ad7f-6f3577512eb4, udp: true}
-- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: b7e085d0-9b9f-45f2-ad7f-6f3577512eb4, udp: true}
+- {name: '🇺🇸 [电信专线] 美国 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: ab3c7f18-2214-43fe-a9b2-0ccd13e1920c, udp: true}
+- {name: '🇺🇸 [联通专线] 美国 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 57572, type: ss, cipher: chacha20-ietf-poly1305, password: ab3c7f18-2214-43fe-a9b2-0ccd13e1920c, udp: true}
+- {name: '🇺🇸 [移动专线] 美国 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 50984, type: ss, cipher: chacha20-ietf-poly1305, password: ab3c7f18-2214-43fe-a9b2-0ccd13e1920c, udp: true}
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8b11b46e-fe06-4536-b657-b065614306b0, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 1d3cd2b4-b4a0-4171-9614-8c76934e3b11, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: c90dc2cf-5e1f-469e-98a9-a1c76cc0ccbe, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: c90dc2cf-5e1f-469e-98a9-a1c76cc0ccbe, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: c90dc2cf-5e1f-469e-98a9-a1c76cc0ccbe, udp: true}
-- &id003 {name: 🇺🇸 美国-拉斯维加斯-001 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id004 {name: 🇺🇸 美国-纽约-001 - 漏网之鱼, server: 91.149.236.68, port: 22130, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- *id003
+- *id004
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: c2f78961-d970-4817-95aa-5db74e1c1f4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
