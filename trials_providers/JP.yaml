@@ -5,15 +5,23 @@ proxies:
 - &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: 0628cece-65c4-4482-95d0-c81fa3f5020c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 21a989f1-ba6d-4bbf-a61d-88de1871afa5, udp: true}
-- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 21a989f1-ba6d-4bbf-a61d-88de1871afa5, udp: true}
-- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 21a989f1-ba6d-4bbf-a61d-88de1871afa5, udp: true}
+- {name: '🇯🇵 [电信专线] 日本 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 52707, type: ss, cipher: chacha20-ietf-poly1305, password: 44be577c-aff9-47e9-aecf-b74aaf38a756, udp: true}
+- {name: '🇯🇵 [联通专线] 日本 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 59719, type: ss, cipher: chacha20-ietf-poly1305, password: 44be577c-aff9-47e9-aecf-b74aaf38a756, udp: true}
+- {name: '🇯🇵 [移动专线] 日本 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 55439, type: ss, cipher: chacha20-ietf-poly1305, password: 44be577c-aff9-47e9-aecf-b74aaf38a756, udp: true}
 - *id001
 - *id002
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 84a5447a-9edf-4fb2-9c5a-7897280d506e, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 84a5447a-9edf-4fb2-9c5a-7897280d506e, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 84a5447a-9edf-4fb2-9c5a-7897280d506e, udp: true}
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dc9143a-a7f5-4deb-a416-a87740c32da5, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dc9143a-a7f5-4deb-a416-a87740c32da5, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 1dc9143a-a7f5-4deb-a416-a87740c32da5, udp: true}
 - *id001
 - *id002
-- {name: '🇯🇵 [vip①]②日本 - MG Network', server: ydgz.miloli.me, port: 23617, type: vmess, uuid: 5602b0ed-34a3-3708-a452-0dc17e889c80, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本2 - MG Network', server: dx.miloli.me, port: 23616, type: vmess, uuid: 5602b0ed-34a3-3708-a452-0dc17e889c80, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 7b3ba7f5-a99d-42c6-b686-aab49f134ca9, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]②日本 - MG Network', server: ydgz.miloli.me, port: 23617, type: vmess, uuid: f2b2145c-64c0-3d5f-a7dc-0d8a91e77037, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]日本2 - MG Network', server: dx.miloli.me, port: 23616, type: vmess, uuid: f2b2145c-64c0-3d5f-a7dc-0d8a91e77037, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
