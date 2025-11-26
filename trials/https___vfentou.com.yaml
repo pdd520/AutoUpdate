@@ -19,9 +19,8 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - ℹ️ 您还未购买服务 - 老猫云
-  - 🇱🇦 请登录laomao.biz 购买 - 老猫云
-  - ℹ️ 购买后请更新订阅 - 老猫云
+  - ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple
+  - ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -56,9 +55,8 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 3a37652b-2f36-41a9-a4d6-96f054087a67, udp: true}
-- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 3a37652b-2f36-41a9-a4d6-96f054087a67, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 3a37652b-2f36-41a9-a4d6-96f054087a67, udp: true}
+- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 98457eb6-3d3a-347f-aa6e-a47f05707271, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: 98457eb6-3d3a-347f-aa6e-a47f05707271, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
