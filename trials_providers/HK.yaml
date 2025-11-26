@@ -5,8 +5,9 @@ proxies:
 - &id002 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: 7abe4126-6a28-405b-9adc-d34420135e25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
-- *id001
-- *id002
+- {name: '🇭🇰 [电信专线] 香港 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 58911, type: ss, cipher: chacha20-ietf-poly1305, password: e2c4b02b-3129-43a4-b774-f7120faeea62, udp: true}
+- {name: '🇭🇰 [联通专线] 香港 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 53754, type: ss, cipher: chacha20-ietf-poly1305, password: e2c4b02b-3129-43a4-b774-f7120faeea62, udp: true}
+- {name: '🇭🇰 [移动专线] 香港 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 59543, type: ss, cipher: chacha20-ietf-poly1305, password: e2c4b02b-3129-43a4-b774-f7120faeea62, udp: true}
 - *id001
 - *id002
 - {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: acc116ef-e0d9-4e96-a19a-4a147f8dc779, udp: true}
