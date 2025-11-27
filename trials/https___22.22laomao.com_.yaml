@@ -56,9 +56,9 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8ef0330c-884a-4100-b6ac-62c37d4dbad5, udp: true}
-- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8ef0330c-884a-4100-b6ac-62c37d4dbad5, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 8ef0330c-884a-4100-b6ac-62c37d4dbad5, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 2085f06d-5ad6-4795-ab49-1ebda9ce34d9, udp: true}
+- {name: 🇱🇦 请登录laomao.biz 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 2085f06d-5ad6-4795-ab49-1ebda9ce34d9, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 2085f06d-5ad6-4795-ab49-1ebda9ce34d9, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
