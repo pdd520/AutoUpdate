@@ -7,18 +7,20 @@ proxies:
 - *id002
 - *id001
 - *id002
+- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 5f5c9966-0777-4e32-a23c-ef5de464c8e0, udp: true}
+- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 5f5c9966-0777-4e32-a23c-ef5de464c8e0, udp: true}
+- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 5f5c9966-0777-4e32-a23c-ef5de464c8e0, udp: true}
 - *id001
 - *id002
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: ac53eae7-efad-48d6-b5c9-7b6b4535b03a, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: ac53eae7-efad-48d6-b5c9-7b6b4535b03a, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: ac53eae7-efad-48d6-b5c9-7b6b4535b03a, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 1149eaef-1a01-4ba4-971a-4314a741d10c, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: abc9deea-541e-4ee1-85e1-fc823144363e, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 344f582a-2cfb-49cf-a5c1-249580f8cd51, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 344f582a-2cfb-49cf-a5c1-249580f8cd51, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 344f582a-2cfb-49cf-a5c1-249580f8cd51, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 4c85bfc2-ce2b-4bad-a7bc-e7fab2ca7145, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 039f52e9-b55f-4831-a2e1-72f39a3c769e, udp: true}
 - *id001
 - *id002
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: c126d7c3-e03d-3022-bce9-bc80f7c2ac8a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
