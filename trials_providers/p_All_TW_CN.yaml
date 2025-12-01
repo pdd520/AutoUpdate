@@ -1,11 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: '🇹🇼 [电信专线] 台湾 x A区 - 南北云', server: zf-ct.bgblwow.org, port: 59345, type: ss, cipher: chacha20-ietf-poly1305, password: 76bbbbe4-4848-436b-846c-153eeab2f3df, udp: true}
-- {name: '🇹🇼 [联通专线] 台湾 x A区 - 南北云', server: zf-cu.bgblwow.org, port: 56963, type: ss, cipher: chacha20-ietf-poly1305, password: 76bbbbe4-4848-436b-846c-153eeab2f3df, udp: true}
-- {name: '🇹🇼 [移动专线] 台湾 x A区 - 南北云', server: zf-cm.bgblwow.org, port: 57989, type: ss, cipher: chacha20-ietf-poly1305, password: 76bbbbe4-4848-436b-846c-153eeab2f3df, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 898fefa6-ce76-4bdd-a725-0b8039555439, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 898fefa6-ce76-4bdd-a725-0b8039555439, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 898fefa6-ce76-4bdd-a725-0b8039555439, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 94fbe83c-59dd-4d87-9af1-c35618713d46, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 87a5c89b-a724-45d3-b404-2a11d2676d40, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 87a5c89b-a724-45d3-b404-2a11d2676d40, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 87a5c89b-a724-45d3-b404-2a11d2676d40, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 37cacef7-0d84-4e44-bd08-097584811d34, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: 1f7cfaf3-caea-3396-a2c3-cf3a6bbeca57, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
