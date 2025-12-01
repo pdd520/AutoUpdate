@@ -1,13 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 87a5c89b-a724-45d3-b404-2a11d2676d40, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 37cacef7-0d84-4e44-bd08-097584811d34, udp: true}
-- {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 2e33df28-50f1-4dac-8162-ef8021552077, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国-v6|01 - 悦云 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: 2e33df28-50f1-4dac-8162-ef8021552077, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: dx.miloli.me, port: 23615, type: vmess, uuid: 1f7cfaf3-caea-3396-a2c3-cf3a6bbeca57, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8a17f498-43d8-4fc1-bef0-d88409dfd8dd, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: a2f69dc9-573a-45a3-a3b2-d6fc443f28c1, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: dx.miloli.me, port: 23615, type: vmess, uuid: f8c717be-3940-3473-933d-07e99aaae4c4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
