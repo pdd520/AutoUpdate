@@ -1,11 +1,15 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: f73d29f1-0e08-4cad-a6ec-e404f74b4aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: f73d29f1-0e08-4cad-a6ec-e404f74b4aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: d9557578-6c20-4629-9c07-9e34b2e2670d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: d9557578-6c20-4629-9c07-9e34b2e2670d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 03a6e0bc-1a0b-497a-8c01-c9f3ce4ae961, udp: true}
+- *id001
+- *id002
+- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: f0b3d4a9-d353-45ab-9204-685db7941316, udp: true}
+- *id001
+- *id002
 - {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: dx.miloli.me, port: 23616, type: vmess, uuid: de1ce1dc-eee9-3072-887d-25b92c7c77e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
