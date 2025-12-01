@@ -1,15 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: d7821604-5f47-495b-af57-d5117ee10226, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: d7821604-5f47-495b-af57-d5117ee10226, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 6c814bc9-49df-44d6-a077-61d052db2bf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: 6c814bc9-49df-44d6-a077-61d052db2bf1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
 - *id001
 - *id002
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 4b118901-5481-46be-8b2a-f1b7987be170, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 6a411c9e-0629-4991-a24b-209855be8a21, udp: true}
+- *id001
+- *id002
 - {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
