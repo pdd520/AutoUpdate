@@ -1,13 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇯🇵 日本NO.1 - 大师专线, server: hxa.dashuai.help, port: 45056, type: vmess, uuid: f73d29f1-0e08-4cad-a6ec-e404f74b4aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: f73d29f1-0e08-4cad-a6ec-e404f74b4aaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id001
-- *id002
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 03a6e0bc-1a0b-497a-8c01-c9f3ce4ae961, udp: true}
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 2e33df28-50f1-4dac-8162-ef8021552077, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 2e33df28-50f1-4dac-8162-ef8021552077, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 2e33df28-50f1-4dac-8162-ef8021552077, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -16,6 +9,3 @@ proxies:
 - {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 2e33df28-50f1-4dac-8162-ef8021552077, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本1 - MG Network', server: ydgz.miloli.me, port: 23611, type: vmess, uuid: de1ce1dc-eee9-3072-887d-25b92c7c77e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本2 - MG Network', server: ydgz.miloli.me, port: 23617, type: vmess, uuid: de1ce1dc-eee9-3072-887d-25b92c7c77e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本3 - MG Network', server: ydgz.miloli.me, port: 23618, type: vmess, uuid: de1ce1dc-eee9-3072-887d-25b92c7c77e7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
