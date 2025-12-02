@@ -3,20 +3,34 @@
 proxies:
 - &id016 {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id017 {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: eb95e23c-8944-4783-beee-db688a0e364a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id001 {name: ℹ️ 国内直连网站都是临时的，挂梯子可直接进 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: ℹ️ 国内直进官网：https://goys4.dashi.mom官网更新规律goys1，goys2，goys3 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: 🇬🇧 (IEPL)英国1 - 大师专线, server: hxa.dashuai.help, port: 45066, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇬🇧 (隧道)英国2 - 大师专线, server: hxb.dashuai.help, port: 45067, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id005 {name: '🇰🇷 [3X]韩国 专线NO1 - 大师专线', server: hxa.dashuai.help, port: 45076, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id006 {name: '🇰🇷 [3X]韩国 专线NO2 - 大师专线', server: hxb.dashuai.help, port: 45075, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id007 {name: 🇦🇺 澳大利亚原生1 - 大师专线, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id008 {name: 🇦🇺 澳大利亚原生2 - 大师专线, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id009 {name: 🇨🇦 加拿大1 - 大师专线, server: hxa.dashuai.help, port: 45064, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id010 {name: 🇨🇦 加拿大2 - 大师专线, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id011 {name: 🇮🇳 印度1 - 大师专线, server: hxa.dashuai.help, port: 45074, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id012 {name: 🇮🇳 印度2 - 大师专线, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id013 {name: 🇫🇷 法国1 - 大师专线, server: hxa.dashuai.help, port: 45072, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id014 {name: 🇫🇷 法国2 - 大师专线, server: hxb.dashuai.help, port: 45071, type: vmess, uuid: 8ccf0e0f-c911-45e2-bac3-1ff056aa3c5b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: ℹ️ 国内直连网站都是临时的，挂梯子可直接进 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: ℹ️ 国内直进官网：https://goys4.dashi.mom官网更新规律goys1，goys2，goys3 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇬🇧 (IEPL)英国1 - 大师专线, server: hxa.dashuai.help, port: 45066, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇬🇧 (隧道)英国2 - 大师专线, server: hxb.dashuai.help, port: 45067, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id005 {name: '🇰🇷 [3X]韩国 专线NO1 - 大师专线', server: hxa.dashuai.help, port: 45076, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id006 {name: '🇰🇷 [3X]韩国 专线NO2 - 大师专线', server: hxb.dashuai.help, port: 45075, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id007 {name: 🇦🇺 澳大利亚原生1 - 大师专线, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id008 {name: 🇦🇺 澳大利亚原生2 - 大师专线, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id009 {name: 🇨🇦 加拿大1 - 大师专线, server: hxa.dashuai.help, port: 45064, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id010 {name: 🇨🇦 加拿大2 - 大师专线, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id011 {name: 🇮🇳 印度1 - 大师专线, server: hxa.dashuai.help, port: 45074, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id012 {name: 🇮🇳 印度2 - 大师专线, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id013 {name: 🇫🇷 法国1 - 大师专线, server: hxa.dashuai.help, port: 45072, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id014 {name: 🇫🇷 法国2 - 大师专线, server: hxb.dashuai.help, port: 45071, type: vmess, uuid: 994610b8-d04b-46b7-935e-d06bd57fa4c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- *id007
+- *id008
+- *id009
+- *id010
+- *id011
+- *id012
+- *id013
+- *id014
 - *id001
 - *id002
 - *id003
@@ -46,9 +60,9 @@ proxies:
 - *id012
 - *id013
 - *id014
-- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 9b1e1a4b-ff76-4ada-9b42-8259fe8fcf79, udp: true}
-- {name: 🇱🇦 请登录www.laomaourl.com 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 9b1e1a4b-ff76-4ada-9b42-8259fe8fcf79, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 9b1e1a4b-ff76-4ada-9b42-8259fe8fcf79, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: be2d016c-8f12-4d9c-8467-00cd425689f6, udp: true}
+- {name: 🇱🇦 请登录www.laomaourl.com 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: be2d016c-8f12-4d9c-8467-00cd425689f6, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: be2d016c-8f12-4d9c-8467-00cd425689f6, udp: true}
 - {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 58af8c4a-8266-4fdc-b019-26f772b9243c, udp: true}
 - {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 58af8c4a-8266-4fdc-b019-26f772b9243c, udp: true}
 - {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 58af8c4a-8266-4fdc-b019-26f772b9243c, udp: true}
@@ -76,28 +90,10 @@ proxies:
 - {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 58af8c4a-8266-4fdc-b019-26f772b9243c, udp: true}
 - {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 58af8c4a-8266-4fdc-b019-26f772b9243c, udp: true}
 - *id015
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5c18e9-1dd5-46d6-9b69-682dae72bd6c, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5c18e9-1dd5-46d6-9b69-682dae72bd6c, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5c18e9-1dd5-46d6-9b69-682dae72bd6c, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 1f5c18e9-1dd5-46d6-9b69-682dae72bd6c, udp: true}
-- *id016
-- *id017
-- {name: ℹ️ 永久地址：bit.ly/1pink2 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: a7a1fe3f-1000-3f59-a945-3a97091141ef, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 使用不了请重新导入订阅 - VeryPinkNxpple, server: 2025.linenet.xyz, port: 443, type: trojan, password: a7a1fe3f-1000-3f59-a945-3a97091141ef, sni: 2025.linenet.xyz, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
-- *id005
-- *id006
-- *id007
-- *id008
-- *id009
-- *id010
-- *id011
-- *id012
-- *id013
-- *id014
+- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 7a3ee4c5-1b33-4037-83f0-1134d90ba61c, udp: true}
+- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 7a3ee4c5-1b33-4037-83f0-1134d90ba61c, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 7a3ee4c5-1b33-4037-83f0-1134d90ba61c, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 7a3ee4c5-1b33-4037-83f0-1134d90ba61c, udp: true}
 - {name: 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: 7f52c505-d770-4cd1-adf2-b5676e516907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: 7f52c505-d770-4cd1-adf2-b5676e516907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: 7f52c505-d770-4cd1-adf2-b5676e516907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -109,7 +105,3 @@ proxies:
 - {name: 🇩🇪 【德国06】*0.5倍率 - 悦云, server: netcp4.616626.xyz, port: 10027, type: trojan, password: 7f52c505-d770-4cd1-adf2-b5676e516907, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
 - *id016
 - *id017
-- {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 0e614962-97fa-32fc-aaf4-503d2a837b44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇬🇧 [vip①]英国1 - MG Network', server: ydgz.miloli.me, port: 23605, type: vmess, uuid: 0e614962-97fa-32fc-aaf4-503d2a837b44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇬🇧 [vip①]英国2 - MG Network', server: dx.miloli.me, port: 23613, type: vmess, uuid: 0e614962-97fa-32fc-aaf4-503d2a837b44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇰🇷 [vip①]韩国1 - MG Network', server: dx.miloli.me, port: 23614, type: vmess, uuid: 0e614962-97fa-32fc-aaf4-503d2a837b44, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
