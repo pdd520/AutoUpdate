@@ -1,10 +1,10 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: d02a2361-e91e-4fa6-94e4-a6c1bbd1cf0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: d02a2361-e91e-4fa6-94e4-a6c1bbd1cf0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id003 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: d02a2361-e91e-4fa6-94e4-a6c1bbd1cf0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id004 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: d02a2361-e91e-4fa6-94e4-a6c1bbd1cf0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 6cb89d27-397f-47c8-bae4-273eecb5185e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: 6cb89d27-397f-47c8-bae4-273eecb5185e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id003 {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 6cb89d27-397f-47c8-bae4-273eecb5185e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id004 {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: 6cb89d27-397f-47c8-bae4-273eecb5185e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
@@ -13,37 +13,17 @@ proxies:
 - *id002
 - *id003
 - *id004
-- *id001
-- *id002
-- *id003
-- *id004
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: a39820c3-c857-46b6-9b0c-d9161917fffc, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: a39820c3-c857-46b6-9b0c-d9161917fffc, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: a39820c3-c857-46b6-9b0c-d9161917fffc, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: a39820c3-c857-46b6-9b0c-d9161917fffc, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 19e05c6d-8c0e-411d-bc95-4539663c9e29, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 683ef223-8d4e-41e0-98ef-34132262dac9, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 683ef223-8d4e-41e0-98ef-34132262dac9, udp: true}
-- *id001
-- *id002
-- *id003
-- *id004
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 777affc2-b42b-4150-81a5-0559569010ee, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 777affc2-b42b-4150-81a5-0559569010ee, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 777affc2-b42b-4150-81a5-0559569010ee, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 777affc2-b42b-4150-81a5-0559569010ee, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 10b48047-19f9-416d-bf2b-3fbe8db6e935, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 10b48047-19f9-416d-bf2b-3fbe8db6e935, udp: true}
 - {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: 22b6e541-abf4-4516-ada4-7ecd5797cb34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: 22b6e541-abf4-4516-ada4-7ecd5797cb34, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
 - {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: 22b6e541-abf4-4516-ada4-7ecd5797cb34, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: dx.miloli.me, port: 23612, type: vmess, uuid: ef3055a9-884f-38ec-b6ad-1ac1ce963d96, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: ef3055a9-884f-38ec-b6ad-1ac1ce963d96, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 [vip①]①香港 - MG Network', server: dx.miloli.me, port: 23612, type: vmess, uuid: d57756a6-1d24-394b-a9a7-08b7746a7514, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: ydgz.miloli.me, port: 23619, type: vmess, uuid: d57756a6-1d24-394b-a9a7-08b7746a7514, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
