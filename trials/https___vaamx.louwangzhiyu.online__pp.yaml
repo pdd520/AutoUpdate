@@ -79,18 +79,18 @@ proxy-groups:
 proxy-providers:
   US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___dctcc.louwangzhiyu.shop_/US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___vaamx.louwangzhiyu.online_/US.yaml
     interval: 180
-    path: trials_providers/https___dctcc.louwangzhiyu.shop_/US.yaml
+    path: trials_providers/https___vaamx.louwangzhiyu.online_/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___dctcc.louwangzhiyu.shop_/Other.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___vaamx.louwangzhiyu.online_/Other.yaml
     interval: 180
-    path: trials_providers/https___dctcc.louwangzhiyu.shop_/Other.yaml
+    path: trials_providers/https___vaamx.louwangzhiyu.online_/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
