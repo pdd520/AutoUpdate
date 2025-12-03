@@ -1,21 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: 12a9b50e-4e5e-4f47-a021-04c3564a27ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: 12a9b50e-4e5e-4f47-a021-04c3564a27ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- *id001
-- *id002
-- *id001
-- *id002
-- *id001
-- *id002
 - {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
 - {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
 - {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
 - {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
 - {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
 - {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: bedcb990-ff17-4984-ac35-68fac0ad260b, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 33d2d151-3b51-4bb4-8347-af8981ab7b9e, udp: true}
-- *id001
-- *id002
-- {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: dx.miloli.me, port: 23616, type: vmess, uuid: 30a4c734-9a06-37b8-87e3-d164a08f5130, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
