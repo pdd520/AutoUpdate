@@ -77,7 +77,7 @@ proxies:
 - *id022
 - *id023
 - *id024
-- &id025 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: f398bc6a-d500-3898-a5af-7c8a45020e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id025 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 9e2b21ca-4fc9-3d85-98fd-72d761c67acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id003
@@ -105,6 +105,11 @@ proxies:
 - {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 466738a4-77fe-41a6-9394-50971417636a, udp: true}
 - {name: 🇱🇦 请登录www.laomaourl.com 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 466738a4-77fe-41a6-9394-50971417636a, udp: true}
 - {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 466738a4-77fe-41a6-9394-50971417636a, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 0f3dde9b-2043-4339-b3ab-dac79db79ea3, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 0f3dde9b-2043-4339-b3ab-dac79db79ea3, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 0f3dde9b-2043-4339-b3ab-dac79db79ea3, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 0f3dde9b-2043-4339-b3ab-dac79db79ea3, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 0f3dde9b-2043-4339-b3ab-dac79db79ea3, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20effc94-9b92-4f2f-b896-c833f91c9801, udp: true}
 - {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20effc94-9b92-4f2f-b896-c833f91c9801, udp: true}
 - {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 20effc94-9b92-4f2f-b896-c833f91c9801, udp: true}
@@ -156,6 +161,15 @@ proxies:
 - {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 20effc94-9b92-4f2f-b896-c833f91c9801, udp: true}
 - {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 20effc94-9b92-4f2f-b896-c833f91c9801, udp: true}
 - *id025
+- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: f31a92e2-cb46-4e15-8b1c-f4fb4fbb9a71, udp: true}
 - *id026
 - *id027
 - *id028
