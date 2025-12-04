@@ -11,10 +11,11 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: c6dd15e2-46cb-4bb2-8e38-c9ef78fd61aa, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 62659f75-3bd8-4dee-a260-b09ce536db03, udp: true}
-- *id003
-- *id004
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 4945dcc2-6fdc-44c0-a8da-01346c4212d7, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: edeb7ed4-5305-4bed-98e3-7a132706f4af, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: edeb7ed4-5305-4bed-98e3-7a132706f4af, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: edeb7ed4-5305-4bed-98e3-7a132706f4af, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 90be1379-02b4-4699-8eb5-08cd9cb872f2, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 5fba18ca-f778-4a2a-8157-bc7fb44264cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -26,4 +27,4 @@ proxies:
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 5fba18ca-f778-4a2a-8157-bc7fb44264cb, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
 - *id003
 - *id004
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: dx.miloli.me, port: 23615, type: vmess, uuid: 5de2afca-ea41-3d8a-ac07-f49e6dd5edce, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: dx.miloli.me, port: 23615, type: vmess, uuid: df780649-20af-3ef0-9b63-e07ddca6173e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
