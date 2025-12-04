@@ -1,11 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: b8070541-05f8-491c-87d1-d33b5c8a6527, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2eb2096b-3565-43ca-b025-c03319b53c81, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2eb2096b-3565-43ca-b025-c03319b53c81, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 2eb2096b-3565-43ca-b025-c03319b53c81, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 048dcad9-c135-4e20-a27f-9bd398efaee0, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: b4dc1732-4000-408f-b5e0-eec28ce58a9e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 3ccf23a3-b73e-410d-8694-599e7dc02c09, udp: true}
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 5fba18ca-f778-4a2a-8157-bc7fb44264cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 5fba18ca-f778-4a2a-8157-bc7fb44264cb, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 5fba18ca-f778-4a2a-8157-bc7fb44264cb, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
