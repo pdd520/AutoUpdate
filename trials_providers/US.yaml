@@ -7,12 +7,11 @@ proxies:
 - *id002
 - *id001
 - *id002
-- *id001
-- *id002
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 389b75dc-cc83-4555-9122-ceced90adb2a, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 389b75dc-cc83-4555-9122-ceced90adb2a, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 389b75dc-cc83-4555-9122-ceced90adb2a, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 94472d12-9e49-4922-808c-6ac616bd3950, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 3f134865-e900-46a6-a8d0-7364059840a4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: bcaaad87-2945-4999-9efa-5b3604d7ad60, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: bcaaad87-2945-4999-9efa-5b3604d7ad60, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: bcaaad87-2945-4999-9efa-5b3604d7ad60, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 319c58a1-4788-4599-a043-29398e24b025, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: dd3bc391-ccaf-4d76-bafb-035f20071887, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -22,3 +21,4 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: dd3bc391-ccaf-4d76-bafb-035f20071887, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: dd3bc391-ccaf-4d76-bafb-035f20071887, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: dd3bc391-ccaf-4d76-bafb-035f20071887, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: dx.miloli.me, port: 23615, type: vmess, uuid: 902701f9-7beb-33a8-863a-d76151d05d4b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
