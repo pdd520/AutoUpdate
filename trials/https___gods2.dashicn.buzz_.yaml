@@ -198,34 +198,35 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: ℹ️ 国内直连网站都是临时的，挂梯子可直接进 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 国内直进官网：https://goys4.dashi.mom官网更新规律goys1，goys2，goys3 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 (IEPL)英国1 - 大师专线, server: hxa.dashuai.help, port: 45066, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇬🇧 (隧道)英国2 - 大师专线, server: hxb.dashuai.help, port: 45067, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本NO.1 - 大师专线, server: hxa.dashuai.help, port: 45056, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇰🇷 [3X]韩国 专线NO1 - 大师专线', server: hxa.dashuai.help, port: 45076, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇰🇷 [3X]韩国 专线NO2 - 大师专线', server: hxb.dashuai.help, port: 45075, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇦🇺 澳大利亚原生1 - 大师专线, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇦🇺 澳大利亚原生2 - 大师专线, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇨🇦 加拿大1 - 大师专线, server: hxa.dashuai.help, port: 45064, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇨🇦 加拿大2 - 大师专线, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度1 - 大师专线, server: hxa.dashuai.help, port: 45074, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇮🇳 印度2 - 大师专线, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国1 - 大师专线, server: hxa.dashuai.help, port: 45072, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇫🇷 法国2 - 大师专线, server: hxb.dashuai.help, port: 45071, type: vmess, uuid: 0adef3e1-6408-401a-bb16-2c8e1878e623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 国内直连网站都是临时的，挂梯子可直接进 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 国内直进官网：https://goys4.dashi.mom官网更新规律goys1，goys2，goys3 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾1(GPT等流媒体1.5倍） - 大师专线, server: hxa.dashuai.help, port: 45078, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾2(GPT等流媒体1.5倍） - 大师专线, server: hxb.dashuai.help, port: 45077, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港NO.1（GPT奈飞等） - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇭🇰 香港NO.2（GPT奈飞等） - 大师专线, server: hxb.dashuai.help, port: 45051, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 (IEPL)英国1 - 大师专线, server: hxa.dashuai.help, port: 45066, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇬🇧 (隧道)英国2 - 大师专线, server: hxb.dashuai.help, port: 45067, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本NO.1 - 大师专线, server: hxa.dashuai.help, port: 45056, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇰🇷 [3X]韩国 专线NO1 - 大师专线', server: hxa.dashuai.help, port: 45076, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇰🇷 [3X]韩国 专线NO2 - 大师专线', server: hxb.dashuai.help, port: 45075, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇦🇺 澳大利亚原生1 - 大师专线, server: hxa.dashuai.help, port: 45062, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇦🇺 澳大利亚原生2 - 大师专线, server: hxb.dashuai.help, port: 45063, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇨🇦 加拿大1 - 大师专线, server: hxa.dashuai.help, port: 45064, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇨🇦 加拿大2 - 大师专线, server: hxb.dashuai.help, port: 45065, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 印度1 - 大师专线, server: hxa.dashuai.help, port: 45074, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇮🇳 印度2 - 大师专线, server: hxb.dashuai.help, port: 45073, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国1 - 大师专线, server: hxa.dashuai.help, port: 45072, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇫🇷 法国2 - 大师专线, server: hxb.dashuai.help, port: 45071, type: vmess, uuid: b9254561-477b-4ab6-848d-b9ab77486636, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
 - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+- DOMAIN-SUFFIX,internal,DIRECT
 - DOMAIN-SUFFIX,lan,DIRECT
 - DOMAIN-SUFFIX,local,DIRECT
 - DOMAIN-SUFFIX,localhost,DIRECT
@@ -672,7 +673,6 @@ rules:
 - DOMAIN-SUFFIX,scupio.com,💩 ‍广告
 - DOMAIN-SUFFIX,shuiguo.com,💩 ‍广告
 - DOMAIN-SUFFIX,shuzilm.cn,💩 ‍广告
-- DOMAIN-SUFFIX,similarweb.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitemeter.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitescout.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitetag.us,💩 ‍广告
@@ -1513,9 +1513,7 @@ rules:
 - DOMAIN-SUFFIX,log.mix.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,mobileads.dx.cn,💩 ‍广告
 - DOMAIN-SUFFIX,newspush.sinajs.cn,💩 ‍广告
-- DOMAIN-SUFFIX,pay.mobile.sina.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sax.mobile.sina.cn,💩 ‍广告
-- DOMAIN-SUFFIX,sax.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,saxd.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,💩 ‍广告
@@ -1891,7 +1889,6 @@ rules:
 - DOMAIN-SUFFIX,dol.tianyaui.cn,💩 ‍广告
 - DOMAIN-SUFFIX,dw.xcar.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,e.nexac.com,💩 ‍广告
-- DOMAIN-SUFFIX,eq.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,exp.17wo.cn,💩 ‍广告
 - DOMAIN-SUFFIX,game.51yund.com,💩 ‍广告
 - DOMAIN-SUFFIX,ganjituiguang.ganji.com,💩 ‍广告
@@ -1908,7 +1905,6 @@ rules:
 - DOMAIN-SUFFIX,mobileads.msn.com,💩 ‍广告
 - DOMAIN-SUFFIX,n.cosbot.cn,💩 ‍广告
 - DOMAIN-SUFFIX,newton-api.ele.me,💩 ‍广告
-- DOMAIN-SUFFIX,ozone.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,pdl.gionee.com,💩 ‍广告
 - DOMAIN-SUFFIX,pica-juicy.picacomic.com,💩 ‍广告
 - DOMAIN-SUFFIX,pixel.wp.com,💩 ‍广告
@@ -1921,7 +1917,6 @@ rules:
 - DOMAIN-SUFFIX,res.gwifi.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,💩 ‍广告
 - DOMAIN-SUFFIX,sta.ganji.com,💩 ‍广告
-- DOMAIN-SUFFIX,stat.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,stat.it168.com,💩 ‍广告
 - DOMAIN-SUFFIX,stats.chinaz.com,💩 ‍广告
 - DOMAIN-SUFFIX,stats.developingperspective.com,💩 ‍广告
@@ -1929,7 +1924,6 @@ rules:
 - DOMAIN-SUFFIX,tracker.yhd.com,💩 ‍广告
 - DOMAIN-SUFFIX,tralog.ganji.com,💩 ‍广告
 - DOMAIN-SUFFIX,up.qingdaonews.com,💩 ‍广告
-- DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,265.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,2mdn.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alt1-mtalk.google.com,🛩️ ‍墙内
@@ -2020,6 +2014,7 @@ rules:
 - DOMAIN,api.groq.com,🤖 ‍AI
 - DOMAIN,api.together.xyz,🤖 ‍AI
 - DOMAIN,bard.google.com,🤖 ‍AI
+- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,console.groq.com,🤖 ‍AI
 - DOMAIN,copilot-proxy.githubusercontent.com,🤖 ‍AI
 - DOMAIN,gemini.google.com,🤖 ‍AI
@@ -2049,6 +2044,7 @@ rules:
 - DOMAIN-SUFFIX,oaiusercontent.com,🤖 ‍AI
 - DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,sora.com,🤖 ‍AI
+- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,1password.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adguard.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,bit.no.com,✈️ ‍起飞
@@ -7905,6 +7901,7 @@ rules:
 - DOMAIN-SUFFIX,autonavi.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,dingtalk.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,ele.me,🛩️ ‍墙内
+- DOMAIN-SUFFIX,elemecdn.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,hichina.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,mmstat.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,mxhichina.com,🛩️ ‍墙内
@@ -8178,6 +8175,7 @@ rules:
 - DOMAIN-SUFFIX,air-matters.io,🛩️ ‍墙内
 - DOMAIN-SUFFIX,aixifan.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,algocasts.io,🛩️ ‍墙内
+- DOMAIN-SUFFIX,asklink.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,babytree.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,babytreeimg.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,baicizhan.com,🛩️ ‍墙内

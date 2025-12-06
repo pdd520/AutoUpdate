@@ -124,6 +124,7 @@ rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
 - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+- DOMAIN-SUFFIX,internal,DIRECT
 - DOMAIN-SUFFIX,lan,DIRECT
 - DOMAIN-SUFFIX,local,DIRECT
 - DOMAIN-SUFFIX,localhost,DIRECT
@@ -570,7 +571,6 @@ rules:
 - DOMAIN-SUFFIX,scupio.com,💩 ‍广告
 - DOMAIN-SUFFIX,shuiguo.com,💩 ‍广告
 - DOMAIN-SUFFIX,shuzilm.cn,💩 ‍广告
-- DOMAIN-SUFFIX,similarweb.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitemeter.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitescout.com,💩 ‍广告
 - DOMAIN-SUFFIX,sitetag.us,💩 ‍广告
@@ -1411,9 +1411,7 @@ rules:
 - DOMAIN-SUFFIX,log.mix.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,mobileads.dx.cn,💩 ‍广告
 - DOMAIN-SUFFIX,newspush.sinajs.cn,💩 ‍广告
-- DOMAIN-SUFFIX,pay.mobile.sina.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sax.mobile.sina.cn,💩 ‍广告
-- DOMAIN-SUFFIX,sax.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,saxd.sina.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,💩 ‍广告
 - DOMAIN-SUFFIX,sdkapp.uve.weibo.com,💩 ‍广告
@@ -1789,7 +1787,6 @@ rules:
 - DOMAIN-SUFFIX,dol.tianyaui.cn,💩 ‍广告
 - DOMAIN-SUFFIX,dw.xcar.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,e.nexac.com,💩 ‍广告
-- DOMAIN-SUFFIX,eq.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,exp.17wo.cn,💩 ‍广告
 - DOMAIN-SUFFIX,game.51yund.com,💩 ‍广告
 - DOMAIN-SUFFIX,ganjituiguang.ganji.com,💩 ‍广告
@@ -1806,7 +1803,6 @@ rules:
 - DOMAIN-SUFFIX,mobileads.msn.com,💩 ‍广告
 - DOMAIN-SUFFIX,n.cosbot.cn,💩 ‍广告
 - DOMAIN-SUFFIX,newton-api.ele.me,💩 ‍广告
-- DOMAIN-SUFFIX,ozone.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,pdl.gionee.com,💩 ‍广告
 - DOMAIN-SUFFIX,pica-juicy.picacomic.com,💩 ‍广告
 - DOMAIN-SUFFIX,pixel.wp.com,💩 ‍广告
@@ -1819,7 +1815,6 @@ rules:
 - DOMAIN-SUFFIX,res.gwifi.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com,💩 ‍广告
 - DOMAIN-SUFFIX,sta.ganji.com,💩 ‍广告
-- DOMAIN-SUFFIX,stat.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,stat.it168.com,💩 ‍广告
 - DOMAIN-SUFFIX,stats.chinaz.com,💩 ‍广告
 - DOMAIN-SUFFIX,stats.developingperspective.com,💩 ‍广告
@@ -1827,7 +1822,6 @@ rules:
 - DOMAIN-SUFFIX,tracker.yhd.com,💩 ‍广告
 - DOMAIN-SUFFIX,tralog.ganji.com,💩 ‍广告
 - DOMAIN-SUFFIX,up.qingdaonews.com,💩 ‍广告
-- DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,💩 ‍广告
 - DOMAIN-SUFFIX,265.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,2mdn.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alt1-mtalk.google.com,🛩️ ‍墙内
@@ -1918,6 +1912,7 @@ rules:
 - DOMAIN,api.groq.com,🤖 ‍AI
 - DOMAIN,api.together.xyz,🤖 ‍AI
 - DOMAIN,bard.google.com,🤖 ‍AI
+- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,console.groq.com,🤖 ‍AI
 - DOMAIN,copilot-proxy.githubusercontent.com,🤖 ‍AI
 - DOMAIN,gemini.google.com,🤖 ‍AI
@@ -1947,6 +1942,7 @@ rules:
 - DOMAIN-SUFFIX,oaiusercontent.com,🤖 ‍AI
 - DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,sora.com,🤖 ‍AI
+- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,1password.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adguard.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,bit.no.com,✈️ ‍起飞
@@ -7803,6 +7799,7 @@ rules:
 - DOMAIN-SUFFIX,autonavi.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,dingtalk.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,ele.me,🛩️ ‍墙内
+- DOMAIN-SUFFIX,elemecdn.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,hichina.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,mmstat.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,mxhichina.com,🛩️ ‍墙内
@@ -8076,6 +8073,7 @@ rules:
 - DOMAIN-SUFFIX,air-matters.io,🛩️ ‍墙内
 - DOMAIN-SUFFIX,aixifan.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,algocasts.io,🛩️ ‍墙内
+- DOMAIN-SUFFIX,asklink.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,babytree.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,babytreeimg.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,baicizhan.com,🛩️ ‍墙内
