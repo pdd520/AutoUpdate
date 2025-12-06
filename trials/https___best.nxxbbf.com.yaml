@@ -166,15 +166,15 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: a16478f9-be2c-4428-9ca5-b4ff1e7427e6, udp: true}
+- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 000ae386-4db0-4b73-8642-4306f614a1cc, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -1968,11 +1968,11 @@ rules:
 - DOMAIN,api.groq.com,🤖 ‍AI
 - DOMAIN,api.together.xyz,🤖 ‍AI
 - DOMAIN,bard.google.com,🤖 ‍AI
-- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,console.groq.com,🤖 ‍AI
 - DOMAIN,copilot-proxy.githubusercontent.com,🤖 ‍AI
 - DOMAIN,gemini.google.com,🤖 ‍AI
 - DOMAIN,generativelanguage.googleapis.com,🤖 ‍AI
+- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,sydney.bing.com,🤖 ‍AI
 - DOMAIN-SUFFIX,ai.azure.com,🤖 ‍AI
 - DOMAIN-SUFFIX,auth0.com,🤖 ‍AI
@@ -1991,6 +1991,7 @@ rules:
 - DOMAIN-SUFFIX,identrust.com,🤖 ‍AI
 - DOMAIN-SUFFIX,intercom.io,🤖 ‍AI
 - DOMAIN-SUFFIX,intercomcdn.com,🤖 ‍AI
+- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,makersuite.google.com,🤖 ‍AI
 - DOMAIN-SUFFIX,meta.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,mistral.ai,🤖 ‍AI
@@ -1999,7 +2000,6 @@ rules:
 - DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,sora.com,🤖 ‍AI
 - DOMAIN-SUFFIX,x.ai,🤖 ‍AI
-- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,1password.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adguard.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,bit.no.com,✈️ ‍起飞
