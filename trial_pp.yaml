@@ -31,39 +31,32 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
+  - p_All_All_Other_Other
+  - p_All_All_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
   - p_All_Other
   - p_All_TW_CN
   - p_All_US
@@ -124,36 +117,32 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id002
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
   - p_All_HK_CN
 - name: 🇹🇼 ‍台湾
   type: url-test
   tolerance: 100
   use: &id003
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
   - p_All_TW_CN
 - name: 🇨🇳 ‍中国
   type: url-test
   tolerance: 100
   use: &id004
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
-  - p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
+  - p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN
   - p_All_TW_CN
   - p_All_CN
   - p_All_HK_CN
@@ -161,44 +150,39 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id005
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
-  - p_All_All_All_All_All_SG_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
+  - p_All_All_All_All_SG_SG_SG_SG
   - p_All_SG
 - name: 🇯🇵 ‍日本
   type: url-test
   tolerance: 100
   use: &id006
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
-  - p_All_All_All_All_All_JP_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
+  - p_All_All_All_All_JP_JP_JP_JP
   - p_All_JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
   use: &id007
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
-  - p_All_All_All_All_All_US_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
+  - p_All_All_All_All_US_US_US_US
   - p_All_US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
   use: &id008
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
-  - p_All_All_All_All_All_Other_Other_Other_Other_Other
+  - p_All_All_Other_Other
+  - p_All_All_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
+  - p_All_All_All_All_Other_Other_Other_Other
   - p_All_Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
@@ -222,65 +206,65 @@ proxy-groups:
   type: select
   use: *id008
 proxy-providers:
-  p_All_All_All_Other_Other_Other:
+  p_All_All_Other_Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_Other_Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
+    path: trials_providers/p_All_All_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_Other_Other_Other_Other_Other:
+  p_All_All_All_All_Other_Other_Other_Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_Other_Other_Other_Other_Other.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_Other_Other_Other_Other_Other.yaml
+    path: trials_providers/p_All_All_All_All_Other_Other_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN:
+  p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_TW_TW_TW_TW_TW_CN_CN_CN_CN_CN.yaml
+    path: trials_providers/p_All_All_All_All_TW_TW_TW_TW_CN_CN_CN_CN.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN:
+  p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_HK_HK_HK_HK_HK_CN_CN_CN_CN_CN.yaml
+    path: trials_providers/p_All_All_All_All_HK_HK_HK_HK_CN_CN_CN_CN.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_US_US_US_US_US:
+  p_All_All_All_All_US_US_US_US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_US_US_US_US_US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_US_US_US_US.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_US_US_US_US_US.yaml
+    path: trials_providers/p_All_All_All_All_US_US_US_US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_SG_SG_SG_SG_SG:
+  p_All_All_All_All_SG_SG_SG_SG:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_SG_SG_SG_SG_SG.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_SG_SG_SG_SG.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_SG_SG_SG_SG_SG.yaml
+    path: trials_providers/p_All_All_All_All_SG_SG_SG_SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_All_All_All_JP_JP_JP_JP_JP:
+  p_All_All_All_All_JP_JP_JP_JP:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_All_JP_JP_JP_JP_JP.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_All_JP_JP_JP_JP.yaml
     interval: 180
-    path: trials_providers/p_All_All_All_All_All_JP_JP_JP_JP_JP.yaml
+    path: trials_providers/p_All_All_All_All_JP_JP_JP_JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -360,6 +344,7 @@ rules:
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+- IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
 - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
 - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 - IP-CIDR,198.18.0.0/16,DIRECT,no-resolve
@@ -2140,11 +2125,11 @@ rules:
 - DOMAIN,api.groq.com,🤖 ‍AI
 - DOMAIN,api.together.xyz,🤖 ‍AI
 - DOMAIN,bard.google.com,🤖 ‍AI
-- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,console.groq.com,🤖 ‍AI
 - DOMAIN,copilot-proxy.githubusercontent.com,🤖 ‍AI
 - DOMAIN,gemini.google.com,🤖 ‍AI
 - DOMAIN,generativelanguage.googleapis.com,🤖 ‍AI
+- DOMAIN,notebooklm.google.com,🤖 ‍AI
 - DOMAIN,sydney.bing.com,🤖 ‍AI
 - DOMAIN-SUFFIX,ai.azure.com,🤖 ‍AI
 - DOMAIN-SUFFIX,auth0.com,🤖 ‍AI
@@ -2163,6 +2148,7 @@ rules:
 - DOMAIN-SUFFIX,identrust.com,🤖 ‍AI
 - DOMAIN-SUFFIX,intercom.io,🤖 ‍AI
 - DOMAIN-SUFFIX,intercomcdn.com,🤖 ‍AI
+- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,makersuite.google.com,🤖 ‍AI
 - DOMAIN-SUFFIX,meta.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,mistral.ai,🤖 ‍AI
@@ -2170,7 +2156,7 @@ rules:
 - DOMAIN-SUFFIX,oaiusercontent.com,🤖 ‍AI
 - DOMAIN-SUFFIX,perplexity.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,sora.com,🤖 ‍AI
-- DOMAIN-SUFFIX,jetbrains.ai,🤖 ‍AI
+- DOMAIN-SUFFIX,x.ai,🤖 ‍AI
 - DOMAIN-SUFFIX,1password.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adguard.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,bit.no.com,✈️ ‍起飞
@@ -2351,6 +2337,7 @@ rules:
 - DOMAIN-SUFFIX,91vps.club,✈️ ‍起飞
 - DOMAIN-SUFFIX,92ccav.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,991.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,996.icu,✈️ ‍起飞
 - DOMAIN-SUFFIX,99btgc01.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,99cn.info,✈️ ‍起飞
 - DOMAIN-SUFFIX,9bis.com,✈️ ‍起飞
@@ -2391,6 +2378,7 @@ rules:
 - DOMAIN-SUFFIX,adcex.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,addictedtocoffee.de,✈️ ‍起飞
 - DOMAIN-SUFFIX,adelaidebbs.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,adguard-vpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adsense.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adult-sex-games.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,adultfriendfinder.com,✈️ ‍起飞
@@ -2409,6 +2397,7 @@ rules:
 - DOMAIN-SUFFIX,agnesb.fr,✈️ ‍起飞
 - DOMAIN-SUFFIX,ai-kan.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,ai-wen.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,ai.dev,✈️ ‍起飞
 - DOMAIN-SUFFIX,aiosearch.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,aiph.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,airasia.com,✈️ ‍起飞
@@ -2529,6 +2518,7 @@ rules:
 - DOMAIN-SUFFIX,aolnews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,aomedia.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,aomiwang.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,aoxvpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ap.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,apartmentratings.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,apartments.com,✈️ ‍起飞
@@ -2590,6 +2580,7 @@ rules:
 - DOMAIN-SUFFIX,asiaharvest.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,asianage.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,asianews.it,✈️ ‍起飞
+- DOMAIN-SUFFIX,asianfanfics.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,asiansexdiary.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,asianspiss.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,asianwomensfilm.de,✈️ ‍起飞
@@ -2730,6 +2721,8 @@ rules:
 - DOMAIN-SUFFIX,bet365.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,betaclouds.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,betfair.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,bettergpt.chat,✈️ ‍起飞
+- DOMAIN-SUFFIX,betterhash.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,betternet.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,bettervpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,bettween.com,✈️ ‍起飞
@@ -2759,6 +2752,7 @@ rules:
 - DOMAIN-SUFFIX,biliworld.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,billypan.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,binance.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,binance.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,binancezh.cc,✈️ ‍起飞
 - DOMAIN-SUFFIX,bing.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,binux.me,✈️ ‍起飞
@@ -2890,6 +2884,8 @@ rules:
 - DOMAIN-SUFFIX,bsky.network,✈️ ‍起飞
 - DOMAIN-SUFFIX,bsky.social,✈️ ‍起飞
 - DOMAIN-SUFFIX,bt2mag.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,bt4g.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,bt4gprx.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,bt95.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,btaia.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,btbit.net,✈️ ‍起飞
@@ -2965,6 +2961,7 @@ rules:
 - DOMAIN-SUFFIX,cams.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,canadameet.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cantonese.asia,✈️ ‍起飞
+- DOMAIN-SUFFIX,canva.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,canyu.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cao.im,✈️ ‍起飞
 - DOMAIN-SUFFIX,caobian.info,✈️ ‍起飞
@@ -2997,6 +2994,7 @@ rules:
 - DOMAIN-SUFFIX,cccat.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,ccdtr.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cchere.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,cchostvps.xyz,✈️ ‍起飞
 - DOMAIN-SUFFIX,ccim.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cclife.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cclifefl.org,✈️ ‍起飞
@@ -3047,7 +3045,9 @@ rules:
 - DOMAIN-SUFFIX,chaos.social,✈️ ‍起飞
 - DOMAIN-SUFFIX,chapm25.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,character.ai,✈️ ‍起飞
+- DOMAIN-SUFFIX,chat.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,chatnook.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,chatpdf.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,chaturbate.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,checkgfw.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,chengmingmag.com,✈️ ‍起飞
@@ -3179,6 +3179,7 @@ rules:
 - DOMAIN-SUFFIX,cloakpoint.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cloudflare-dns.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cloudflare-ipfs.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,cloudflarestatus.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cloudfront.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,cloudfunctions.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,club1069.com,✈️ ‍起飞
@@ -3283,6 +3284,7 @@ rules:
 - DOMAIN-SUFFIX,csuchen.de,✈️ ‍起飞
 - DOMAIN-SUFFIX,ctao.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,ctfriend.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,ctinets.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ctinews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ctowc.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,ctwant.com,✈️ ‍起飞
@@ -3346,6 +3348,7 @@ rules:
 - DOMAIN-SUFFIX,daozhongxing.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,darktech.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,darktoy.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,darmau.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,darpa.mil,✈️ ‍起飞
 - DOMAIN-SUFFIX,darrenliuwei.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,dashlane.com,✈️ ‍起飞
@@ -3386,6 +3389,8 @@ rules:
 - DOMAIN-SUFFIX,delicious.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,demo.opera-mini.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,democrats.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,deno.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,deno.dev,✈️ ‍起飞
 - DOMAIN-SUFFIX,depositphotos.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,derekhsu.homeip.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,desc.se,✈️ ‍起飞
@@ -3449,6 +3454,7 @@ rules:
 - DOMAIN-SUFFIX,doc.new,✈️ ‍起飞
 - DOMAIN-SUFFIX,docker.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,docker.io,✈️ ‍起飞
+- DOMAIN-SUFFIX,dockerstatus.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,docs.cfw.lbyczf.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,docs.new,✈️ ‍起飞
 - DOMAIN-SUFFIX,doctorvoice.org,✈️ ‍起飞
@@ -3829,6 +3835,7 @@ rules:
 - DOMAIN-SUFFIX,flecheinthepeche.fr,✈️ ‍起飞
 - DOMAIN-SUFFIX,fleshbot.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,fleursdeslettres.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,flexclip.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,flexpool.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,flgjustice.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,flickr.com,✈️ ‍起飞
@@ -3839,6 +3846,7 @@ rules:
 - DOMAIN-SUFFIX,flipkart.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,flitto.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,flnet.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,flowgpt.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,flowhongkong.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,flypool.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,flyvpn.com,✈️ ‍起飞
@@ -3856,6 +3864,7 @@ rules:
 - DOMAIN-SUFFIX,fooooo.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,footwiball.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,forbes.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,forefront.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,foreignaffairs.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,foreignpolicy.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,form.new,✈️ ‍起飞
@@ -3907,6 +3916,8 @@ rules:
 - DOMAIN-SUFFIX,freefq.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,freefuckvids.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,freegao.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,freegpt.es,✈️ ‍起飞
+- DOMAIN-SUFFIX,freegpt.tech,✈️ ‍起飞
 - DOMAIN-SUFFIX,freehongkong.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,freeilhamtohti.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,freekazakhs.org,✈️ ‍起飞
@@ -3967,6 +3978,8 @@ rules:
 - DOMAIN-SUFFIX,ftx.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,fucd.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,fuchsia.dev,✈️ ‍起飞
+- DOMAIN-SUFFIX,fuckccp.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,fuckccp.xyz,✈️ ‍起飞
 - DOMAIN-SUFFIX,fuckcnnic.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,fuckgfw.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,fuckgfw233.org,✈️ ‍起飞
@@ -3982,6 +3995,7 @@ rules:
 - DOMAIN-SUFFIX,furhhdl.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,furinkan.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,furl.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,furrybar.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,futurechinaforum.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,futuremessage.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,fux.com,✈️ ‍起飞
@@ -4020,6 +4034,7 @@ rules:
 - DOMAIN-SUFFIX,gardennetworks.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gardennetworks.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,gartlive.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,garudalinux.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,gate-project.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gate.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,gatecoin.com,✈️ ‍起飞
@@ -4095,6 +4110,7 @@ rules:
 - DOMAIN-SUFFIX,gitbook.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,gitbooks.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,githack.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,gitlab.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gitlab.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,gitmemory.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gizlen.net,✈️ ‍起飞
@@ -4192,6 +4208,7 @@ rules:
 - DOMAIN-SUFFIX,great-firewall.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,great-roc.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfire.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,greatfirevpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfirewall.biz,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfirewallofchina.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfirewallofchina.org,✈️ ‍起飞
@@ -4272,6 +4289,7 @@ rules:
 - DOMAIN-SUFFIX,have8.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hbg.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hbo.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hbomax.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hcaptcha.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hclips.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hdlt.me,✈️ ‍起飞
@@ -4305,6 +4323,7 @@ rules:
 - DOMAIN-SUFFIX,heritage.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,heroku.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,herokuapp.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,herominers.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,heungkongdiscuss.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hexieshe.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hexieshe.xyz,✈️ ‍起飞
@@ -4314,6 +4333,7 @@ rules:
 - DOMAIN-SUFFIX,hgseav.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hhdcb3office.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,hhthesakyatrizin.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,hicairo.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hiccears.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hidden-advent.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,hide.me,✈️ ‍起飞
@@ -4497,6 +4517,7 @@ rules:
 - DOMAIN-SUFFIX,hxwk.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,hxwq.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,hybrid-analysis.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hyperbeam.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hyperrate.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hypothes.is,✈️ ‍起飞
 - DOMAIN-SUFFIX,i-cable.com,✈️ ‍起飞
@@ -4597,6 +4618,7 @@ rules:
 - DOMAIN-SUFFIX,indiemerch.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,info-graf.fr,✈️ ‍起飞
 - DOMAIN-SUFFIX,informer.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,infura.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,inherit.live,✈️ ‍起飞
 - DOMAIN-SUFFIX,initiativesforchina.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,inkbunny.net,✈️ ‍起飞
@@ -4613,6 +4635,7 @@ rules:
 - DOMAIN-SUFFIX,internetdefenseleague.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,internetfreedom.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,internetpopculture.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,interseclab.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,inthenameofconfuciusmovie.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,inxian.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,iownyour.biz,✈️ ‍起飞
@@ -4626,6 +4649,7 @@ rules:
 - DOMAIN-SUFFIX,iphonetaiwan.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,iphonix.fr,✈️ ‍起飞
 - DOMAIN-SUFFIX,ipicture.ru,✈️ ‍起飞
+- DOMAIN-SUFFIX,ipify.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,ipinfo.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,ipjetable.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,ipobar.com,✈️ ‍起飞
@@ -4671,8 +4695,10 @@ rules:
 - DOMAIN-SUFFIX,itaboo.info,✈️ ‍起飞
 - DOMAIN-SUFFIX,italiatibet.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,itasoftware.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,itch.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,itemdb.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,itemfix.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,itiger.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,itsaol.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,itshidden.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,itsky.it,✈️ ‍起飞
@@ -4740,7 +4766,6 @@ rules:
 - DOMAIN-SUFFIX,jgoodies.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,jiangweiping.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,jiaoyou8.com,✈️ ‍起飞
-- DOMAIN-SUFFIX,jichangtj.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,jiehua.cz,✈️ ‍起飞
 - DOMAIN-SUFFIX,jiepang.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,jieshibaobao.com,✈️ ‍起飞
@@ -4939,6 +4964,7 @@ rules:
 - DOMAIN-SUFFIX,lester850.info,✈️ ‍起飞
 - DOMAIN-SUFFIX,letou.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,letscorp.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,lexica.art,✈️ ‍起飞
 - DOMAIN-SUFFIX,lflink.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lflinkup.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lflinkup.net,✈️ ‍起飞
@@ -4952,6 +4978,7 @@ rules:
 - DOMAIN-SUFFIX,lianyue.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,liaowangxizang.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,libertysculpturepark.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,library-access.sk,✈️ ‍起飞
 - DOMAIN-SUFFIX,libraryinformationtechnology.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,libredd.it,✈️ ‍起飞
 - DOMAIN-SUFFIX,lidecheng.com,✈️ ‍起飞
@@ -4976,6 +5003,7 @@ rules:
 - DOMAIN-SUFFIX,linktr.ee,✈️ ‍起飞
 - DOMAIN-SUFFIX,linkuswell.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,linpie.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,linux.do,✈️ ‍起飞
 - DOMAIN-SUFFIX,linuxtoy.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,lionsroar.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lipuman.com,✈️ ‍起飞
@@ -5003,6 +5031,7 @@ rules:
 - DOMAIN-SUFFIX,lizhizhuangbi.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lkcn.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,llss.me,✈️ ‍起飞
+- DOMAIN-SUFFIX,lmarena.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,lmsys.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,load.to,✈️ ‍起飞
 - DOMAIN-SUFFIX,lobsangwangyal.com,✈️ ‍起飞
@@ -5043,7 +5072,6 @@ rules:
 - DOMAIN-SUFFIX,lyfhk.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,lzjscript.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lzmtnews.org,✈️ ‍起飞
-- DOMAIN-SUFFIX,m-team.cc,✈️ ‍起飞
 - DOMAIN-SUFFIX,m.me,✈️ ‍起飞
 - DOMAIN-SUFFIX,m.plixi.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,m.slandr.net,✈️ ‍起飞
@@ -5117,6 +5145,7 @@ rules:
 - DOMAIN-SUFFIX,mcaf.ee,✈️ ‍起飞
 - DOMAIN-SUFFIX,mcfog.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mcreasite.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,mcusercontent.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,md-t.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,me.me,✈️ ‍起飞
 - DOMAIN-SUFFIX,meansys.com,✈️ ‍起飞
@@ -5164,6 +5193,7 @@ rules:
 - DOMAIN-SUFFIX,metacafe.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,metacubex.one,✈️ ‍起飞
 - DOMAIN-SUFFIX,metafilter.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,metamask.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,metart.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,metarthunter.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,meteorshowersonline.com,✈️ ‍起飞
@@ -5181,6 +5211,7 @@ rules:
 - DOMAIN-SUFFIX,middle-way.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,mihr.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mihua.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,mij.rip,✈️ ‍起飞
 - DOMAIN-SUFFIX,mikanani.me,✈️ ‍起飞
 - DOMAIN-SUFFIX,mikesoltys.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mikocon.com,✈️ ‍起飞
@@ -5230,6 +5261,8 @@ rules:
 - DOMAIN-SUFFIX,mixpod.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mixx.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mizzmona.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,mji.rip,✈️ ‍起飞
+- DOMAIN-SUFFIX,mjj.rip,✈️ ‍起飞
 - DOMAIN-SUFFIX,mk5000.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mlc.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,mlcool.com,✈️ ‍起飞
@@ -5382,6 +5415,7 @@ rules:
 - DOMAIN-SUFFIX,nalandawest.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,namgyal.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,namgyalmonastery.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,namu.wiki,✈️ ‍起飞
 - DOMAIN-SUFFIX,nanopool.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,nanyang.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,nanyangpost.com,✈️ ‍起飞
@@ -5398,6 +5432,7 @@ rules:
 - DOMAIN-SUFFIX,nationsonline.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,nationwide.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,naughtyamerica.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,naver.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,navy.mil,✈️ ‍起飞
 - DOMAIN-SUFFIX,naweeklytimes.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,nbc.com,✈️ ‍起飞
@@ -5487,6 +5522,7 @@ rules:
 - DOMAIN-SUFFIX,ninjaproxy.ninja,✈️ ‍起飞
 - DOMAIN-SUFFIX,nintendium.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ninth.biz,✈️ ‍起飞
+- DOMAIN-SUFFIX,nirsoft.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,nitter.cc,✈️ ‍起飞
 - DOMAIN-SUFFIX,nitter.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,niu.moe,✈️ ‍起飞
@@ -5587,6 +5623,7 @@ rules:
 - DOMAIN-SUFFIX,ocry.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,october-review.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,octocaptcha.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,oculus.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,oculuscdn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,odysee.com,✈️ ‍起飞
@@ -5708,6 +5745,8 @@ rules:
 - DOMAIN-SUFFIX,paljorpublications.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,palmislife.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,paltalk.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,palworldgame.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,pancakeswap.finance,✈️ ‍起飞
 - DOMAIN-SUFFIX,pandafan.pub,✈️ ‍起飞
 - DOMAIN-SUFFIX,pandapow.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,pandapow.net,✈️ ‍起飞
@@ -5771,6 +5810,7 @@ rules:
 - DOMAIN-SUFFIX,periscope.tv,✈️ ‍起飞
 - DOMAIN-SUFFIX,persecutionblog.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,persiankitty.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,pewresearch.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,phapluan.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,phayul.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,philborges.com,✈️ ‍起飞
@@ -5790,6 +5830,7 @@ rules:
 - DOMAIN-SUFFIX,picasaweb.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,picgo.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,picidae.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,picsart.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,picturedip.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,picturesocial.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,picuki.com,✈️ ‍起飞
@@ -5889,9 +5930,11 @@ rules:
 - DOMAIN-SUFFIX,primevideo.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,printfriendly.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,prism-break.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,prismic.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,prisoneralert.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,pritunl.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,privacybox.de,✈️ ‍起飞
+- DOMAIN-SUFFIX,privacyguides.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,private.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,privateinternetaccess.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,privatepaste.com,✈️ ‍起飞
@@ -6062,6 +6105,7 @@ rules:
 - DOMAIN-SUFFIX,religionnews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,religioustolerance.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,renminbao.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,rentry.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,renyurenquan.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,resilio.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,resistchina.org,✈️ ‍起飞
@@ -6125,6 +6169,7 @@ rules:
 - DOMAIN-SUFFIX,rumble.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,runbtx.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,rushbee.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,rustdesk.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,rusvpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,rutracker.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,rutracker.org,✈️ ‍起飞
@@ -6396,6 +6441,7 @@ rules:
 - DOMAIN-SUFFIX,solana.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,solidaritetibet.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,solidfiles.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,solscan.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,solv.finance,✈️ ‍起飞
 - DOMAIN-SUFFIX,somee.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,songjianjun.com,✈️ ‍起飞
@@ -6560,6 +6606,7 @@ rules:
 - DOMAIN-SUFFIX,suyangg.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,svsfx.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,swagbucks.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,swapspace.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,swissinfo.ch,✈️ ‍起飞
 - DOMAIN-SUFFIX,swissvpn.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,switchvpn.net,✈️ ‍起飞
@@ -6604,16 +6651,20 @@ rules:
 - DOMAIN-SUFFIX,taiwanus.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,taiwanyes.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,talk853.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,talkatone.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,talkboxapp.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,talkcc.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,talkonly.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,tamiaode.tk,✈️ ‍起飞
 - DOMAIN-SUFFIX,tanc.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,tangben.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,tanks.gg,✈️ ‍起飞
 - DOMAIN-SUFFIX,taoism.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,taolun.info,✈️ ‍起飞
+- DOMAIN-SUFFIX,tap.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,tapanwap.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tapatalk.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,taptap.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,taragana.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tardigrade.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,target.com,✈️ ‍起飞
@@ -6660,11 +6711,13 @@ rules:
 - DOMAIN-SUFFIX,telegra.ph,✈️ ‍起飞
 - DOMAIN-SUFFIX,telesco.pe,✈️ ‍起飞
 - DOMAIN-SUFFIX,tellme.pw,✈️ ‍起飞
+- DOMAIN-SUFFIX,temu.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tenacy.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tenor.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tensorflow.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,tenzinpalmo.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,terabox.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,terobox.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,tew.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,textnow.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,textnow.me,✈️ ‍起飞
@@ -6915,6 +6968,7 @@ rules:
 - DOMAIN-SUFFIX,truenas.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,truesocial.media,✈️ ‍起飞
 - DOMAIN-SUFFIX,trulyergonomic.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,trustwallet.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,truth101.co.tv,✈️ ‍起飞
 - DOMAIN-SUFFIX,truthontour.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,truthsocial.com,✈️ ‍起飞
@@ -7310,6 +7364,7 @@ rules:
 - DOMAIN-SUFFIX,vpnvip.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,vpnworldwide.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,vpser.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,vpsxb.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,vraiesagesse.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,vrchat.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,vrmtr.com,✈️ ‍起飞
@@ -7382,6 +7437,7 @@ rules:
 - DOMAIN-SUFFIX,webrtc.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,webrush.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,webs-tv.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,websdr.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,website.new,✈️ ‍起飞
 - DOMAIN-SUFFIX,websitepulse.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,websnapr.com,✈️ ‍起飞
@@ -7454,9 +7510,11 @@ rules:
 - DOMAIN-SUFFIX,wikimapia.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikimedia.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikinews.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,wikipedia.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikipedia.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikiquote.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikisource.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,wikiunblocked.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikiversity.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikivoyage.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wikiwand.com,✈️ ‍起飞
@@ -7547,7 +7605,6 @@ rules:
 - DOMAIN-SUFFIX,x-art.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,x-berry.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,x-wall.org,✈️ ‍起飞
-- DOMAIN-SUFFIX,x.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,x.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,x.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,x.company,✈️ ‍起飞
@@ -7603,6 +7660,7 @@ rules:
 - DOMAIN-SUFFIX,xn--11xs86f.icu,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--4gq171p.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--90wwvt03e.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--9pr62r24a.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,✈️ ‍起飞
@@ -7610,6 +7668,7 @@ rules:
 - DOMAIN-SUFFIX,xn--noss43i.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--oiq.cc,✈️ ‍起飞
 - DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,✈️ ‍起飞
+- DOMAIN-SUFFIX,xn--u2u927b.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xnpool.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xnxx-cdn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,xnxx.com,✈️ ‍起飞
@@ -7733,12 +7792,14 @@ rules:
 - DOMAIN-SUFFIX,z-lib.gl,✈️ ‍起飞
 - DOMAIN-SUFFIX,z-lib.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,z-lib.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,z-library.ec,✈️ ‍起飞
 - DOMAIN-SUFFIX,z-library.sk,✈️ ‍起飞
 - DOMAIN-SUFFIX,zacebook.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zalmos.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zamimg.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zannel.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zaobao.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,zaochenbao.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zaozon.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,zapto.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,zattoo.com,✈️ ‍起飞
@@ -7833,7 +7894,6 @@ rules:
 - DOMAIN-SUFFIX,apache.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,elastic.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,elastic.com,✈️ ‍起飞
-- DOMAIN-SUFFIX,gitlab.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gitlab.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,jitpack.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,maven.org,✈️ ‍起飞
@@ -7927,7 +7987,6 @@ rules:
 - DOMAIN-SUFFIX,steam-chat.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,steamgames.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,steamserver.net,✈️ ‍起飞
-- DOMAIN-SUFFIX,tap.io,✈️ ‍起飞
 - DOMAIN-KEYWORD,ttvnw,✈️ ‍起飞
 - DOMAIN-SUFFIX,twimg.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,twimg.org,✈️ ‍起飞
@@ -8012,6 +8071,7 @@ rules:
 - DOMAIN-SUFFIX,aliapp.org,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alibaba.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alibabacloud.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,alibabachengdun.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alibabausercontent.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,alicloudccp.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,aliexpress.com,🛩️ ‍墙内
