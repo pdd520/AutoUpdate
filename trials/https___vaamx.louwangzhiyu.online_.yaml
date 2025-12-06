@@ -9,22 +9,8 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
-  - ⚡ ‍低延迟
-  - 👆🏻 ‍指定
   - DIRECT
   - REJECT
-- name: ⚡ ‍低延迟
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id001
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-- name: 👆🏻 ‍指定
-  type: select
-  proxies: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -42,12 +28,10 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -57,8 +41,8 @@ proxy-groups:
   - 💩 ‍广告
 proxies:
 - {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: 675061b7-7caa-4709-8559-003f80991816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: 675061b7-7caa-4709-8559-003f80991816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: 675061b7-7caa-4709-8559-003f80991816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: 675061b7-7caa-4709-8559-003f80991816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: 675061b7-7caa-4709-8559-003f80991816, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
