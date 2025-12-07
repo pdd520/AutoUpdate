@@ -85,9 +85,7 @@ proxy-groups:
   - ♻️ 自动选择
   - 1
 proxies:
-- {name: 非节点❌剩余流量：229MB - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: e6ce55fb-c521-36e6-ae8b-3090ea226052, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 非节点❌过期时间：2025-12-08 - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: e6ce55fb-c521-36e6-ae8b-3090ea226052, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: e6ce55fb-c521-36e6-ae8b-3090ea226052, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: f958cdf4-754c-39cf-aa71-65215b9a054d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

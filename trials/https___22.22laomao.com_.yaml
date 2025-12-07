@@ -85,9 +85,9 @@ proxy-groups:
   - ♻️ 自动选择
   - 1
 proxies:
-- {name: 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
-- {name: 请登录www.laomaourl.com 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
-- {name: 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
+- {name: ℹ️ 您还未购买服务 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
+- {name: 🇱🇦 请登录www.laomaourl.com 购买 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 老猫云, server: www.google.com, port: 443, type: ss, cipher: aes-128-gcm, password: 0dcc8fbe-fa37-4912-9eb3-3d6bce2a105b, udp: true}
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
