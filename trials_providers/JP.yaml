@@ -5,6 +5,9 @@ proxies:
 - &id002 {name: 🇯🇵 日本NO.2 - 大师专线, server: hxb.dashuai.help, port: 45057, type: vmess, uuid: 3e8cb800-ccc3-4467-a5b2-b0ed624f5a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 51d8b722-a47c-4722-ba6d-6754b143cf70, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 51d8b722-a47c-4722-ba6d-6754b143cf70, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 51d8b722-a47c-4722-ba6d-6754b143cf70, udp: true}
 - *id001
 - *id002
 - {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 2d31e612-8073-4237-8a2f-ac9d5358f5b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
