@@ -7,19 +7,19 @@ sub_info  0B  50G  2025-12-01 15:17:29+08:00  (剩余 50G 0:59:57.899410)
 sub_url  https://cfvpn.com/api/v1/client/subscribe?token=c14d79cb597a81a29cb5d8f489c021c4
 time  2025-12-01 14:17:29.331074+08:00
 type  v2board
-更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+更新旧订阅失败  (https://cfvpn.com/api/v1/client/subscribe?token=c14d79cb597a81a29cb5d8f489c021c4): 404 Not Found '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
 
 [https://fyun.my]
 name  E云-跨境电商服务
 type  v2board
-更新订阅链接/续费续签失败  注册失败(g98n8bn7thci@qq.com): HTTPSConnectionPool(host='fyun.my', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("HTTPSConnection(host='fyun.my', port=443): Failed to resolve 'fyun.my' ([Errno -3] Temporary failure in name resolution)"))
+更新订阅链接/续费续签失败  注册失败(vbf7emwscvls@gmail.com): HTTPSConnectionPool(host='fyun.my', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("HTTPSConnection(host='fyun.my', port=443): Failed to resolve 'fyun.my' ([Errno -3] Temporary failure in name resolution)"))
 
 [https://go.yueyun.de]
 buy  period=onetime_price&plan_id=1
 email  p3l08eneodh7@gmail.com
 name  悦云
 node_n  30
-sub_info  0B  1G  2025-12-10 18:12:25+08:00  (剩余 1G 21:52:44.652584)
+sub_info  0B  1G  2025-12-10 18:12:25+08:00  (剩余 1G 20:43:19.057337)
 sub_url  https://go.yueyun.de/api/v1/client/subscribe?token=9db3999a946ce0104630de1bc9c0b210
 time  2025-12-09 18:12:26.549923+08:00
 type  v2board
@@ -34,7 +34,7 @@ sub_url  https://hjxixi002.xxttx.cn/api/v1/client/subscribe?token=380ad7fa001320
 time  2025-11-28 15:11:12.899384+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='hjxixi002.xxttx.cn', port=443): Max retries exceeded with url: /api/v1/passport/auth/login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))
+更新旧订阅失败  HTTPSConnectionPool(host='hjxixi002.xxttx.cn', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=380ad7fa0013208fbe4d7d3c692812a4 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1017)')))
 
 [https://hjxixi003.xxuux.cn]
 buy  pass
@@ -46,7 +46,7 @@ sub_url  https://hjxixi003.xxuux.cn/api/v1/client/subscribe?token=580a03d70cbbde
 time  2025-12-08 14:18:21.376348+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  'NoneType' object is not subscriptable
+更新旧订阅失败  (https://hjxixi003.xxuux.cn/api/v1/client/subscribe?token=580a03d70cbbde4d141dce4b8a18c306): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
 
 [https://xunyungogogo.xyz]
 buy  pass
@@ -57,12 +57,12 @@ sub_url  https://xunyungogogo.xyz/subscribe/eb10b32fcc52028c6a3c895ba5bd6262
 time  2025-12-05 15:13:02.282914+08:00
 type  v2board
 保存base64/clash订阅失败  string indices must be integers
-更新旧订阅失败  (https://xunyungogogo.xyz/subscribe/eb10b32fcc52028c6a3c895ba5bd6262): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
+更新旧订阅失败  'NoneType' object is not subscriptable
 
 [https://iyun.my]
 name  E云-跨境电商服务
 type  v2board
-更新订阅链接/续费续签失败  注册失败(az10ckfk8ual@gmail.com): HTTPSConnectionPool(host='iyun.my', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("HTTPSConnection(host='iyun.my', port=443): Failed to resolve 'iyun.my' ([Errno -3] Temporary failure in name resolution)"))
+更新订阅链接/续费续签失败  注册失败(uvwoggw112lp@gmail.com): HTTPSConnectionPool(host='iyun.my', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("HTTPSConnection(host='iyun.my', port=443): Failed to resolve 'iyun.my' ([Errno -3] Temporary failure in name resolution)"))
 
 [https://mgnet.vip]
 auto_invite  F
@@ -71,7 +71,7 @@ email  w0dl0k0qkdsv@outlook.com
 last_checkin  2025-12-09 13:10:44.870118+08:00
 name  MG Network
 node_n  11
-sub_info  0B  5.542G  2025-12-11 14:10:44+08:00  (剩余 5.542G 1 day, 17:51:04.161374)
+sub_info  0B  5.542G  2025-12-11 14:10:44+08:00  (剩余 5.542G 1 day, 16:41:41.338245)
 sub_url  https://aa.mgnet.sbs/link/lFE5eGU0qqhptFsh?sub=3
 time  2025-12-09 13:10:45.300365+08:00
 type  sspanel
@@ -79,13 +79,13 @@ type  sspanel
 [https://sdmone.pro]
 auto_invite  F
 buy  pass
-email  uu2bveau0y4m@outlook.com
-last_checkin  2025-12-09 16:15:16.670366+08:00
+email  77zdhjkv1xrn@qq.com
+last_checkin  2025-12-09 21:29:03.876117+08:00
 name  闪电猫
 node_n  1
-sub_info  0B  329M  2025-12-10 16:15:16+08:00  (剩余 329M 19:55:31.366522)
-sub_url  https://c.sdm.lat/link/UaUwuLGrTxzvVMrN?sub=3
-time  2025-12-09 16:15:17.150398+08:00
+sub_info  0B  403M  2025-12-10 21:29:03+08:00  (剩余 403M 23:59:57.525557)
+sub_url  https://c.sdm.lat/link/xw3F0ZpfDqzAX2ms?sub=3
+time  2025-12-09 21:29:04.361418+08:00
 type  sspanel
 
 [https://multiserver.multiserveradelshoop.com]
@@ -96,7 +96,7 @@ sub_info  0B  0B  永不过期  (剩余 0B)
 sub_url  https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=7044428ab3e5b93b4dd11d3dcdf543fc
 time  2025-11-09 18:25:28.221855+08:00
 type  v2board
-更新旧订阅失败  {'message': '邮箱或密码错误'}
+更新旧订阅失败  (https://multiserver.multiserveradelshoop.com/api/v1/client/subscribe?token=7044428ab3e5b93b4dd11d3dcdf543fc): 403 Forbidden '{\n "message": "token is error"\n}'
 
 [https://slian.slianvpn.top]
 buy  pass
@@ -146,8 +146,8 @@ sub_info  0B  350M  2025-11-17 06:42:05+08:00  (剩余 350M 12:32:23.126264)
 sub_url  https://tbsss.xn--xhqy01cv5qjky.com/link/d7k7U7KIBDOvOuYp?sub=3
 time  2025-11-16 07:09:18.379287+08:00
 type  sspanel
-尝试签到失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (523 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xinyun.buzz | 523: Origin is unreachable</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Origin is unreachable</span>\n <span class="code-label">Error code 523</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 12:19:55 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Ashburn</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">www.xinyun.buzz</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The origin web server is not reachable.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Check your DNS Settings. A 523 error means that Cloudflare could not reach your host web server. The most common cause is that your DNS settings are incorrect. Please contact your hosting provider to confirm your origin IP and then make sure the correct IP is listed for your A record in your Cloudflare DNS Settings page.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-523/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab474097feb54bb</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">135.237.130.149</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>')
-更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (523 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xinyun.buzz | 523: Origin is unreachable</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Origin is unreachable</span>\n <span class="code-label">Error code 523</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 12:20:21 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Ashburn</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">www.xinyun.buzz</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The origin web server is not reachable.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Check your DNS Settings. A 523 error means that Cloudflare could not reach your host web server. The most common cause is that your DNS settings are incorrect. Please contact your hosting provider to confirm your origin IP and then make sure the correct IP is listed for your A record in your Cloudflare DNS Settings page.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-523/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab474b0cc9854bb</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">135.237.130.149</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>')
+尝试签到失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (523 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xinyun.buzz | 523: Origin is unreachable</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Origin is unreachable</span>\n <span class="code-label">Error code 523</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 13:29:18 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Los Angeles</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">www.xinyun.buzz</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The origin web server is not reachable.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Check your DNS Settings. A 523 error means that Cloudflare could not reach your host web server. The most common cause is that your DNS settings are incorrect. Please contact your hosting provider to confirm your origin IP and then make sure the correct IP is listed for your A record in your Cloudflare DNS Settings page.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-523/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab4d9ac8dddf472</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">20.163.82.248</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>')
+更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (523 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xinyun.buzz | 523: Origin is unreachable</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Origin is unreachable</span>\n <span class="code-label">Error code 523</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 13:31:37 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Los Angeles</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&utm_campaign=www.xinyun.buzz" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">www.xinyun.buzz</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The origin web server is not reachable.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Check your DNS Settings. A 523 error means that Cloudflare could not reach your host web server. The most common cause is that your DNS settings are incorrect. Please contact your hosting provider to confirm your origin IP and then make sure the correct IP is listed for your A record in your Cloudflare DNS Settings page.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-523/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab4dd13390cf472</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">20.163.82.248</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_523&#38;utm_campaign=www.xinyun.buzz" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>')
 
 [https://xixixi003.hjsbssbsbsbsbs.sbs]
 buy  pass
@@ -174,13 +174,14 @@ type  v2board
 
 [https://yywhale.com]
 buy  pass
-email  jcryhpv3k3ru@gmail.com
+email  hqif523pt9bd@gmail.com
 name  新云游
 node_n  5
-sub_info  0B  9.766T  2025-12-09 21:19:57+08:00  (剩余 9.766T 0:59:51.499186)
-sub_url  https://www.yywhale.com/api/v1/client/subscribe?token=6e11a1316f300658dbf806079c4ae03b
-time  2025-12-09 20:19:57.498447+08:00
+sub_info  0B  9.766T  2025-12-09 22:29:27+08:00  (剩余 9.766T 0:59:57.487283)
+sub_url  https://www.yywhale.com/api/v1/client/subscribe?token=ca3818cb6c224c4d022828be4553fd06
+time  2025-12-09 21:29:28.232036+08:00
 type  v2board
+保存base64/clash订阅失败  string indices must be integers
 
 [http://dingyue.xjay.xyz]
 api_host  dingyue.xjay.xyz
@@ -196,12 +197,12 @@ type  v2board
 
 [https://best.nxxbbf.com]
 buy  pass
-email  nz9z7iiil3kr@gmail.com
+email  ple8dakkdp02@qq.com
 name  巨人坤场vpn(超稳定)
 node_n  9
-sub_info  0B  2G  2025-12-08 21:52:35+08:00  (剩余 2G -1 day, 1:32:18.758770)
-sub_url  https://bestti.whtjdasha.com/api/v1/client/subscribe?token=6ea384d263943d3b4599898bd5ac0170
-time  2025-12-09 20:20:06.274545+08:00
+sub_info  0B  2G  2025-12-08 23:02:03+08:00  (剩余 2G -1 day, 1:31:53.298562)
+sub_url  https://bestti.whtjdasha.com/api/v1/client/subscribe?token=44d0f15af252b3f6de24e468d9f1846e
+time  2025-12-09 21:29:34.031735+08:00
 type  v2board
 
 [https://gods1.dashicn.buzz]
@@ -209,7 +210,7 @@ buy  pass
 email  ibvn07wg5tru@outlook.com
 name  大师专线
 node_n  24
-sub_info  0B  2G  2025-12-10 00:20:24+08:00  (剩余 2G 3:59:52.561587)
+sub_info  0B  2G  2025-12-10 00:20:24+08:00  (剩余 2G 2:50:47.597828)
 sub_url  https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=7f7abd5019cd8255737a9c7069f0cf10
 time  2025-12-09 20:20:25.419940+08:00
 type  v2board
@@ -219,7 +220,7 @@ buy  pass
 email  pbsonyd0ku9x@qq.com
 name  大师专线
 node_n  24
-sub_info  0B  2G  2025-12-09 22:12:53+08:00  (剩余 2G 1:52:33.443452)
+sub_info  0B  2G  2025-12-09 22:12:53+08:00  (剩余 2G 0:43:07.954314)
 sub_url  https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=370c32b573b5cfe95a3db20ef3712863
 time  2025-12-09 18:12:54.341818+08:00
 type  v2board
@@ -229,7 +230,7 @@ buy  pass
 email  3r5xjb3nprvd@qq.com
 name  ⚡闪连机场
 node_n  50
-sub_info  0B  2G  2025-12-09 22:20:13+08:00  (剩余 2G 1:58:53.504606)
+sub_info  0B  2G  2025-12-09 22:20:13+08:00  (剩余 2G 0:50:32.252580)
 sub_url  https://slvp.nxxbbf.com/api/v1/client/subscribe?token=e48968fc1cf8c4db3cc40212826e6403
 time  2025-12-09 20:20:14.055674+08:00
 type  v2board
@@ -255,7 +256,7 @@ sub_info  2.569M  1000G  2026-12-31 10:26:01+08:00  (剩余 1000G 415 days, 23:5
 sub_url  https://v2.heiu.me/api/v1/client/subscribe?token=3eee52cf9739edf89115371175ddb728
 time  2025-11-09 18:26:03.234717+08:00
 type  v2board
-更新旧订阅失败  HTTPSConnectionPool(host='v2.heiu.me', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=3eee52cf9739edf89115371175ddb728 (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (200 OK '<html lang="en"><head><title>Redirecting...</title></head><body><script>(()=>{"use strict";const t="offset",e="client",o=function(){};let n=!1,r=!1;const i={loopDelay:50,maxLoop:5,complete:o},l=[];let u=null;const s={cssClass:"ad-overlay google-ad-bottom-outer prebid-wrapper .dfp-ad-container"},a={nullProps:[t+"Parent"],zeroProps:[]};a.zeroProps=[t+"Height",t+"Left",t+"Top",t+"Width",t+"Height",e+"Height",e+"Width"];const c={quick:null,remote:null};let d=null;const p={test:0,download:0};function f(t){return"function"==typeof t}function m(t){!0!==d&&(r=!0,y(t),c.quick="testing",p.test=setTimeout((function(){h(t,1)}),5))}function y(t){let e,o,n=document.body,r="width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;";if(null!=t&&"string"!=typeof t){for(null!=t.style&&(r+=t.style),u=function(t,e){let o,n,r=e;if(n=document.createElement(t),r)for(o in r)r.hasOwnProperty(o)&&n.setAttribute(o,r[o]);return n}("div",{class:t.cssClass,style:r}),n.appendChild(u),e=0;e<a.nullProps.length;e++)o=u[a.nullProps[e]];for(e=0;e<a.zeroProps.length;e++)o=u[a.zeroProps[e]]}}function h(t,e){const o=document.body;let c=!1;if(null==u&&y(t||s),"string"!=typeof t){p.test>0&&(clearTimeout(p.test),p.test=0),null!==o.getAttribute("abp")&&(c=!0);for(let t=0;t<a.nullProps.length;t++){if(null==u[a.nullProps[t]]){e>4&&(c=!0);break}if(!0===c)break}for(let t=0;t<a.zeroProps.length&&!0!==c;t++)0===u[a.zeroProps[t]]&&e>4&&(c=!0);if(void 0!==window.getComputedStyle){const t=window.getComputedStyle(u,null);"none"!==t.getPropertyValue("display")&&"hidden"!==t.getPropertyValue("visibility")||e>4&&(c=!0)}n=!0,c||e++>=i.maxLoop?(d=c,function(){let t,e;if(null===d)return;for(t=0;t<l.length;t++){e=l[t];try{null!=e&&f(e["complete"])&&e["complete"](d)}catch(t){return}}}(),g()&&setTimeout((function(){r=!1}),5)):p.test=setTimeout((function(){h(t,e)}),i.loopDelay)}else g()&&setTimeout((function(){r=!1}),5)}function g(){if(null===u)return!0;try{f(u.remove)&&u.remove(),document.body.removeChild(u)}catch(t){}return u=null,!0}var w=function(t){if(!t)return;const e={complete:o,found:o,notfound:o};let n;for(n in t)t.hasOwnProperty(n)&&("complete"===n||"found"===n||"notFound"===n?e[n.toLowerCase()]=t[n]:i[n]=t[n]);l.push(e),function(){let t,e=!1;document.readyState&&"complete"===document.readyState&&(e=!0),t=function(){m(s)},e?t():window.addEventListener("load",t)}()};function b(){document.write(`<a id="Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O" href="/.IGV0hOcNusVJOgqoD1HuWTk0PssdueKB"></a>`),document.getElementById("Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O").click()}function v(t){return`${t}`}async function P(t){const e=await async function(t,e){const o=JSON.parse(atob(t));return o.parameters.adBlockingDetected=e,o.parameters.timezoneBrowser=Intl.DateTimeFormat().resolvedOptions().timeZone,o.parameters.webdriver=navigator.webdriver,o.parameters.gpu=await async function(){if(!navigator.gpu)return null;const t=await navigator.gpu.requestAdapter();if(!t)return null;if(t.info&&t.info.vendor)return t.info.vendor;if(t.requestAdapterInfo){const e=await t.requestAdapterInfo();return e.vendor?e.vendor:null}return null}(),JSON.stringify(o)}("eyJwYXJhbWV0ZXJzIjp7InRpbWV6b25lR2VvIjoiQW1lcmljYVwvUGhvZW5peCIsImNvbnRpbmVudE5hbWUiOiJOb3J0aCBBbWVyaWNhIiwiY291bnRyeU5hbWUiOiJVbml0ZWQgU3RhdGVzIiwiZG9tYWluQXBleCI6ImhlaXUubWUiLCJkb21haW5GdWxsIjoidjIuaGVpdS5tZSIsImlwT3JpZyI6IjIwLjE2My44Mi4yNDgiLCJjb250aW5lbnQiOiJOQSIsInJlZ2lvbiI6IkFaIiwicmVnaW9uTmFtZSI6IkFyaXpvbmEiLCJjb3VudHJ5IjoiVVMiLCJ1dWlkIjoiNzVlZWJiYzllZThhZTQ4MjZlODc1MWU4YTM4NGZiN2UiLCJ0ZW5hbnQiOiJuYW1lY2hlYXAtZXhwaXJlZCIsInByb3RvY29sIjoiaHR0cHMiLCJwYXRoIjoiXC9hcGlcL3YxXC9wYXNzcG9ydFwvYXV0aFwvbG9naW4iLCJjaXR5IjoiUGhvZW5peCJ9fQ==",t);(async function(t,e){const o=new XMLHttpRequest;o.onreadystatechange=_,o.open("POST",t,!0),o.send(e)})("https://router.parklogic.com/api/v1/passport/auth/login",e).then()}function _(){var t;4===this.readyState&&(200!==this.status&&console.error(`failed to contact router, status code: ${this.status} "${this.statusText}"`),this.responseText.startsWith("http")?(t=this.responseText,"true"===v("false")?(document.cookie=`m6RW96QaECHb2mXiRi7YQBqlkYuoZc7A=${btoa(t)};max-age=5`,b()):window.location.replace(t)):document.body.innerHTML=this.responseText)}"true"===v("true")?w({complete:t=>{t?"true"===v("false")?(document.cookie="Nsj7rdlN8X5lOGh3PoZezs9aS9Eqq3VK=1;max-age=5","true"===v("false")?b():location.reload()):P(!0):P(!1)}}):P()})();</script></body></html>')
 
 [https://xbd.iftballs.com]
 buy  period=onetime_price&plan_id=1
@@ -275,7 +276,7 @@ email  2q11jt4wm7aw@gmail.com
 last_checkin  2025-12-09 20:20:19.097841+08:00
 name  闪电猫
 node_n  1
-sub_info  0B  314M  2025-12-10 20:20:18+08:00  (剩余 314M 23:59:50.445475)
+sub_info  0B  314M  2025-12-10 20:20:18+08:00  (剩余 314M 22:50:00.776919)
 sub_url  https://c.sdm.lat/link/CckzeMV83SlCyioS?sub=3
 time  2025-12-09 20:20:19.421999+08:00
 type  sspanel
@@ -285,7 +286,7 @@ buy  pass
 email  1yn4bnrwatbx@outlook.com
 name  大师专线
 node_n  24
-sub_info  0B  2G  2025-12-10 00:22:29+08:00  (剩余 2G 3:59:46.888129)
+sub_info  0B  2G  2025-12-10 00:22:29+08:00  (剩余 2G 2:50:17.029666)
 sub_url  https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=65e6312c15aafee159a20995a4393316
 time  2025-12-09 20:22:30.383119+08:00
 type  v2board
@@ -295,11 +296,11 @@ buy  pass
 email  jm4aekrxvfv5@outlook.com
 name  老猫云
 node_n  3
-sub_info  0B  0B  1970-01-01 08:00:00+08:00  (剩余 0B -20432 days, 11:39:33.061310)
+sub_info  0B  0B  1970-01-01 08:00:00+08:00  (剩余 0B -20432 days, 10:29:46.685001)
 sub_url  https://d3ism8qdnfdr0l.cloudfront.net/api/v1/client/subscribe?token=9a8c7867555b1fd3760d3e6e2bc00e39
 time  2025-12-09 18:13:04.576529+08:00
 type  v2board
-更新订阅链接/续费续签失败  注册失败(g35vbx93478m@qq.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (403 Forbidden '<html><meta charset="utf-8" /><title></title><div></div></html>\n<script> window.location.href ="/api/v1/passport/auth/register"; </script>\n')
+更新订阅链接/续费续签失败  注册失败(6l1xtig77ixj@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (403 Forbidden '<html><meta charset="utf-8" /><title></title><div></div></html>\n<script> window.location.href ="/api/v1/passport/auth/register"; </script>\n')
 
 [http://xxxxyyyy.njdjjxjbcbw.icu/]
 
@@ -313,11 +314,10 @@ buy  period=month_price&plan_id=1
 email  d8f59ryakphy@gmail.com
 name  漏网之鱼
 node_n  3
-sub_info  0B  1000G  2026-01-09 19:11:54+08:00  (剩余 1000G 30 days, 22:50:45.217170)
+sub_info  0B  1000G  2026-01-09 19:11:54+08:00  (剩余 1000G 30 days, 21:41:27.718825)
 sub_url  https://mkwcz.louwangzhiyu.online/api/v1/client/subscribe?token=63bf6773d950330852c518d8145e6756
 time  2025-12-09 19:11:56.486004+08:00
 type  v2board
-保存base64/clash订阅失败  string indices must be integers
 
 [https://dyhaha.xxttx.cn/]
 buy  pass
@@ -339,14 +339,14 @@ sub_url  https://dyxixi001.xxssx.cn/api/v1/client/subscribe?token=fdbc08c8802cc4
 time  2025-12-08 10:44:29.216511+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  'NoneType' object is not subscriptable
+更新旧订阅失败  (https://dyxixi001.xxssx.cn/api/v1/client/subscribe?token=fdbc08c8802cc483e4f0fa7f2155583b): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
 
 [https://gods4.dashicn.buzz/]
 buy  pass
 email  44oo3nl989th@outlook.com
 name  大师专线
 node_n  24
-sub_info  0B  2G  2025-12-09 22:13:21+08:00  (剩余 2G 1:52:37.482018)
+sub_info  0B  2G  2025-12-09 22:13:21+08:00  (剩余 2G 0:42:50.219415)
 sub_url  https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=243d3add6b712a8c9ba56e88da6fd16f
 time  2025-12-09 18:13:21.528158+08:00
 type  v2board
@@ -360,14 +360,14 @@ sub_url  https://jshaha.xxttx.cn/api/v1/client/subscribe?token=7056da0e5fc6e81bf
 time  2025-11-21 14:16:55.946865+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='jshaha.xxttx.cn', port=443): Max retries exceeded with url: /api/v1/passport/auth/login (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jshaha.xxttx.cn'. (_ssl.c:1017)")))
+更新旧订阅失败  HTTPSConnectionPool(host='jshaha.xxttx.cn', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=7056da0e5fc6e81bf63a3ff4defc1110 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'jshaha.xxttx.cn'. (_ssl.c:1017)")))
 
 [https://vaamx.louwangzhiyu.online/]
 buy  period=month_price&plan_id=1
 email  74e2gmuncd29@qq.com
 name  漏网之鱼
 node_n  3
-sub_info  0B  1000G  2026-01-09 18:13:22+08:00  (剩余 1000G 30 days, 21:52:29.838197)
+sub_info  0B  1000G  2026-01-09 18:13:22+08:00  (剩余 1000G 30 days, 20:42:27.592494)
 sub_url  https://fnxhq.louwangzhiyu.online/api/v1/client/subscribe?token=3f6d445823fe8f86c108f248e81779ab
 time  2025-12-09 18:13:24.214413+08:00
 type  v2board
@@ -377,10 +377,11 @@ buy  period=month_price&plan_id=1
 email  2ju3le8shnuo@gmail.com
 name  漏网之鱼
 node_n  3
-sub_info  0B  1000G  2026-01-09 18:13:42+08:00  (剩余 1000G 30 days, 21:52:27.327004)
+sub_info  0B  1000G  2026-01-09 18:13:42+08:00  (剩余 1000G 30 days, 20:42:50.742511)
 sub_url  https://mkwcz.louwangzhiyu.online/api/v1/client/subscribe?token=dfb2d1921193cd6cd9eb6513f2448ab9
 time  2025-12-09 18:13:47.014869+08:00
 type  v2board
+保存base64/clash订阅失败  string indices must be integers
 
 [https://huojian4.top/]
 buy  pass
@@ -414,7 +415,7 @@ sub_url  https://xyjs1.top/subscribe/66d23c8dadcafb33d777b359b26672dc
 time  2025-12-05 15:14:15.016321+08:00
 type  v2board
 保存base64/clash订阅失败  string indices must be integers
-更新旧订阅失败  (https://xyjs1.top/subscribe/66d23c8dadcafb33d777b359b26672dc): 522 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xyjs1.top | 522: Connection timed out</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Connection timed out</span>\n <span class="code-label">Error code 522</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 12:22:30 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&#38;utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Ashburn</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">xyjs1.top</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The initial connection between Cloudflare\'s network and the origin web server timed out. As a result, the web page can not be displayed.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn\'t finish. The most likely cause is that something on your server is hogging resources.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab47770dfdf16de</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">135.237.130.149</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&#38;utm_campaign=xyjs1.top" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>'
+更新旧订阅失败  (https://xyjs1.top/subscribe/66d23c8dadcafb33d777b359b26672dc): 522 <none> '<!DOCTYPE html>\n<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 7]> <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->\n<!--[if IE 8]> <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->\n<head>\n\n<title>xyjs1.top | 522: Connection timed out</title>\n<meta charset="UTF-8" />\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />\n<meta http-equiv="X-UA-Compatible" content="IE=Edge" />\n<meta name="robots" content="noindex, nofollow" />\n<meta name="viewport" content="width=device-width,initial-scale=1" />\n<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />\n</head>\n<body>\n<div id="cf-wrapper">\n <div id="cf-error-details" class="p-0">\n <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">\n <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">\n <span class="inline-block">Connection timed out</span>\n <span class="code-label">Error code 522</span>\n </h1>\n <div>\n Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.\n </div>\n <div class="mt-3">2025-12-09 13:34:23 UTC</div>\n </header>\n <div class="my-8 bg-gradient-gray">\n <div class="w-240 lg:w-full mx-auto">\n <div class="clearfix md:px-8">\n <div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">You</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Browser\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&#38;utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">\n <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n </a>\n </div>\n <span class="md:block w-full truncate">Los Angeles</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=xyjs1.top" target="_blank" rel="noopener noreferrer">\n Cloudflare\n </a>\n </h3>\n \n <span class="leading-1.3 text-2xl text-green-success">Working</span>\n \n</div>\n <div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">\n <div class="relative mb-10 md:m-0">\n \n <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>\n <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>\n \n </div>\n <span class="md:block w-full truncate">xyjs1.top</span>\n <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">\n \n Host\n \n </h3>\n \n <span class="leading-1.3 text-2xl text-red-error">Error</span>\n \n</div>\n </div>\n </div>\n </div>\n\n <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">\n <div class="clearfix">\n <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>\n <p>The initial connection between Cloudflare\'s network and the origin web server timed out. As a result, the web page can not be displayed.</p>\n </div>\n <div class="w-1/2 md:w-full float-left leading-relaxed">\n <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>\n \n <h3 class="text-15 font-semibold mb-2">If you\'re a visitor of this website:</h3>\n <p class="mb-6">Please try again in a few minutes.</p>\n\n <h3 class="text-15 font-semibold mb-2">If you\'re the owner of this website:</h3>\n <p><span>Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn\'t finish. The most likely cause is that something on your server is hogging resources.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/">Additional troubleshooting information here.</a></p>\n </div>\n </div>\n </div>\n\n <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">\n <p class="text-13">\n <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9ab4e0bbbb4d2f63</strong></span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">\n Your IP:\n <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>\n <span class="hidden" id="cf-footer-ip">20.163.82.248</span>\n <span class="cf-footer-separator sm:hidden">&bull;</span>\n </span>\n <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&#38;utm_campaign=xyjs1.top" id="brand_link" target="_blank">Cloudflare</a></span>\n \n </p>\n <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>\n </div><!-- /.error-footer -->\n\n </div>\n</div>\n</body>\n</html>'
 
 [https://syhaha.xxuux.cn/]
 buy  pass
@@ -458,14 +459,14 @@ sub_url  https://www.ch000zy.com/api/v1/client/subscribe?token=52da08032cd68504a
 time  2025-12-08 10:45:35.338406+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  (https://www.ch000zy.com/api/v1/client/subscribe?token=52da08032cd68504a28f62ab5d60a213): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
+更新旧订阅失败  'NoneType' object is not subscriptable
 
 [https://gods2.dashicn.buzz/]
 buy  pass
 email  xf0206l7dz7a@gmail.com
 name  大师专线
 node_n  24
-sub_info  0B  2G  2025-12-09 22:14:33+08:00  (剩余 2G 1:52:09.480038)
+sub_info  0B  2G  2025-12-09 22:14:33+08:00  (剩余 2G 0:42:50.219944)
 sub_url  https://dftyfdf1j00ll.dashuai.us/api/v1/client/subscribe?token=ed43a09c69e8b6784212b80472b957ff
 time  2025-12-09 18:14:34.015775+08:00
 type  v2board
@@ -495,14 +496,14 @@ type  v2board
 [https://scb.slabcde.top]
 name  讯达
 type  v2board
-更新订阅链接/续费续签失败  注册失败(8vj36pigq057@outlook.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(3b6qy9zq94ix@gmail.com): 'NoneType' object is not subscriptable
 
 [https://slabcde.top]
 name  讯达
 type  v2board
-更新订阅链接/续费续签失败  注册失败(q7kcfx2sfnf5@gmail.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(oaxro5lozc28@gmail.com): 'NoneType' object is not subscriptable
 
 [https://www.slabcde.top]
 name  讯达
 type  v2board
-更新订阅链接/续费续签失败  注册失败(n8tmbz03hed8@outlook.com): 'NoneType' object is not subscriptable
+更新订阅链接/续费续签失败  注册失败(d91dd1v477uw@outlook.com): 'NoneType' object is not subscriptable
