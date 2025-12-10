@@ -7,11 +7,7 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 7b4b6730-c10a-41d9-a338-3643c6f64bf3, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d19815d0-fd66-44e2-b18b-7f0728b8ee53, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d19815d0-fd66-44e2-b18b-7f0728b8ee53, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d19815d0-fd66-44e2-b18b-7f0728b8ee53, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: afe697a8-1e44-4027-8733-0fbfeda372cc, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: fd82bf5f-a0e6-4766-a0eb-ad31de70e476, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: d2b72db6-d091-426e-a4e1-7a2a7b0954b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -21,3 +17,4 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: d2b72db6-d091-426e-a4e1-7a2a7b0954b5, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: d2b72db6-d091-426e-a4e1-7a2a7b0954b5, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: d2b72db6-d091-426e-a4e1-7a2a7b0954b5, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: yh.miloli.cn, port: 23615, type: vmess, uuid: aa6b6250-6c82-3b64-9df8-3afbe3f56c54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
