@@ -1,15 +1,17 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: e83aff37-8560-4d86-8819-911ec0651bc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: e83aff37-8560-4d86-8819-911ec0651bc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇸🇬 新加坡NO.1 - 大师专线, server: hxa.dashuai.help, port: 45054, type: vmess, uuid: 2b28c20a-5266-40a9-88a3-9e8ae11f7537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇸🇬 新加坡NO.2 - 大师专线, server: hxb.dashuai.help, port: 45055, type: vmess, uuid: 2b28c20a-5266-40a9-88a3-9e8ae11f7537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
-- *id001
-- *id002
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: a9ed7f79-c1d0-4313-866f-278d5e6ef2b6, udp: true}
-- *id001
-- *id002
-- {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: yh.miloli.cn, port: 23616, type: vmess, uuid: f567ce5b-1d14-368d-909b-683be669dd88, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: dc39cfdd-4246-4371-bc8c-3acf530d81b2, udp: true}
+- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: ec95a741-6784-4331-9bfe-e0ab2f96c320, udp: true}
+- {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: yh.miloli.cn, port: 23616, type: vmess, uuid: 03c1d644-120a-31f7-919b-4efbb07d7ed7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
