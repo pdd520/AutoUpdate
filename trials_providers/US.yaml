@@ -1,19 +1,19 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: 5b5ec1f0-367a-47af-8ed1-46a6bec4d3d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: 5b5ec1f0-367a-47af-8ed1-46a6bec4d3d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id001 {name: 🇺🇸 美国NO.1（GPT） - 大师专线, server: hxa.dashuai.help, port: 45052, type: vmess, uuid: aedacb6b-735e-40d9-849f-9924e6f98eaf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- &id002 {name: 🇺🇸 美国NO.2（GPT） - 大师专线, server: hxb.dashuai.help, port: 45053, type: vmess, uuid: aedacb6b-735e-40d9-849f-9924e6f98eaf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
 - *id001
 - *id002
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 04eebe3f-65fe-4eea-9ecb-6e41130e7c4b, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7e51d995-6b74-407a-a3ff-c231c928624d, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7e51d995-6b74-407a-a3ff-c231c928624d, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 7e51d995-6b74-407a-a3ff-c231c928624d, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: e8ac6095-6525-4ff0-968f-a94a25664c2a, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: eac3cade-12a3-42af-96e4-485611ba663f, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 940b8812-c569-4015-a31b-baff5eee6dd0, udp: true}
+- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 940b8812-c569-4015-a31b-baff5eee6dd0, udp: true}
+- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 940b8812-c569-4015-a31b-baff5eee6dd0, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: f6c5cdaf-874c-402a-b19d-d3e46c09353c, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 27071373-8ea4-4380-8ee5-5489c76acb81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -23,4 +23,4 @@ proxies:
 - {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: 27071373-8ea4-4380-8ee5-5489c76acb81, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: 27071373-8ea4-4380-8ee5-5489c76acb81, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 27071373-8ea4-4380-8ee5-5489c76acb81, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: yh.miloli.cn, port: 23615, type: vmess, uuid: ae6d6cc6-a4ec-36ad-a581-f130d4400b28, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1 - MG Network', server: yh.miloli.cn, port: 23615, type: vmess, uuid: f5001872-f533-357e-9f75-689cd4b6b95a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
