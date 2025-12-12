@@ -7,8 +7,9 @@ proxies:
 - *id002
 - *id001
 - *id002
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: cb74e32e-38c7-4463-9791-7ec7f9b1ae10, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 506a1696-92ff-4985-883a-a0e92cd37634, udp: true}
+- *id001
+- *id002
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 506f0817-1b19-481c-a20e-bdf40e1159cd, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 0affa98d-3969-41ae-9780-3c447282cf6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
