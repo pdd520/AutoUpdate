@@ -54,9 +54,9 @@ proxy-groups:
 proxy-providers:
   All:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___a.sdmone.pro/All.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___www.louwangzhiyu.org_/All.yaml
     interval: 180
-    path: trials_providers/https___a.sdmone.pro/All.yaml
+    path: trials_providers/https___www.louwangzhiyu.org_/All.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
