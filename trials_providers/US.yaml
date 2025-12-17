@@ -9,10 +9,10 @@ proxies:
 - *id002
 - *id001
 - *id002
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: d51ddfc0-02a0-44d1-9cbb-cfa1fe956eba, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ff838c05-2fa3-455e-8105-86c628d5f009, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ff838c05-2fa3-455e-8105-86c628d5f009, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ff838c05-2fa3-455e-8105-86c628d5f009, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 15eda23d-0c70-4d42-a073-5e7f365b98b8, udp: true}
 - *id001
 - *id002
 - {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 0a4a2e7d-3c6c-48df-a5d9-39279bb5d400, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
