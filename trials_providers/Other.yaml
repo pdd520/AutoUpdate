@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- &id016 {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id017 {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- &id018 {name: ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id016 {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: 3abf77a7-3655-4ba3-bcbd-c60c9ac2fbbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id017 {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: 3abf77a7-3655-4ba3-bcbd-c60c9ac2fbbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- &id018 {name: ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: 3abf77a7-3655-4ba3-bcbd-c60c9ac2fbbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - &id001 {name: ℹ️ 国内直连网站都是临时的，挂梯子可直接进 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 309da197-bf99-4f02-ba58-a52815dfc154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id002 {name: ℹ️ 国内直进官网：https://goys4.dashi.mom官网更新规律goys1，goys2，goys3 - 大师专线, server: hxa.dashuai.help, port: 45050, type: vmess, uuid: 309da197-bf99-4f02-ba58-a52815dfc154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - &id003 {name: 🇬🇧 (IEPL)英国1 - 大师专线, server: hxa.dashuai.help, port: 45066, type: vmess, uuid: 309da197-bf99-4f02-ba58-a52815dfc154, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -88,6 +88,10 @@ proxies:
 - {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 6fbaffe7-bf32-4efe-9e40-8bb7ed9e2741, udp: true}
 - {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 6fbaffe7-bf32-4efe-9e40-8bb7ed9e2741, udp: true}
 - *id015
+- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 179a3221-db09-4354-8ba8-4de862f599af, udp: true}
+- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 179a3221-db09-4354-8ba8-4de862f599af, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 179a3221-db09-4354-8ba8-4de862f599af, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 179a3221-db09-4354-8ba8-4de862f599af, udp: true}
 - *id016
 - *id017
 - *id018
@@ -114,6 +118,9 @@ proxies:
 - {name: 🇩🇪 德国-v6|03*0.5倍率 - 悦云, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: 1d4f04b0-026d-471a-87cb-40780ef95309, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇳🇱 【荷兰05】*0.5倍率 - 悦云, server: nara.189.ovh, port: 10027, type: trojan, password: 1d4f04b0-026d-471a-87cb-40780ef95309, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
 - {name: 🇩🇪 【德国06】*0.5倍率 - 悦云, server: netcp4.616626.xyz, port: 10027, type: trojan, password: 1d4f04b0-026d-471a-87cb-40780ef95309, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
+- *id016
+- *id017
+- *id018
 - {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 7c18bfb1-baca-3803-b2d8-b3ecbb714541, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇬🇧 [vip①]英国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23605, type: vmess, uuid: 7c18bfb1-baca-3803-b2d8-b3ecbb714541, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇬🇧 [vip①]英国2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23613, type: vmess, uuid: 7c18bfb1-baca-3803-b2d8-b3ecbb714541, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
