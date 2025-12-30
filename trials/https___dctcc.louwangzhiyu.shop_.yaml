@@ -9,18 +9,8 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
-  - ⚡ ‍低延迟
-  - 👆🏻 ‍指定
   - DIRECT
   - REJECT
-- name: ⚡ ‍低延迟
-  type: url-test
-  tolerance: 100
-  use: &id001
-  - All
-- name: 👆🏻 ‍指定
-  type: select
-  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -38,12 +28,10 @@ proxy-groups:
   proxies:
   - 🛩️ ‍墙内
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
   - ✈️ ‍起飞
-  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -51,16 +39,10 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxy-providers:
-  All:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___www.louwangzhiyu.org_/All.yaml
-    interval: 180
-    path: trials_providers/https___www.louwangzhiyu.org_/All.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
+proxies:
+- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: 5ac69b9a-3fd8-4fd5-afc7-5bc0922947b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
