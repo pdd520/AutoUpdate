@@ -9,8 +9,37 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  tolerance: 100
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
+- name: 👆🏻 ‍指定
+  type: select
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -27,11 +56,29 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🎏 ‍其他
   - ✈️ ‍起飞
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🎏 ‍其他
+  - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
   type: select
@@ -39,55 +86,118 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-proxies:
-- {name: 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 韩国 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 韩国 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 韩国 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 土耳其 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 土耳其 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 土耳其 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 冰岛 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 冰岛 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 冰岛 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 印度 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 印度 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 印度 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 巴西 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 巴西 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 巴西 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 以色列 (广港)1x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 以色列 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 以色列 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 墨西哥 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 墨西哥 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 墨西哥 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 泰国 (广新)1  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 泰国 (广新) 2  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
-- {name: 泰国 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 81aada51-2d00-47b3-8602-7bb9b474ca84, udp: true}
+- name: 🇭🇰 ‍香港
+  type: url-test
+  tolerance: 100
+  use: &id002
+  - HK
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  tolerance: 100
+  use: &id003
+  - TW
+- name: 🇨🇳 ‍中国
+  type: url-test
+  tolerance: 100
+  use: &id004
+  - HK
+  - TW
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  tolerance: 100
+  use: &id005
+  - SG
+- name: 🇯🇵 ‍日本
+  type: url-test
+  tolerance: 100
+  use: &id006
+  - JP
+- name: 🇺🇸 ‍美国
+  type: url-test
+  tolerance: 300
+  use: &id007
+  - US
+- name: 🎏 ‍其他
+  type: url-test
+  tolerance: 100
+  use: &id008
+  - Other
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  use: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  use: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  use: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  use: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  use: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  use: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/HK.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/TW.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/SG.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/JP.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/US.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___mgnet.vip/Other.yaml
+    interval: 180
+    path: trials_providers/https___mgnet.vip/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
