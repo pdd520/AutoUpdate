@@ -85,38 +85,11 @@ proxy-groups:
   - ♻️ 自动选择
   - 1
 proxy-providers:
-  US:
+  All:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___dctcc.louwangzhiyu.shop_/All.yaml
     interval: 180
-    path: trials_providers/https___go.yueyun.de/US.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/JP.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/JP.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/Other.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  HK:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___go.yueyun.de/HK.yaml
-    interval: 180
-    path: trials_providers/https___go.yueyun.de/HK.yaml
+    path: trials_providers/https___dctcc.louwangzhiyu.shop_/All.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
