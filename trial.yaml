@@ -94,15 +94,6 @@ proxy-groups:
   - 🇺🇸 美国05 - 悦云
   - 🇺🇸 美国07 - 悦云
   - 🇺🇸 [vip①]美国1 - MG Network
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - 🇨🇳 中国联通节点1 - 新云游
@@ -327,15 +318,6 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id008
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场
@@ -403,15 +385,12 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 - {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: d98fc053-549b-3470-ad16-e06ddb5337ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: eaf15bc0-616e-4828-9287-3bc121592334, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: eaf15bc0-616e-4828-9287-3bc121592334, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: eaf15bc0-616e-4828-9287-3bc121592334, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: eaf15bc0-616e-4828-9287-3bc121592334, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: eaf15bc0-616e-4828-9287-3bc121592334, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 392a737b-f0ba-476d-9033-f6f63820d98c, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 392a737b-f0ba-476d-9033-f6f63820d98c, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 392a737b-f0ba-476d-9033-f6f63820d98c, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 392a737b-f0ba-476d-9033-f6f63820d98c, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 392a737b-f0ba-476d-9033-f6f63820d98c, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d289ed77-2813-4b1a-9ffe-bc2c98e5af2e, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d289ed77-2813-4b1a-9ffe-bc2c98e5af2e, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: d289ed77-2813-4b1a-9ffe-bc2c98e5af2e, udp: true}
