@@ -36,9 +36,7 @@ proxy-groups:
   - SG
   - JP
   - US
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_Other
+  - Other
 - name: 👆🏻 ‍指定
   type: select
   use: *id001
@@ -123,9 +121,7 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id008
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
-  - p_All_Other
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   use: *id002
@@ -150,63 +146,54 @@ proxy-groups:
 proxy-providers:
   HK:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/HK.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/HK.yaml
     interval: 180
-    path: trials_providers/HK.yaml
+    path: trials_providers/https___slianvpn.com/HK.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   TW:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/TW.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/TW.yaml
     interval: 180
-    path: trials_providers/TW.yaml
+    path: trials_providers/https___slianvpn.com/TW.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   SG:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/SG.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/SG.yaml
     interval: 180
-    path: trials_providers/SG.yaml
+    path: trials_providers/https___slianvpn.com/SG.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   JP:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/JP.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/JP.yaml
     interval: 180
-    path: trials_providers/JP.yaml
+    path: trials_providers/https___slianvpn.com/JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
   US:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/US.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/US.yaml
     interval: 180
-    path: trials_providers/US.yaml
+    path: trials_providers/https___slianvpn.com/US.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  p_All_All_Other_Other:
+  Other:
     type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_Other_Other.yaml
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/Other.yaml
     interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_Other.yaml
+    path: trials_providers/https___slianvpn.com/Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
