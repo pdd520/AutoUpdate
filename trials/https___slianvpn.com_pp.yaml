@@ -29,129 +29,17 @@ proxy-groups:
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇭🇰 香港-v6|05*0.5倍率 - 悦云
-  - 🇭🇰 香港-v6|06 - 悦云
-  - 🇭🇰 香港-v6|07 - 悦云
-  - 🇭🇰 香港-v6|08 - 悦云
-  - 🇭🇰 香港-v4|02 - 悦云
-  - 🇭🇰 香港03 - 悦云
-  - 🇭🇰 [vip①]①香港 - MG Network
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
-  - 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-  - 🇸🇬 [vip①]新加坡1 - MG Network
-  - 🇯🇵 日本1(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本2(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本3(广新) x1 - ⚡闪连机场
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
-  - 🇯🇵 日本-v6|02 - 悦云
-  - 🇯🇵 日本-v6|04 - 悦云
-  - 🇯🇵 日本-v6|05 - 悦云
-  - 🇯🇵 日本-v6|06 - 悦云
-  - 🇯🇵 日本-v6|07 - 悦云
-  - 🇯🇵 日本01 - 悦云
-  - 🇯🇵 日本02 - 悦云
-  - 🇯🇵 日本03 - 悦云
-  - 🇯🇵 [vip①]日本1 - MG Network
-  - 🇯🇵 [vip①]日本2 - MG Network
-  - 🇯🇵 [vip①]日本3 - MG Network
-  - 🇺🇸 美国高速节点1 - 新云游
-  - 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
-  - 🇺🇸 美国-v6|01 - 悦云
-  - 🇺🇸 美国01 - 悦云
-  - 🇺🇸 美国02 - 悦云
-  - 🇺🇸 美国-v6|01 - 悦云 2
-  - 🇺🇸 美国04 - 悦云
-  - 🇺🇸 美国05 - 悦云
-  - 🇺🇸 美国07 - 悦云
-  - 🇺🇸 [vip①]美国1 - MG Network
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - 🇨🇳 中国联通节点1 - 新云游
-  - ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场
-  - ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)1x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)3 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新)1  x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
-  - 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|01*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|02*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|03*0.5倍率 - 悦云
-  - 🇳🇱 【荷兰05】*0.5倍率 - 悦云
-  - 🇩🇪 【德国06】*0.5倍率 - 悦云
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1 - MG Network
-  - 🇬🇧 [vip①]英国2 - MG Network
-  - 🇰🇷 [vip①]韩国1 - MG Network
+  use: &id001
+  - HK
+  - TW
+  - SG
+  - JP
+  - US
+  - Other
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -200,318 +88,116 @@ proxy-groups:
   - 💩 ‍广告
 - name: 🇭🇰 ‍香港
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇭🇰 香港-v6|05*0.5倍率 - 悦云
-  - 🇭🇰 香港-v6|06 - 悦云
-  - 🇭🇰 香港-v6|07 - 悦云
-  - 🇭🇰 香港-v6|08 - 悦云
-  - 🇭🇰 香港-v4|02 - 悦云
-  - 🇭🇰 香港03 - 悦云
-  - 🇭🇰 [vip①]①香港 - MG Network
+  use: &id002
+  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
+  use: &id003
+  - TW
 - name: 🇨🇳 ‍中国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇭🇰 香港-v6|05*0.5倍率 - 悦云
-  - 🇭🇰 香港-v6|06 - 悦云
-  - 🇭🇰 香港-v6|07 - 悦云
-  - 🇭🇰 香港-v6|08 - 悦云
-  - 🇭🇰 香港-v4|02 - 悦云
-  - 🇭🇰 香港03 - 悦云
-  - 🇭🇰 [vip①]①香港 - MG Network
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network
-  - 🇨🇳 中国联通节点1 - 新云游
+  use: &id004
+  - HK
+  - TW
 - name: 🇸🇬 ‍新加坡
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-  - 🇸🇬 [vip①]新加坡1 - MG Network
+  use: &id005
+  - SG
 - name: 🇯🇵 ‍日本
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本1(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本2(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本3(广新) x1 - ⚡闪连机场
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
-  - 🇯🇵 日本-v6|02 - 悦云
-  - 🇯🇵 日本-v6|04 - 悦云
-  - 🇯🇵 日本-v6|05 - 悦云
-  - 🇯🇵 日本-v6|06 - 悦云
-  - 🇯🇵 日本-v6|07 - 悦云
-  - 🇯🇵 日本01 - 悦云
-  - 🇯🇵 日本02 - 悦云
-  - 🇯🇵 日本03 - 悦云
-  - 🇯🇵 [vip①]日本1 - MG Network
-  - 🇯🇵 [vip①]日本2 - MG Network
-  - 🇯🇵 [vip①]日本3 - MG Network
+  use: &id006
+  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 美国高速节点1 - 新云游
-  - 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
-  - 🇺🇸 美国-v6|01 - 悦云
-  - 🇺🇸 美国01 - 悦云
-  - 🇺🇸 美国02 - 悦云
-  - 🇺🇸 美国-v6|01 - 悦云 2
-  - 🇺🇸 美国04 - 悦云
-  - 🇺🇸 美国05 - 悦云
-  - 🇺🇸 美国07 - 悦云
-  - 🇺🇸 [vip①]美国1 - MG Network
+  use: &id007
+  - US
 - name: 🎏 ‍其他
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id008
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ❤️故障报修邮箱❤️ - 漏网之鱼
-  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
-  - ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场
-  - ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)1x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇱 以色列 (广港)3 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新)1  x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场
-  - 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
-  - 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云
-  - 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|01*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|02*0.5倍率 - 悦云
-  - 🇩🇪 德国-v6|03*0.5倍率 - 悦云
-  - 🇳🇱 【荷兰05】*0.5倍率 - 悦云
-  - 🇩🇪 【德国06】*0.5倍率 - 悦云
-  - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
-  - 🇬🇧 [vip①]英国1 - MG Network
-  - 🇬🇧 [vip①]英国2 - MG Network
-  - 🇰🇷 [vip①]韩国1 - MG Network
+  use: &id008
+  - Other
 - name: 👆🏻🇭🇰 ‍香港
   type: select
-  proxies: *id002
+  use: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  proxies: *id003
+  use: *id003
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
+  use: *id004
 - name: 👆🏻🇸🇬 ‍新加坡
   type: select
-  proxies: *id005
+  use: *id005
 - name: 👆🏻🇯🇵 ‍日本
   type: select
-  proxies: *id006
+  use: *id006
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  use: *id007
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
-proxies:
-- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 91.149.236.68, port: 26125, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 91.149.236.68, port: 27126, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 免费节点目前仅有Hysteria2协议，请使用最新版客户端 - 漏网之鱼, server: 91.149.236.68, port: 23188, type: vmess, uuid: ebe101ea-e016-4913-8386-3d99786e2392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 83558683-0582-30e0-a8cb-880ca9e199e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 0b4de71f-23ab-4af4-9c2b-7d24cc8fac9e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 0b4de71f-23ab-4af4-9c2b-7d24cc8fac9e, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 0b4de71f-23ab-4af4-9c2b-7d24cc8fac9e, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 0b4de71f-23ab-4af4-9c2b-7d24cc8fac9e, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 0b4de71f-23ab-4af4-9c2b-7d24cc8fac9e, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇷 土耳其 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇷 土耳其 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇷 土耳其 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 54693, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇱 以色列 (广港)1x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇱 以色列 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇮🇱 以色列 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 30348, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇭 泰国 (广新)1  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇭 泰国 (广新) 2  x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇹🇭 泰国 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 28675, type: ss, cipher: chacha20-ietf-poly1305, password: 42a26c56-ff46-467e-82c7-707cda18dd4f, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: c8e812f1-0c86-4eb9-abf3-81fb7b39a811, udp: true}
-- {name: 🇺🇸 美国-v6|01 - 悦云, server: dmitv61.616626.xyz, port: 22305, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国01 - 悦云, server: vir732.189.ovh, port: 10026, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: vir732.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国02 - 悦云, server: vir11.189.ovh, port: 10022, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: vir11.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国-v6|01 - 悦云 2, server: crun6.668918.xyz, port: 22308, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国04 - 悦云, server: layercloud.189.ovh, port: 10021, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: layercloud.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国05 - 悦云, server: advin.189.ovh, port: 10027, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: advin.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国07 - 悦云, server: vir694.189.ovh, port: 10021, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: vir694.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|05*0.5倍率 - 悦云, server: nathk.91ai.de, port: 18002, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|06 - 悦云, server: greenhk0.616626.xyz, port: 10505, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|07 - 悦云, server: greenhk1.616626.xyz, port: 10506, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v6|08 - 悦云, server: greenhk2.616626.xyz, port: 10507, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港-v4|02 - 悦云, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
-- {name: 🇭🇰 香港03 - 悦云, server: hytro.91ai.de, port: 10022, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|02 - 悦云, server: greenchais2.668918.xyz, port: 22307, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|04 - 悦云, server: greenip1.668918.xyz, port: 22306, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|05 - 悦云, server: greenip2.668918.xyz, port: 22307, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|06 - 悦云, server: greenip3.668918.xyz, port: 22308, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本-v6|07 - 悦云, server: vpsjp1.668918.xyz, port: 22306, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本01 - 悦云, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本02 - 悦云, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本03 - 悦云, server: cloud.yueyun.de, port: 10389, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
-- {name: 🇳🇱 荷兰-v6|01*0.5倍率 - 悦云, server: naran1.616626.xyz, port: 22305, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇳🇱 荷兰-v6|02*0.5倍率 - 悦云, server: naran2.616626.xyz, port: 22306, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇳🇱 荷兰-v6|03*0.5倍率 - 悦云, server: naran3.616626.xyz, port: 22308, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇳🇱 荷兰-v6|04*0.5倍率 - 悦云, server: naran4.616626.xyz, port: 22310, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国-v6|01*0.5倍率 - 悦云, server: netcp1.616626.xyz, port: 22305, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国-v6|02*0.5倍率 - 悦云, server: netcp2.616626.xyz, port: 22306, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 德国-v6|03*0.5倍率 - 悦云, server: netcp3.616626.xyz, port: 22307, type: vmess, uuid: 5a8508f6-4b8c-4dfb-8881-595eacd99612, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇳🇱 【荷兰05】*0.5倍率 - 悦云, server: nara.189.ovh, port: 10027, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
-- {name: 🇩🇪 【德国06】*0.5倍率 - 悦云, server: netcp4.616626.xyz, port: 10027, type: trojan, password: 5a8508f6-4b8c-4dfb-8881-595eacd99612, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [vip①]新加坡1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23616, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇭🇰 [vip①]①香港 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23612, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23619, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23611, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23617, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇯🇵 [vip①]日本3 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23618, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇬🇧 [vip①]英国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23605, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇬🇧 [vip①]英国2 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23613, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇰🇷 [vip①]韩国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23614, type: vmess, uuid: df9465a0-9a32-3983-916d-4c5c0f5fbcae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  use: *id008
+proxy-providers:
+  HK:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/HK.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/TW.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/TW.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  SG:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/SG.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/SG.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  JP:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/JP.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/JP.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  US:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/US.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/US.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  Other:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___slianvpn.com/Other.yaml
+    interval: 180
+    path: trials_providers/https___slianvpn.com/Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
