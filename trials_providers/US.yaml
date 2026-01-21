@@ -1,9 +1,8 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: ce8af21d-386d-4f14-91f7-4e6ce6e6ecaa, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ee5042e9-7acd-426e-918c-80f49e55634e, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ee5042e9-7acd-426e-918c-80f49e55634e, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: ee5042e9-7acd-426e-918c-80f49e55634e, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 1e798cb2-a167-43e3-a091-1a43ca5f84ea, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: b811e5bc-6939-45cc-b64e-3263d61253ec, udp: true}
 - {name: '🇺🇸 [vip①]美国1 - MG Network', server: traffic.a1.szx.gfw250.com, port: 23615, type: vmess, uuid: 6b439e1b-2c41-3c82-a5ba-003f8b5d77c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
