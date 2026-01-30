@@ -85,6 +85,15 @@ proxy-groups:
   - ♻️ 自动选择
   - 1
 proxy-providers:
+  p_All_All_All_Other_Other_Other:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
+    interval: 180
+    path: trials_providers/p_All_All_All_Other_Other_Other.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
   p_All_All_Other_Other:
     type: http
     url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_Other_Other.yaml

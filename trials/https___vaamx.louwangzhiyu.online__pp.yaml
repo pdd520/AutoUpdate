@@ -84,7 +84,16 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 1
-proxy-providers: {}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___vaamx.louwangzhiyu.online_/All.yaml
+    interval: 180
+    path: trials_providers/https___vaamx.louwangzhiyu.online_/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
