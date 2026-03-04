@@ -19,6 +19,10 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
+  - 🇩🇪 德国-法兰克福-001 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
   - ❤️故障报修邮箱❤️ - 漏网之鱼
   - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
 - name: 👆🏻 ‍指定
@@ -55,8 +59,12 @@ proxy-groups:
   - 🛩️ ‍墙内
   - 💩 ‍广告
 proxies:
-- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: 107.189.25.43, port: 26125, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: 107.189.25.43, port: 27126, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-001 - 漏网之鱼, server: spoug.cmvvb.online, port: 443, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: spoug.cmvvb.online}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zdqbk.cmvvb.online, port: 8443, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zdqbk.cmvvb.online}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: kwtgm.cmvvb.online, port: 8443, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kwtgm.cmvvb.online}}, udp: true}
+- {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: wzhck.cmvvb.online, port: 443, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wzhck.cmvvb.online}}, udp: true}
+- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
+- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 6ddb52ee-0f14-462e-a204-6e7317bb9385, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
