@@ -24,11 +24,11 @@ proxies:
 - *id004
 - *id005
 - *id006
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: efe17ccf-39b3-4db1-97e6-8647f0c180b6, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: efe17ccf-39b3-4db1-97e6-8647f0c180b6, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: efe17ccf-39b3-4db1-97e6-8647f0c180b6, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: efe17ccf-39b3-4db1-97e6-8647f0c180b6, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: efe17ccf-39b3-4db1-97e6-8647f0c180b6, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: d19e4099-cf17-4946-bbbd-395757f0761b, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: d19e4099-cf17-4946-bbbd-395757f0761b, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: d19e4099-cf17-4946-bbbd-395757f0761b, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: d19e4099-cf17-4946-bbbd-395757f0761b, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: d19e4099-cf17-4946-bbbd-395757f0761b, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - &id007 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 76d94b15-05ea-38ca-9fb0-ad4b737bf247, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - *id001
 - *id002
