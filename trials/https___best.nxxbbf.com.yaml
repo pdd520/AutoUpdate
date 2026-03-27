@@ -166,15 +166,15 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: f4a217c3-9fde-476f-b902-f14c4e7eabe3, udp: true}
+- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
+- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 862d7644-e0ea-4a81-be2c-04d74067dd85, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
