@@ -4,4 +4,5 @@ proxies:
 - {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4038ec1d-4117-4a82-92b6-10f9433c87cd, udp: true}
 - {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4038ec1d-4117-4a82-92b6-10f9433c87cd, udp: true}
 - {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 4038ec1d-4117-4a82-92b6-10f9433c87cd, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 25885a9c-aca6-465c-a7ee-98f93a1caa7e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 5891d2db-a8b6-3c5d-9fbf-3da848e7bc50, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
