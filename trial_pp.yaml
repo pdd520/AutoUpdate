@@ -11,18 +11,12 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
@@ -31,16 +25,11 @@ proxy-groups:
   type: url-test
   tolerance: 100
   use: &id001
-  - HK
   - TW
-  - SG
-  - JP
   - US
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
   - p_All_CN
   - p_All_Other
 - name: 👆🏻 ‍指定
@@ -62,11 +51,9 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
@@ -75,14 +62,10 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -92,102 +75,48 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  tolerance: 100
-  use: &id002
-  - HK
 - name: 🇹🇼 ‍台湾
   type: url-test
   tolerance: 100
-  use: &id003
+  use: &id002
   - TW
 - name: 🇨🇳 ‍中国
   type: url-test
   tolerance: 100
-  use: &id004
-  - HK
+  use: &id003
   - TW
   - p_All_CN
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  tolerance: 100
-  use: &id005
-  - SG
-- name: 🇯🇵 ‍日本
-  type: url-test
-  tolerance: 100
-  use: &id006
-  - JP
 - name: 🇺🇸 ‍美国
   type: url-test
   tolerance: 300
-  use: &id007
+  use: &id004
   - US
 - name: 🎏 ‍其他
   type: url-test
   tolerance: 100
-  use: &id008
+  use: &id005
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
   - p_All_All_All_Other_Other_Other
-  - p_All_All_Other_Other
-  - p_All_All_Other_Other
   - p_All_Other
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  use: *id002
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  use: *id003
+  use: *id002
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  use: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  use: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  use: *id006
+  use: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  use: *id007
+  use: *id004
 - name: 👆🏻🎏 ‍其他
   type: select
-  use: *id008
+  use: *id005
 proxy-providers:
-  HK:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/HK.yaml
-    interval: 180
-    path: trials_providers/HK.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   TW:
     type: http
     url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/TW.yaml
     interval: 180
     path: trials_providers/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  SG:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/SG.yaml
-    interval: 180
-    path: trials_providers/SG.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  JP:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/JP.yaml
-    interval: 180
-    path: trials_providers/JP.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
@@ -206,15 +135,6 @@ proxy-providers:
     url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_All_Other_Other_Other.yaml
     interval: 180
     path: trials_providers/p_All_All_All_Other_Other_Other.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
-  p_All_All_Other_Other:
-    type: http
-    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/p_All_All_Other_Other.yaml
-    interval: 180
-    path: trials_providers/p_All_All_Other_Other.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
