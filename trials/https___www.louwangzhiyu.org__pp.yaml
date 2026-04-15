@@ -11,72 +11,16 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🇺🇸 ‍美国
-  - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🎏 ‍其他
   - DIRECT
   - REJECT
 - name: ⚡ ‍低延迟
   type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
   tolerance: 100
-  proxies: &id001
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场
-  - 🇯🇵 日本1(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本2(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本3(广新) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场
-  - ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场
-  - ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场
+  use: &id001
+  - All
 - name: 👆🏻 ‍指定
   type: select
-  proxies: *id001
+  use: *id001
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -93,28 +37,12 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
-  - 🇹🇼 ‍台湾
-  - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
 - name: 🤖 ‍AI
   type: select
   proxies:
-  - 🇺🇸 ‍美国
-  - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
-  - 🎏 ‍其他
   - ✈️ ‍起飞
-  - 👆🏻🇺🇸 ‍美国
-  - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
-  - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -123,164 +51,16 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-- name: 🇹🇼 ‍台湾
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id003
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-- name: 🇨🇳 ‍中国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id004
-  - 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场
-  - 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场
-  - 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场
-  - 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场
-  - 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 日本1(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本2(广新) x1 - ⚡闪连机场
-  - 🇯🇵 日本3(广新) x1 - ⚡闪连机场
-- name: 🇺🇸 ‍美国
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 300
-  proxies: &id007
-  - 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场
-  - 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场
-- name: 🎏 ‍其他
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 30
-  tolerance: 100
-  proxies: &id008
-  - ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场
-  - ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场
-  - 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场
-  - 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场
-  - 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场
-  - 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
-- name: 👆🏻🇹🇼 ‍台湾
-  type: select
-  proxies: *id003
-- name: 👆🏻🇨🇳 ‍中国
-  type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
-- name: 👆🏻🇺🇸 ‍美国
-  type: select
-  proxies: *id007
-- name: 👆🏻🎏 ‍其他
-  type: select
-  proxies: *id008
-proxies:
-- {name: ℹ️ 官网 slvp.nxxbbf.com - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: ℹ️ 无法连接到官网重新导入订阅 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港  (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇭🇰 香港 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇸🇬 新加坡解锁(广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇹🇼 台湾解锁 (广新)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇺🇸 中转美国1(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇺🇸 中转美国2(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇺🇸 中转美国3(动态) x1 - ⚡闪连机场, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇰🇷 韩国 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇰🇷 韩国 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇰🇷 韩国 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇸 冰岛 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇸 冰岛 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇸 冰岛 (广港)3x1 - ⚡闪连机场, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇳 印度 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇳 印度 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇮🇳 印度 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇧🇷 巴西 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇧🇷 巴西 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇧🇷 巴西 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)1 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)2 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
-- {name: 🇲🇽 墨西哥 (广港)3 x1 - ⚡闪连机场, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 26481fdf-ac46-4cea-8316-5f08ca190e8e, udp: true}
+proxy-providers:
+  All:
+    type: http
+    url: https://raw.kgithub.com/pdd520/AutoUpdate/main/trials_providers/https___www.louwangzhiyu.org_/All.yaml
+    interval: 180
+    path: trials_providers/https___www.louwangzhiyu.org_/All.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -8531,5 +8311,213 @@ rules:
 - DOMAIN-SUFFIX,zhuihd.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,cmbchina.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,95516.com,🛩️ ‍墙内
+- IP-CIDR,8.128.0.0/10,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.209.32.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.209.40.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.209.48.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.210.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.64.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.128.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.144.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.152.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.208.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.211.224.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.212.0.0/14,🛩️ ‍墙内,no-resolve
+- IP-CIDR,8.216.0.0/13,🛩️ ‍墙内,no-resolve
+- IP-CIDR,14.1.112.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.112.212.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.52.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.56.0.0/15,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.75.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.89.0.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.89.64.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.89.82.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.89.91.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.89.100.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.90.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.91.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.92.0.0/14,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.240.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.242.0.0/15,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.244.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.246.5.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.246.16.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.246.60.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,47.246.65.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,59.82.0.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,59.82.240.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,59.82.248.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.52.76.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.206.40.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,110.76.21.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,110.76.23.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,112.125.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.79.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.80.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.84.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.88.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.93.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.94.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.102.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.104.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.112.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.251.124.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.38.208.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.38.224.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.42.224.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,140.205.1.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,140.205.122.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,149.129.64.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,163.181.32.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,163.181.40.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,170.33.0.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,198.11.141.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,198.11.184.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,205.204.104.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,205.204.117.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,205.204.122.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,205.204.124.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.40.192.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,49.51.56.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,49.51.60.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,49.51.110.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,49.51.112.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,62.234.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,94.191.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.7.28.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,109.244.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,111.30.128.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,111.30.136.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,111.30.139.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,111.30.140.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,115.159.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.0.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.64.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.124.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.128.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.164.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.168.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.176.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.192.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.28.224.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.29.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,121.51.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,129.28.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,129.204.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,129.211.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,132.232.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,134.175.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,146.56.192.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,150.109.32.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,150.109.64.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,150.109.96.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,152.136.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,162.14.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,182.254.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,188.131.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.195.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.128.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.144.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.158.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.180.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.208.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.212.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.218.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.220.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.205.248.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,212.64.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,212.129.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.113.194.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,63.243.252.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.235.44.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,106.12.0.0/15,🛩️ ‍墙内,no-resolve
+- IP-CIDR,114.28.224.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,180.76.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,182.61.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,185.10.105.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,202.46.48.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,203.90.238.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,43.254.0.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.249.212.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,49.4.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.31.200.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.218.216.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,114.115.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,114.116.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.63.128.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,116.66.184.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,117.78.0.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.3.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,119.8.32.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,121.36.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,121.36.128.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,121.37.0.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,122.112.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.0.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.64.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.100.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.104.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.112.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.128.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.192.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.224.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.240.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.9.248.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.128.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.160.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.164.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.168.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.176.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,139.159.192.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.0.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.64.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.79.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.80.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.96.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.112.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.125.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,159.138.128.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,42.186.0.0/16,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.127.128.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.195.24.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.253.132.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.253.240.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,45.254.48.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,59.111.0.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,59.111.128.0/17,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.71.120.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.71.128.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.71.196.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.71.200.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.12.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.18.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.24.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.28.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.38.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.40.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.44.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.48.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.72.128.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.74.24.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.74.48.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.129.252.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.131.252.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.135.240.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,103.196.64.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,106.2.32.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,106.2.64.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,114.113.196.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,114.113.200.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,115.236.112.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,115.238.76.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,123.58.160.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,223.252.192.0/19,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.128.0/18,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.192.0/24,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.194.0/23,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.196.0/22,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.200.0/21,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.198.208.0/20,🛩️ ‍墙内,no-resolve
+- IP-CIDR,101.199.196.0/22,🛩️ ‍墙内,no-resolve
 - GEOIP,CN,🛩️ ‍墙内
 - MATCH,🌐 ‍未知站点
