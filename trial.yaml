@@ -230,11 +230,11 @@ proxies:
 - {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: c355074f-b86a-41df-b962-9c2c2beafe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
 - {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: c355074f-b86a-41df-b962-9c2c2beafe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
 - {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 3baa6189-b2ad-345c-b377-5a779950ad50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: fb734104-fd1b-3e86-9cbf-9d62d0d6b5a7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本2 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: fb734104-fd1b-3e86-9cbf-9d62d0d6b5a7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本3 - MG Network', server: 18.mamamajd.site, port: 23618, type: vmess, uuid: fb734104-fd1b-3e86-9cbf-9d62d0d6b5a7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -323,37 +323,6 @@ rules:
 - DOMAIN,proxy.yaoyaoling.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,githubfast.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,1976f.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,ol.epicgames.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,dizhensubao.getui.com,🛩️ ‍墙内
-- DOMAIN,dl.google.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,googletraveladservices.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🛩️ ‍墙内
-- DOMAIN,origin-a.akamaihd.net,🛩️ ‍墙内
-- DOMAIN,fairplay.l.qq.com,🛩️ ‍墙内
-- DOMAIN,livew.l.qq.com,🛩️ ‍墙内
-- DOMAIN,vd.l.qq.com,🛩️ ‍墙内
-- DOMAIN,errlog.umeng.com,🛩️ ‍墙内
-- DOMAIN,msg.umeng.com,🛩️ ‍墙内
-- DOMAIN,msg.umengcloud.com,🛩️ ‍墙内
-- DOMAIN,tracking.miui.com,🛩️ ‍墙内
-- DOMAIN,app.adjust.com,🛩️ ‍墙内
-- DOMAIN,bdtj.tagtic.cn,🛩️ ‍墙内
-- DOMAIN,rewards.hypixel.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,koodomobile.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,koodomobile.ca,🛩️ ‍墙内
-- DOMAIN-SUFFIX,synology.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DiskStation.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,i234.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,myDS.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.biz,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.mobi,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.org,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.org,🛩️ ‍墙内
 - DOMAIN-SUFFIX,sigmob.cn,💩 ‍广告
 - DOMAIN,open.e.kuaishou.com,💩 ‍广告
 - DOMAIN,open.e.kuaishou.cn,💩 ‍广告

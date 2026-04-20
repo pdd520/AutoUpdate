@@ -107,11 +107,11 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 88c99a56-a82b-48ca-83c9-dbf1678ca65f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 1d9e8b49-63e2-48a3-8253-affcbdfe8046, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -189,37 +189,6 @@ rules:
 - DOMAIN,proxy.yaoyaoling.net,🛩️ ‍墙内
 - DOMAIN-SUFFIX,githubfast.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,1976f.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,ol.epicgames.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,dizhensubao.getui.com,🛩️ ‍墙内
-- DOMAIN,dl.google.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,googletraveladservices.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🛩️ ‍墙内
-- DOMAIN,origin-a.akamaihd.net,🛩️ ‍墙内
-- DOMAIN,fairplay.l.qq.com,🛩️ ‍墙内
-- DOMAIN,livew.l.qq.com,🛩️ ‍墙内
-- DOMAIN,vd.l.qq.com,🛩️ ‍墙内
-- DOMAIN,errlog.umeng.com,🛩️ ‍墙内
-- DOMAIN,msg.umeng.com,🛩️ ‍墙内
-- DOMAIN,msg.umengcloud.com,🛩️ ‍墙内
-- DOMAIN,tracking.miui.com,🛩️ ‍墙内
-- DOMAIN,app.adjust.com,🛩️ ‍墙内
-- DOMAIN,bdtj.tagtic.cn,🛩️ ‍墙内
-- DOMAIN,rewards.hypixel.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,koodomobile.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,koodomobile.ca,🛩️ ‍墙内
-- DOMAIN-SUFFIX,synology.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DiskStation.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,i234.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,myDS.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.biz,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.me,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSCloud.mobi,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,DSmyNAS.org,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.com,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,FamilyDS.org,🛩️ ‍墙内
 - DOMAIN-SUFFIX,sigmob.cn,💩 ‍广告
 - DOMAIN,open.e.kuaishou.com,💩 ‍广告
 - DOMAIN,open.e.kuaishou.cn,💩 ‍广告
