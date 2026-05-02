@@ -1,6 +1,9 @@
 %YAML 1.1
 ---
 proxies:
+- {name: 🇯🇵 日本1(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 094136e0-bd4b-4108-93c8-89b26639b3dd, udp: true}
+- {name: 🇯🇵 日本2(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 094136e0-bd4b-4108-93c8-89b26639b3dd, udp: true}
+- {name: 🇯🇵 日本3(广新) x1 - ⚡闪连机场, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 094136e0-bd4b-4108-93c8-89b26639b3dd, udp: true}
 - {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 3c719e93-2aa5-454d-8b68-e40bd04a68a6, udp: true}
 - {name: '🇯🇵 [vip①]日本1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 6e44a177-6caf-3abf-88a5-3a5e773f1683, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本2 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 6e44a177-6caf-3abf-88a5-3a5e773f1683, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
