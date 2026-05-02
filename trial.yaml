@@ -45,9 +45,6 @@ proxy-groups:
   - 🇯🇵 [vip①]日本3 - MG Network
   - 🇺🇸 美国高速节点1 - 新云游
   - 🇺🇸 [vip①]美国1 - MG Network
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - 🇨🇳 中国联通节点1 - 新云游
   - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
   - 🇬🇧 [vip①]英国1 - MG Network
   - 🇰🇷 [vip①]韩国1 - MG Network
@@ -57,6 +54,8 @@ proxy-groups:
   - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
+  - 🇨🇳 中国联通节点1 - 新云游
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -166,8 +165,6 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id008
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network
   - 🇬🇧 [vip①]英国1 - MG Network
   - 🇰🇷 [vip①]韩国1 - MG Network
@@ -177,6 +174,7 @@ proxy-groups:
   - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
 - name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
@@ -199,12 +197,11 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: db213cf7-201a-3b9e-bf48-22b0af0a465d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: cb37a54e-d2f7-49a2-bf0f-4de6db154fde, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: cb37a54e-d2f7-49a2-bf0f-4de6db154fde, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: cb37a54e-d2f7-49a2-bf0f-4de6db154fde, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: cb37a54e-d2f7-49a2-bf0f-4de6db154fde, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: cb37a54e-d2f7-49a2-bf0f-4de6db154fde, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: f0b3711d-9866-4652-84ce-7422c4c9164e, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: f0b3711d-9866-4652-84ce-7422c4c9164e, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: f0b3711d-9866-4652-84ce-7422c4c9164e, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: f0b3711d-9866-4652-84ce-7422c4c9164e, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: f0b3711d-9866-4652-84ce-7422c4c9164e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 07dbc10c-fd1a-326b-9ece-c09d280be55a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本2 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 07dbc10c-fd1a-326b-9ece-c09d280be55a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇯🇵 [vip①]日本3 - MG Network', server: 18.mamamajd.site, port: 23618, type: vmess, uuid: 07dbc10c-fd1a-326b-9ece-c09d280be55a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -222,6 +219,7 @@ proxies:
 - {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: c355074f-b86a-41df-b962-9c2c2beafe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: c355074f-b86a-41df-b962-9c2c2beafe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: c355074f-b86a-41df-b962-9c2c2beafe6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: db213cf7-201a-3b9e-bf48-22b0af0a465d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
