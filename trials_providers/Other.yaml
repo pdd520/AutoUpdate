@@ -1,15 +1,16 @@
 %YAML 1.1
 ---
 proxies:
-- &id001 {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 842e3ef9-4d80-3f7e-92ed-1240807cefa6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
-- {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
-- {name: 🇩🇪 德国-法兰克福-001 - 漏网之鱼, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-- {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-- {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-- {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+- &id001 {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
+- &id002 {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
+- &id003 {name: 🇩🇪 德国-法兰克福-001 - 漏网之鱼, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+- &id004 {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+- &id005 {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+- &id006 {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
 - *id001
+- *id002
+- *id003
+- *id004
+- *id005
+- *id006
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 84ef84c1-a669-3a78-a5eb-20bf196c9580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}

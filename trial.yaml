@@ -11,18 +11,12 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
-  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
@@ -33,21 +27,16 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
   - 🇺🇸 美国高速节点1 - 新云游
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  - ❤️故障报修邮箱❤️ - 漏网之鱼
+  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-001 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
   - ❤️故障报修邮箱❤️ - 漏网之鱼
   - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
   - 🇩🇪 德国-法兰克福-001 - 漏网之鱼
@@ -55,6 +44,7 @@ proxy-groups:
   - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
   - 🇨🇳 中国联通节点1 - 新云游
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -74,11 +64,9 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
-  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - ✈️ ‍起飞
-  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
@@ -87,14 +75,10 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
-  - 🇸🇬 ‍新加坡
-  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
-  - 👆🏻🇸🇬 ‍新加坡
-  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -104,20 +88,12 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇭🇰 ‍香港
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id002
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
 - name: 🇹🇼 ‍台湾
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id003
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
+  proxies: &id002
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
@@ -126,96 +102,62 @@ proxy-groups:
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
-  proxies: &id004
-  - 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定)
-  - 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定)
+  proxies: &id003
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
   - 🇨🇳 中国联通节点1 - 新云游
-- name: 🇸🇬 ‍新加坡
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id005
-  - 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定)
-- name: 🇯🇵 ‍日本
-  type: url-test
-  url: https://i.ytimg.com/generate_204
-  interval: 15
-  tolerance: 100
-  proxies: &id006
-  - 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定)
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id007
-  - 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定)
+  proxies: &id004
   - 🇺🇸 美国高速节点1 - 新云游
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id008
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-  - ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定)
-  - 试用一小时2g - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定)
-  - ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定)
+  proxies: &id005
   - ❤️故障报修邮箱❤️ - 漏网之鱼
   - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
   - 🇩🇪 德国-法兰克福-001 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
   - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
-- name: 👆🏻🇭🇰 ‍香港
-  type: select
-  proxies: *id002
+  - ❤️故障报修邮箱❤️ - 漏网之鱼
+  - ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-001 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-002 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-003 - 漏网之鱼
+  - 🇩🇪 德国-法兰克福-004 - 漏网之鱼
+  - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
 - name: 👆🏻🇹🇼 ‍台湾
   type: select
-  proxies: *id003
+  proxies: *id002
 - name: 👆🏻🇨🇳 ‍中国
   type: select
-  proxies: *id004
-- name: 👆🏻🇸🇬 ‍新加坡
-  type: select
-  proxies: *id005
-- name: 👆🏻🇯🇵 ‍日本
-  type: select
-  proxies: *id006
+  proxies: *id003
 - name: 👆🏻🇺🇸 ‍美国
   type: select
-  proxies: *id007
+  proxies: *id004
 - name: 👆🏻🎏 ‍其他
   type: select
-  proxies: *id008
+  proxies: *id005
 proxies:
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 842e3ef9-4d80-3f7e-92ed-1240807cefa6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 试用节点-日本 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ℹ️ 官网:best.idsduf.com - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 试用一小时2g - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ℹ️ 购买后请更新订阅 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: ℹ️ 购买后获取更多节点 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 🇸🇬 试用节点-新加坡 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 57884, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 🇭🇰 试用节点-香港 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: 40a22510-7683-4de4-be37-4c7ae231e0f8, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 835279a2-72f9-4f9b-a1ff-33aa3809aee8, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 835279a2-72f9-4f9b-a1ff-33aa3809aee8, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 835279a2-72f9-4f9b-a1ff-33aa3809aee8, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 835279a2-72f9-4f9b-a1ff-33aa3809aee8, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 835279a2-72f9-4f9b-a1ff-33aa3809aee8, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: ❤️故障报修邮箱❤️ - 漏网之鱼, server: pdgzb.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdgzb.cmvvb.online}}, udp: true}
 - {name: ℹ️ 邮箱:louwangzhiyu.org@gmail.com - 漏网之鱼, server: snhkg.cmvvb.online, port: 8080, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: snhkg.cmvvb.online}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-001 - 漏网之鱼, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 2e85286a-0cfc-4ada-9601-f92bf555e592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: eb6353d3-95ec-493b-a051-3e5f10227031, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: eb6353d3-95ec-493b-a051-3e5f10227031, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: eb6353d3-95ec-493b-a051-3e5f10227031, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: eb6353d3-95ec-493b-a051-3e5f10227031, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: eb6353d3-95ec-493b-a051-3e5f10227031, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 84ef84c1-a669-3a78-a5eb-20bf196c9580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
