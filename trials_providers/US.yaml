@@ -1,5 +1,6 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 73d2a3a5-22a8-4868-a425-f05c3b2717f4, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: c45e3e1b-26c2-3ed8-b8f5-17c35ba395a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 试用节点-美国 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 47831, type: ss, cipher: chacha20-ietf-poly1305, password: dc947eda-21a2-4b4c-b1cf-b15d9ff20331, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 3a6eec47-5fde-4af2-b46c-43cc468ceb9d, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: de10f530-6dce-3123-b5da-d20c40e0ea80, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
