@@ -1,8 +1,7 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇹🇼 试用节点-台湾 - 巨人坤场vpn(超稳定), server: jry.izenny.com, port: 27689, type: ss, cipher: chacha20-ietf-poly1305, password: a50fbef0-7cba-4283-84fb-92326482e752, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 528c774d-f40c-41a7-aad7-3ecdb7d6e4f5, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 528c774d-f40c-41a7-aad7-3ecdb7d6e4f5, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 528c774d-f40c-41a7-aad7-3ecdb7d6e4f5, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 1eb454e4-9b78-493e-83ca-349d61b7e6fa, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 1eb454e4-9b78-493e-83ca-349d61b7e6fa, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 1eb454e4-9b78-493e-83ca-349d61b7e6fa, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: ed2b99a4-5f26-30c7-abe8-12c7da624554, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
