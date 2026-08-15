@@ -154,12 +154,12 @@ proxies:
 - {name: 🇩🇪 德国-法兰克福-002 - 漏网之鱼, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: b855a562-772c-40f2-a5d4-c990c9e5a392, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-003 - 漏网之鱼, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: b855a562-772c-40f2-a5d4-c990c9e5a392, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
 - {name: 🇩🇪 德国-法兰克福-004 - 漏网之鱼, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: b855a562-772c-40f2-a5d4-c990c9e5a392, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 73ef8728-3cb4-34d0-afc4-94a145277da9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 8aa8ec6b-7430-407f-ae24-2f83bb83595b, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 8aa8ec6b-7430-407f-ae24-2f83bb83595b, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 8aa8ec6b-7430-407f-ae24-2f83bb83595b, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 8aa8ec6b-7430-407f-ae24-2f83bb83595b, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8aa8ec6b-7430-407f-ae24-2f83bb83595b, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: ea0e0c62-0191-3a55-a763-ffaf6ec279c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 3e84afc7-46ce-41ba-b545-3b605178f191, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 3e84afc7-46ce-41ba-b545-3b605178f191, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 3e84afc7-46ce-41ba-b545-3b605178f191, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 3e84afc7-46ce-41ba-b545-3b605178f191, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 3e84afc7-46ce-41ba-b545-3b605178f191, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
