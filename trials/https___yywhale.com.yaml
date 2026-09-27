@@ -107,11 +107,11 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: a0d39693-d530-412d-b247-c457974f0bbd, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: a0d39693-d530-412d-b247-c457974f0bbd, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: a0d39693-d530-412d-b247-c457974f0bbd, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: a0d39693-d530-412d-b247-c457974f0bbd, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: a0d39693-d530-412d-b247-c457974f0bbd, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 0585feff-3046-4ac1-9dde-429f1d619f02, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 0585feff-3046-4ac1-9dde-429f1d619f02, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 0585feff-3046-4ac1-9dde-429f1d619f02, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 0585feff-3046-4ac1-9dde-429f1d619f02, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 0585feff-3046-4ac1-9dde-429f1d619f02, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -7757,7 +7757,48 @@ rules:
 - DOMAIN-SUFFIX,livejasmin.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,rdtcdn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,sb-cd.com,✈️ ‍起飞
-- DOMAIN-SUFFIX,,✈️ ‍起飞
+- DOMAIN-SUFFIX,ypncdn.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,amplitude.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hockeyapp.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,readdle.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,fanatical.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,humblebundle.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,underlords.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,valvesoftware.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,playartifact.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steam-chat.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steamgames.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steamserver.net,✈️ ‍起飞
+- DOMAIN-KEYWORD,ttvnw,✈️ ‍起飞
+- DOMAIN-SUFFIX,twimg.co,✈️ ‍起飞
+- DOMAIN-SUFFIX,twimg.org,✈️ ‍起飞
+- IP-CIDR,91.108.0.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,109.239.140.0/24,✈️ ‍起飞,no-resolve
+- IP-CIDR,149.154.160.0/20,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,✈️ ‍起飞,no-resolve
+- DOMAIN-SUFFIX,teraboxcdn.com,✈️ ‍起飞
+- IP-CIDR,34.224.0.0/12,✈️ ‍起飞,no-resolve
+- IP-CIDR,54.242.0.0/15,✈️ ‍起飞,no-resolve
+- IP-CIDR,50.22.198.204/30,✈️ ‍起飞,no-resolve
+- IP-CIDR,208.43.122.128/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,108.168.174.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,173.192.231.32/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.5.192/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,174.37.243.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.46.128/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,173.192.222.160/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,184.173.128.0/17,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.224.160/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,75.126.150.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,69.171.235.0/16,✈️ ‍起飞,no-resolve
+- DOMAIN-SUFFIX,neulion.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,icntv.xyz,✈️ ‍起飞
+- DOMAIN-SUFFIX,flzbcdn.xyz,✈️ ‍起飞
+- DOMAIN-SUFFIX,ocnttv.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,vikacg.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,picjs.xyz,✈️ ‍起飞
 - DOMAIN-SUFFIX,13th.tech,🛩️ ‍墙内
 - DOMAIN-SUFFIX,423down.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,bokecc.com,🛩️ ‍墙内
