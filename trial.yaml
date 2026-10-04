@@ -11,12 +11,18 @@ proxy-groups:
   proxies:
   - ⚡ ‍低延迟
   - 👆🏻 ‍指定
+  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - 🇺🇸 ‍美国
   - 🎏 ‍其他
+  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🎏 ‍其他
   - DIRECT
@@ -27,13 +33,23 @@ proxy-groups:
   interval: 30
   tolerance: 100
   proxies: &id001
+  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
+  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
+  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
+  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
+  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
   - 🇺🇸 美国高速节点1 - 新云游
+  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
+  - 🇺🇸 [vip①]美国2|低倍率 - MG Network
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - 🇨🇳 中国联通节点1 - 新云游
+  - ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network
+  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
 - name: 👆🏻 ‍指定
   type: select
   proxies: *id001
@@ -53,9 +69,11 @@ proxy-groups:
   type: select
   proxies:
   - 🛩️ ‍墙内
+  - 🇭🇰 ‍香港
   - 🇹🇼 ‍台湾
   - 🇨🇳 ‍中国
   - ✈️ ‍起飞
+  - 👆🏻🇭🇰 ‍香港
   - 👆🏻🇹🇼 ‍台湾
   - 👆🏻🇨🇳 ‍中国
   - 👆🏻 ‍指定
@@ -64,10 +82,14 @@ proxy-groups:
   proxies:
   - 🇺🇸 ‍美国
   - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
   - 🎏 ‍其他
   - ✈️ ‍起飞
   - 👆🏻🇺🇸 ‍美国
   - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - 👆🏻🎏 ‍其他
   - 👆🏻 ‍指定
   - 🛩️ ‍墙内
@@ -77,16 +99,14 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
-- name: 🇹🇼 ‍台湾
+- name: 🇭🇰 ‍香港
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 100
   proxies: &id002
-  - 🇹🇼 台湾高速节点 - 新云游
-  - 🇹🇼 台湾高速节点2 - 新云游
-  - 🇹🇼 台湾高速节点3 - 新云游
-- name: 🇨🇳 ‍中国
+  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
+- name: 🇹🇼 ‍台湾
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
@@ -95,41 +115,92 @@ proxy-groups:
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 [vip①]①香港|低倍率 - MG Network
+  - 🇹🇼 台湾高速节点 - 新云游
+  - 🇹🇼 台湾高速节点2 - 新云游
+  - 🇹🇼 台湾高速节点3 - 新云游
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇨🇳 中国联通节点1 - 新云游
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 [vip①]日本1|低倍率 - MG Network
+  - 🇯🇵 [vip①]日本2|低倍率 - MG Network
+  - 🇯🇵 [vip①]日本3|低倍率 - MG Network
 - name: 🇺🇸 ‍美国
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 15
   tolerance: 300
-  proxies: &id004
+  proxies: &id007
   - 🇺🇸 美国高速节点1 - 新云游
+  - 🇺🇸 [vip①]美国1|低倍率 - MG Network
+  - 🇺🇸 [vip①]美国2|低倍率 - MG Network
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
   interval: 30
   tolerance: 100
-  proxies: &id005
+  proxies: &id008
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
   - ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫
-- name: 👆🏻🇹🇼 ‍台湾
+  - ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network
+  - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
+- name: 👆🏻🇭🇰 ‍香港
   type: select
   proxies: *id002
-- name: 👆🏻🇨🇳 ‍中国
+- name: 👆🏻🇹🇼 ‍台湾
   type: select
   proxies: *id003
-- name: 👆🏻🇺🇸 ‍美国
+- name: 👆🏻🇨🇳 ‍中国
   type: select
   proxies: *id004
-- name: 👆🏻🎏 ‍其他
+- name: 👆🏻🇸🇬 ‍新加坡
   type: select
   proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
 - {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 22560cd2-606c-3536-b829-18fc9887c93e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 4177e7e5-9fcb-44e4-a274-e084abb41fe0, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 4177e7e5-9fcb-44e4-a274-e084abb41fe0, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 4177e7e5-9fcb-44e4-a274-e084abb41fe0, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 4177e7e5-9fcb-44e4-a274-e084abb41fe0, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 4177e7e5-9fcb-44e4-a274-e084abb41fe0, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: f6443baa-d949-47ff-8847-0027d013eadd, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: f6443baa-d949-47ff-8847-0027d013eadd, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: f6443baa-d949-47ff-8847-0027d013eadd, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: f6443baa-d949-47ff-8847-0027d013eadd, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: f6443baa-d949-47ff-8847-0027d013eadd, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mgjiasuyunnet.26621689.xyz, port: 23619, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mgjiasuyunnet.26621689.xyz, port: 23612, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇸🇬 [vip①]新加坡1|低倍率 - MG Network', server: 16.mgjiasuyunnet.26621689.xyz, port: 23616, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]日本1|低倍率 - MG Network', server: 11.mgjiasuyunnet.26621689.xyz, port: 23611, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]日本2|低倍率 - MG Network', server: 17.mgjiasuyunnet.26621689.xyz, port: 23617, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]日本3|低倍率 - MG Network', server: 18.mgjiasuyunnet.26621689.xyz, port: 23618, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇺🇸 [vip①]美国2|低倍率 - MG Network', server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇰🇷 [vip①]韩国1|低倍率 - MG Network', server: 14.mgjiasuyunnet.26621689.xyz, port: 23614, type: vmess, uuid: 88461d8c-1011-3cbc-9acf-6d887f7c0a76, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -7775,7 +7846,48 @@ rules:
 - DOMAIN-SUFFIX,livejasmin.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,rdtcdn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,sb-cd.com,✈️ ‍起飞
-- DOMAIN-SUFFIX,,✈️ ‍起飞
+- DOMAIN-SUFFIX,ypncdn.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,amplitude.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hockeyapp.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,readdle.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,fanatical.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,humblebundle.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,underlords.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,valvesoftware.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,playartifact.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steam-chat.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steamgames.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,steamserver.net,✈️ ‍起飞
+- DOMAIN-KEYWORD,ttvnw,✈️ ‍起飞
+- DOMAIN-SUFFIX,twimg.co,✈️ ‍起飞
+- DOMAIN-SUFFIX,twimg.org,✈️ ‍起飞
+- IP-CIDR,91.108.0.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,109.239.140.0/24,✈️ ‍起飞,no-resolve
+- IP-CIDR,149.154.160.0/20,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,✈️ ‍起飞,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,✈️ ‍起飞,no-resolve
+- DOMAIN-SUFFIX,teraboxcdn.com,✈️ ‍起飞
+- IP-CIDR,34.224.0.0/12,✈️ ‍起飞,no-resolve
+- IP-CIDR,54.242.0.0/15,✈️ ‍起飞,no-resolve
+- IP-CIDR,50.22.198.204/30,✈️ ‍起飞,no-resolve
+- IP-CIDR,208.43.122.128/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,108.168.174.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,173.192.231.32/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.5.192/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,174.37.243.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.46.128/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,173.192.222.160/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,184.173.128.0/17,✈️ ‍起飞,no-resolve
+- IP-CIDR,158.85.224.160/27,✈️ ‍起飞,no-resolve
+- IP-CIDR,75.126.150.0/16,✈️ ‍起飞,no-resolve
+- IP-CIDR,69.171.235.0/16,✈️ ‍起飞,no-resolve
+- DOMAIN-SUFFIX,neulion.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,icntv.xyz,✈️ ‍起飞
+- DOMAIN-SUFFIX,flzbcdn.xyz,✈️ ‍起飞
+- DOMAIN-SUFFIX,ocnttv.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,vikacg.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,picjs.xyz,✈️ ‍起飞
 - DOMAIN-SUFFIX,13th.tech,🛩️ ‍墙内
 - DOMAIN-SUFFIX,423down.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,bokecc.com,🛩️ ‍墙内
@@ -8306,7 +8418,39 @@ rules:
 - DOMAIN-SUFFIX,weidian.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,weiphone.com,🛩️ ‍墙内
 - DOMAIN-SUFFIX,weiphone.net,🛩️ ‍墙内
-- DOMAIN-SUFFIX,woma,🛩️ ‍墙内
+- DOMAIN-SUFFIX,womai.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,wscdns.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xhscdn.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xiachufang.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xiaohongshu.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xiaojukeji.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xinhuanet.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xip.io,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xitek.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xslb.net,🛩️ ‍墙内
+- DOMAIN-SUFFIX,xueqiu.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yach.me,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yeepay.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yhd.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yihaodianimg.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yinxiang.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yinyuetai.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yixia.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,ys168.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yuewen.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yy.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,yystatic.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zealer.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhangzishi.cc,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhanqi.tv,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhaopin.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhihu.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhimg.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhipin.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhongsou.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,zhuihd.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,cmbchina.com,🛩️ ‍墙内
+- DOMAIN-SUFFIX,95516.com,🛩️ ‍墙内
 - IP-CIDR,8.128.0.0/10,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.32.0/22,🛩️ ‍墙内,no-resolve
 - IP-CIDR,8.209.40.0/21,🛩️ ‍墙内,no-resolve
