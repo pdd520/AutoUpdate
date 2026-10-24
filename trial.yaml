@@ -186,11 +186,11 @@ proxy-groups:
   proxies: *id008
 proxies:
 - {name: ℹ️ 非节点❌网站sdm5g.com，请每周更新订阅！ - 闪电猫, server: dog.lightningcat.pro, port: 10086, type: vmess, uuid: 22560cd2-606c-3536-b829-18fc9887c93e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: d20ae1df-183b-4308-a967-c0a50056ecc6, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: d20ae1df-183b-4308-a967-c0a50056ecc6, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: d20ae1df-183b-4308-a967-c0a50056ecc6, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: d20ae1df-183b-4308-a967-c0a50056ecc6, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: d20ae1df-183b-4308-a967-c0a50056ecc6, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 5ff81193-ce10-4a6b-8d5f-4543241533ea, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 5ff81193-ce10-4a6b-8d5f-4543241533ea, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 5ff81193-ce10-4a6b-8d5f-4543241533ea, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 5ff81193-ce10-4a6b-8d5f-4543241533ea, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 5ff81193-ce10-4a6b-8d5f-4543241533ea, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mgjiasuyunnet.26621689.xyz, port: 23619, type: vmess, uuid: 25134c8f-da49-3fcc-a7e7-b2cc8f316fd9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 25134c8f-da49-3fcc-a7e7-b2cc8f316fd9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mgjiasuyunnet.26621689.xyz, port: 23612, type: vmess, uuid: 25134c8f-da49-3fcc-a7e7-b2cc8f316fd9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -2812,6 +2812,7 @@ rules:
 - DOMAIN-SUFFIX,compileheart.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,connect.facebook.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,conoha.jp,✈️ ‍起飞
+- DOMAIN-SUFFIX,console.typesafe.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,contests.twilio.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cool18.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,coolaler.com,✈️ ‍起飞
@@ -3368,6 +3369,7 @@ rules:
 - DOMAIN-SUFFIX,g.co,✈️ ‍起飞
 - DOMAIN-SUFFIX,g0v.social,✈️ ‍起飞
 - DOMAIN-SUFFIX,g6hentai.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,ga.jspm.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,gab.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gabocorp.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,gagaoolala.com,✈️ ‍起飞
