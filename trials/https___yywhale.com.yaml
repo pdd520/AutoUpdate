@@ -107,11 +107,11 @@ proxy-groups:
   type: select
   proxies: *id004
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 517d4598-e0b3-49d5-953b-acefd1216b3c, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 517d4598-e0b3-49d5-953b-acefd1216b3c, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 517d4598-e0b3-49d5-953b-acefd1216b3c, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 517d4598-e0b3-49d5-953b-acefd1216b3c, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 517d4598-e0b3-49d5-953b-acefd1216b3c, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 7d904e48-5e3e-4786-a9e6-0292e833e66f, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 7d904e48-5e3e-4786-a9e6-0292e833e66f, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 7d904e48-5e3e-4786-a9e6-0292e833e66f, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 7d904e48-5e3e-4786-a9e6-0292e833e66f, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 7d904e48-5e3e-4786-a9e6-0292e833e66f, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -2154,6 +2154,7 @@ rules:
 - DOMAIN-SUFFIX,api.recaptcha.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,api.shuaiapi.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,api.steampowered.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,api.themoviedb.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,apiary.io,✈️ ‍起飞
 - DOMAIN-SUFFIX,apigee.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,apk.support,✈️ ‍起飞
@@ -5598,6 +5599,7 @@ rules:
 - DOMAIN-SUFFIX,torproject.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,torrentgalaxy.to,✈️ ‍起飞
 - DOMAIN-SUFFIX,torrentkitty.tv,✈️ ‍起飞
+- DOMAIN-SUFFIX,torrentleech.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,torrentprivacy.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,torrentproject.se,✈️ ‍起飞
 - DOMAIN-SUFFIX,torrenty.org,✈️ ‍起飞
@@ -6203,6 +6205,7 @@ rules:
 - DOMAIN-SUFFIX,youtubegaming.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,youtubekids.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,youversion.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,youversionapi.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,youwin.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,youxu.info,✈️ ‍起飞
 - DOMAIN-SUFFIX,yt.be,✈️ ‍起飞
