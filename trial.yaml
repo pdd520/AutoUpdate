@@ -34,17 +34,17 @@ proxy-groups:
   tolerance: 100
   proxies: &id001
   - 🇭🇰 [vip①]①香港|低倍率 - MG Network
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇸🇬 [vip①]新加坡1|低倍率 - MG Network
   - 🇯🇵 [vip①]日本1|低倍率 - MG Network
   - 🇯🇵 [vip①]日本2|低倍率 - MG Network
   - 🇯🇵 [vip①]日本3|低倍率 - MG Network
-  - 🇺🇸 美国高速节点1 - 新云游
   - 🇺🇸 [vip①]美国1|低倍率 - MG Network
   - 🇺🇸 [vip①]美国2|低倍率 - MG Network
+  - 🇺🇸 美国高速节点1 - 新云游
   - ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network
   - 🇰🇷 [vip①]韩国1|低倍率 - MG Network
   - 🇨🇳 中国联通节点1 - 新云游
@@ -110,10 +110,10 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id003
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
 - name: 🇨🇳 ‍中国
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -121,10 +121,10 @@ proxy-groups:
   tolerance: 100
   proxies: &id004
   - 🇭🇰 [vip①]①香港|低倍率 - MG Network
+  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇹🇼 台湾高速节点 - 新云游
   - 🇹🇼 台湾高速节点2 - 新云游
   - 🇹🇼 台湾高速节点3 - 新云游
-  - 🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network
   - 🇨🇳 中国联通节点1 - 新云游
 - name: 🇸🇬 ‍新加坡
   type: url-test
@@ -148,9 +148,9 @@ proxy-groups:
   interval: 15
   tolerance: 300
   proxies: &id007
-  - 🇺🇸 美国高速节点1 - 新云游
   - 🇺🇸 [vip①]美国1|低倍率 - MG Network
   - 🇺🇸 [vip①]美国2|低倍率 - MG Network
+  - 🇺🇸 美国高速节点1 - 新云游
 - name: 🎏 ‍其他
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -181,21 +181,21 @@ proxy-groups:
   type: select
   proxies: *id008
 proxies:
-- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 8b2bd9cb-50e2-42f4-b456-e0cd57212346, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 8b2bd9cb-50e2-42f4-b456-e0cd57212346, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 8b2bd9cb-50e2-42f4-b456-e0cd57212346, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8b2bd9cb-50e2-42f4-b456-e0cd57212346, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 8b2bd9cb-50e2-42f4-b456-e0cd57212346, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [vip①]新加坡1|低倍率 - MG Network', server: 16.mgjiasuyunnet.26621689.xyz, port: 23616, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mgjiasuyunnet.26621689.xyz, port: 23612, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|低倍率 - MG Network', server: 19.mgjiasuyunnet.26621689.xyz, port: 23619, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇭🇰 [vip①]①香港|低倍率 - MG Network', server: 12.mgjiasuyunnet.26621689.xyz, port: 23612, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇺🇸 [vip①]美国2|低倍率 - MG Network', server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: ℹ️ www.mgjs.online最新域名，更新订阅 - MG Network, server: xx, port: 50003, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇰🇷 [vip①]韩国1|低倍率 - MG Network', server: 14.mgjiasuyunnet.26621689.xyz, port: 23614, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: '🇸🇬 [vip①]新加坡1|低倍率 - MG Network', server: 16.mgjiasuyunnet.26621689.xyz, port: 23616, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mgjiasuyunnet.26621689.xyz}}, udp: true}
 - {name: '🇯🇵 [vip①]日本1|低倍率 - MG Network', server: 11.mgjiasuyunnet.26621689.xyz, port: 23611, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mgjiasuyunnet.26621689.xyz}}, udp: true}
 - {name: '🇯🇵 [vip①]日本2|低倍率 - MG Network', server: 17.mgjiasuyunnet.26621689.xyz, port: 23617, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mgjiasuyunnet.26621689.xyz}}, udp: true}
 - {name: '🇯🇵 [vip①]日本3|低倍率 - MG Network', server: 18.mgjiasuyunnet.26621689.xyz, port: 23618, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: '🇺🇸 [vip①]美国1|低倍率 - MG Network', server: 15.mgjiasuyunnet.26621689.xyz, port: 23615, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: '🇺🇸 [vip①]美国2|低倍率 - MG Network', server: 13.mgjiasuyunnet.26621689.xyz, port: 23613, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mgjiasuyunnet.26621689.xyz}}, udp: true}
-- {name: '🇰🇷 [vip①]韩国1|低倍率 - MG Network', server: 14.mgjiasuyunnet.26621689.xyz, port: 23614, type: vmess, uuid: 58621227-2286-3170-9f0f-04312d5e9fb3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mgjiasuyunnet.26621689.xyz}}, udp: true}
+- {name: 🇹🇼 台湾高速节点 - 新云游, server: 103.137.63.77, port: 443, type: trojan, password: 8b0e77ca-7a48-4b5f-bbdd-75073e785893, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点2 - 新云游, server: 118.232.199.29, port: 443, type: trojan, password: 8b0e77ca-7a48-4b5f-bbdd-75073e785893, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇹🇼 台湾高速节点3 - 新云游, server: 118.232.199.14, port: 443, type: trojan, password: 8b0e77ca-7a48-4b5f-bbdd-75073e785893, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇺🇸 美国高速节点1 - 新云游, server: 144.34.178.66, port: 1443, type: trojan, password: 8b0e77ca-7a48-4b5f-bbdd-75073e785893, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+- {name: 🇨🇳 中国联通节点1 - 新云游, server: 115.231.220.33, port: 5443, type: trojan, password: 8b0e77ca-7a48-4b5f-bbdd-75073e785893, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
@@ -2735,7 +2735,9 @@ rules:
 - DOMAIN-SUFFIX,cmcn.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cmegroup.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cmi.org.tw,✈️ ‍起飞
+- DOMAIN-SUFFIX,cmmedia.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,cmoinc.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,cmoney.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,cms.gov,✈️ ‍起飞
 - DOMAIN-SUFFIX,cmule.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cmx.im,✈️ ‍起飞
@@ -2750,6 +2752,7 @@ rules:
 - DOMAIN-SUFFIX,cnd.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,cnnews.chosun.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,cnpolitics.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,cnyes.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,co.ng.mil,✈️ ‍起飞
 - DOMAIN-SUFFIX,coat.co.jp,✈️ ‍起飞
 - DOMAIN-SUFFIX,cobinhood.com,✈️ ‍起飞
@@ -3018,6 +3021,7 @@ rules:
 - DOMAIN-SUFFIX,e-gold.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,e-hentai.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,e-hentaidb.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,e-info.org.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,e-zone.com.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,e123.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,e621.net,✈️ ‍起飞
@@ -3720,6 +3724,7 @@ rules:
 - DOMAIN-SUFFIX,greatfire.us7.list-manage.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfirevpn.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,greatfirewallofchina.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,greenbean.media,✈️ ‍起飞
 - DOMAIN-SUFFIX,greenpeace.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,greenvpn.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,grindr.com,✈️ ‍起飞
@@ -3819,13 +3824,16 @@ rules:
 - DOMAIN-SUFFIX,hkanews.wordpress.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkbookcity.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkchronicles.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hkcitycreation.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkcnews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkcoc.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkcoc.weather.com.hk,✈️ ‍起飞
+- DOMAIN-SUFFIX,hkcourtnews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkdc.us,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkej.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hket.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkfaa.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,hkfeature.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkgalden.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkgolden.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,hkgpao.com,✈️ ‍起飞
@@ -4236,6 +4244,7 @@ rules:
 - DOMAIN-SUFFIX,library.usc.cuhk.edu.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,libredd.it,✈️ ‍起飞
 - DOMAIN-SUFFIX,lifemiles.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,lifesitenews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lighten.org.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,lighti.me,✈️ ‍起飞
 - DOMAIN-SUFFIX,lightnovel.cn,✈️ ‍起飞
@@ -4244,6 +4253,7 @@ rules:
 - DOMAIN-SUFFIX,lihkg.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,like.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,lilaoshibushinilaoshi.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,limedia.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,line-apps.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,line-scdn.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,line.me,✈️ ‍起飞
@@ -4340,6 +4350,7 @@ rules:
 - DOMAIN-SUFFIX,marxists.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,mas.to,✈️ ‍起飞
 - DOMAIN-SUFFIX,mash.to,✈️ ‍起飞
+- DOMAIN-SUFFIX,master-insight.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mastodon.cloud,✈️ ‍起飞
 - DOMAIN-SUFFIX,mastodon.host,✈️ ‍起飞
 - DOMAIN-SUFFIX,mastodon.online,✈️ ‍起飞
@@ -4355,6 +4366,7 @@ rules:
 - DOMAIN-SUFFIX,matters.town,✈️ ‍起飞
 - DOMAIN-SUFFIX,matthewdgreen.wordpress.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mattwilcox.net,✈️ ‍起飞
+- DOMAIN-SUFFIX,mc.yandex.ru,✈️ ‍起飞
 - DOMAIN-SUFFIX,mcadforums.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,mcaf.ee,✈️ ‍起飞
 - DOMAIN-SUFFIX,mceindex.com,✈️ ‍起飞
@@ -4474,6 +4486,7 @@ rules:
 - DOMAIN-SUFFIX,mondex.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,money-link.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,moneydj.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,moneynet.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,monica.im,✈️ ‍起飞
 - DOMAIN-SUFFIX,monitorchina.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,monlamit.org,✈️ ‍起飞
@@ -4514,6 +4527,7 @@ rules:
 - DOMAIN-SUFFIX,muzi.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,muzu.tv,✈️ ‍起飞
 - DOMAIN-SUFFIX,mvg.jp,✈️ ‍起飞
+- DOMAIN-SUFFIX,my-formosa.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,my-private-network.co.uk,✈️ ‍起飞
 - DOMAIN-SUFFIX,my.pcloud.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,myaudiocast.com,✈️ ‍起飞
@@ -4597,6 +4611,7 @@ rules:
 - DOMAIN-SUFFIX,newthuhole.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,newyorker.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,nexon.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,nextapple.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,nextdigital.com.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,nexton-net.jp,✈️ ‍起飞
 - DOMAIN-SUFFIX,nexttv.com.tw,✈️ ‍起飞
@@ -4792,6 +4807,7 @@ rules:
 - DOMAIN-SUFFIX,parsevideo.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,partnerstack.xyz,✈️ ‍起飞
 - DOMAIN-SUFFIX,passion.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,passiontimes.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,paste.ee,✈️ ‍起飞
 - DOMAIN-SUFFIX,pastie.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,patreon.com,✈️ ‍起飞
@@ -4967,6 +4983,7 @@ rules:
 - DOMAIN-SUFFIX,pubu.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,puffinbrowser.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,pullfolio.co,✈️ ‍起飞
+- DOMAIN-SUFFIX,pulsehknews.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,pure18.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,pureconcepts.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,pureinsight.org,✈️ ‍起飞
@@ -5191,6 +5208,7 @@ rules:
 - DOMAIN-SUFFIX,shadowsocks.com.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,shadowsocks.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,shahit.biz,✈️ ‍起飞
+- DOMAIN-SUFFIX,shanghainationalparty.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,share-videos.se,✈️ ‍起飞
 - DOMAIN-SUFFIX,share.america.gov,✈️ ‍起飞
 - DOMAIN-SUFFIX,sharecool.org,✈️ ‍起飞
@@ -5230,6 +5248,7 @@ rules:
 - DOMAIN-SUFFIX,sing-box.sagernet.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,singaporepools.com.sg,✈️ ‍起飞
 - DOMAIN-SUFFIX,singlelogin.se,✈️ ‍起飞
+- DOMAIN-SUFFIX,singpao.com.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,singtao.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,singtaousa.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,sinoants.com,✈️ ‍起飞
@@ -5441,6 +5460,7 @@ rules:
 - DOMAIN-SUFFIX,taiwanncf.org.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,taiwannews.com.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,taiwanonline.cc,✈️ ‍起飞
+- DOMAIN-SUFFIX,taiwantoday.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,taiwantt.org.tw,✈️ ‍起飞
 - DOMAIN-SUFFIX,talkatone.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,talkboxapp.com,✈️ ‍起飞
@@ -5504,6 +5524,7 @@ rules:
 - DOMAIN-SUFFIX,thecenter.mit.edu,✈️ ‍起飞
 - DOMAIN-SUFFIX,thechasernews.co.uk,✈️ ‍起飞
 - DOMAIN-SUFFIX,thechinacollection.org,✈️ ‍起飞
+- DOMAIN-SUFFIX,thecollectivehk.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theconversation.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thedalailamamovie.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thediplomat.com,✈️ ‍起飞
@@ -5519,18 +5540,22 @@ rules:
 - DOMAIN-SUFFIX,theinitium.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theintercept.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thenewslens.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,theonlinecitizen.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thepiratebay.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,theporndude.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theportalwiki.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theprint.in,✈️ ‍起飞
 - DOMAIN-SUFFIX,thesaturdaypaper.com.au,✈️ ‍起飞
+- DOMAIN-SUFFIX,thestandard.com.hk,✈️ ‍起飞
 - DOMAIN-SUFFIX,thestandnews.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,thestar.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thetatoken.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,thetibetpost.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thetvdb.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theweek.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thewgo.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,thewirechina.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,thewitnesshk.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,theync.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,thinkchina.sg,✈️ ‍起飞
 - DOMAIN-SUFFIX,thinkgeek.com,✈️ ‍起飞
@@ -6100,6 +6125,7 @@ rules:
 - DOMAIN-SUFFIX,woeser.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,wokar.org,✈️ ‍起飞
 - DOMAIN-SUFFIX,wolfax.com,✈️ ‍起飞
+- DOMAIN-SUFFIX,womany.net,✈️ ‍起飞
 - DOMAIN-SUFFIX,wombo.ai,✈️ ‍起飞
 - DOMAIN-SUFFIX,woolyss.com,✈️ ‍起飞
 - DOMAIN-SUFFIX,woopie.jp,✈️ ‍起飞
